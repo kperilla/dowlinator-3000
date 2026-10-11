@@ -1,0 +1,2115 @@
+{
+ "source": "en.wiktionary.org (CC BY-SA)",
+ "retrieved": "2026-10-11",
+ "nouns": {
+  "puella": {
+   "pages": [
+    "puella"
+   ],
+   "category": "1st declension",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "puella"
+     ],
+     "genitive": [
+      "puellae"
+     ],
+     "dative": [
+      "puellae"
+     ],
+     "accusative": [
+      "puellam"
+     ],
+     "ablative": [
+      "puellā"
+     ],
+     "vocative": [
+      "puella"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "puellae"
+     ],
+     "genitive": [
+      "puellārum"
+     ],
+     "dative": [
+      "puellīs"
+     ],
+     "accusative": [
+      "puellās"
+     ],
+     "ablative": [
+      "puellīs"
+     ],
+     "vocative": [
+      "puellae"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "dominus": {
+   "pages": [
+    "dominus"
+   ],
+   "category": "2nd declension",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "dominus"
+     ],
+     "genitive": [
+      "dominī"
+     ],
+     "dative": [
+      "dominō"
+     ],
+     "accusative": [
+      "dominum"
+     ],
+     "ablative": [
+      "dominō"
+     ],
+     "vocative": [
+      "domine"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "dominī"
+     ],
+     "genitive": [
+      "dominōrum"
+     ],
+     "dative": [
+      "dominīs"
+     ],
+     "accusative": [
+      "dominōs"
+     ],
+     "ablative": [
+      "dominīs"
+     ],
+     "vocative": [
+      "dominī"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "puer": {
+   "pages": [
+    "puer"
+   ],
+   "category": "2nd declension (-er)",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "puer"
+     ],
+     "genitive": [
+      "puerī"
+     ],
+     "dative": [
+      "puerō"
+     ],
+     "accusative": [
+      "puerum"
+     ],
+     "ablative": [
+      "puerō"
+     ],
+     "vocative": [
+      "puer"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "puerī"
+     ],
+     "genitive": [
+      "puerōrum"
+     ],
+     "dative": [
+      "puerīs"
+     ],
+     "accusative": [
+      "puerōs"
+     ],
+     "ablative": [
+      "puerīs"
+     ],
+     "vocative": [
+      "puerī"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "ager": {
+   "pages": [
+    "ager"
+   ],
+   "category": "2nd declension (-er)",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "ager"
+     ],
+     "genitive": [
+      "agrī"
+     ],
+     "dative": [
+      "agrō"
+     ],
+     "accusative": [
+      "agrum"
+     ],
+     "ablative": [
+      "agrō"
+     ],
+     "vocative": [
+      "ager"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "agrī"
+     ],
+     "genitive": [
+      "agrōrum"
+     ],
+     "dative": [
+      "agrīs"
+     ],
+     "accusative": [
+      "agrōs"
+     ],
+     "ablative": [
+      "agrīs"
+     ],
+     "vocative": [
+      "agrī"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "bellum": {
+   "pages": [
+    "bellum"
+   ],
+   "category": "2nd declension neuter",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "bellum"
+     ],
+     "genitive": [
+      "bellī"
+     ],
+     "dative": [
+      "bellō"
+     ],
+     "accusative": [
+      "bellum"
+     ],
+     "ablative": [
+      "bellō"
+     ],
+     "vocative": [
+      "bellum"
+     ],
+     "locative": [
+      "bellī"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "bella"
+     ],
+     "genitive": [
+      "bellōrum"
+     ],
+     "dative": [
+      "bellīs"
+     ],
+     "accusative": [
+      "bella"
+     ],
+     "ablative": [
+      "bellīs"
+     ],
+     "vocative": [
+      "bella"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "rēx": {
+   "pages": [
+    "rex"
+   ],
+   "category": "3rd declension",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "rēx"
+     ],
+     "genitive": [
+      "rēgis"
+     ],
+     "dative": [
+      "rēgī"
+     ],
+     "accusative": [
+      "rēgem"
+     ],
+     "ablative": [
+      "rēge"
+     ],
+     "vocative": [
+      "rēx"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "rēgēs"
+     ],
+     "genitive": [
+      "rēgum"
+     ],
+     "dative": [
+      "rēgibus"
+     ],
+     "accusative": [
+      "rēgēs"
+     ],
+     "ablative": [
+      "rēgibus"
+     ],
+     "vocative": [
+      "rēgēs"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "corpus": {
+   "pages": [
+    "corpus"
+   ],
+   "category": "3rd declension neuter",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "corpus"
+     ],
+     "genitive": [
+      "corporis"
+     ],
+     "dative": [
+      "corporī"
+     ],
+     "accusative": [
+      "corpus"
+     ],
+     "ablative": [
+      "corpore"
+     ],
+     "vocative": [
+      "corpus"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "corpora"
+     ],
+     "genitive": [
+      "corporum"
+     ],
+     "dative": [
+      "corporibus"
+     ],
+     "accusative": [
+      "corpora"
+     ],
+     "ablative": [
+      "corporibus"
+     ],
+     "vocative": [
+      "corpora"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "cīvis": {
+   "pages": [
+    "civis"
+   ],
+   "category": "3rd declension i-stem",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "cīvis"
+     ],
+     "genitive": [
+      "cīvis"
+     ],
+     "dative": [
+      "cīvī"
+     ],
+     "accusative": [
+      "cīvem"
+     ],
+     "ablative": [
+      "cīve",
+      "cīvī"
+     ],
+     "vocative": [
+      "cīvis"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "cīvēs"
+     ],
+     "genitive": [
+      "cīvium"
+     ],
+     "dative": [
+      "cīvibus"
+     ],
+     "accusative": [
+      "cīvēs",
+      "cīvīs"
+     ],
+     "ablative": [
+      "cīvibus"
+     ],
+     "vocative": [
+      "cīvēs"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "mare": {
+   "pages": [
+    "mare"
+   ],
+   "category": "3rd declension neuter i-stem",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "mare"
+     ],
+     "genitive": [
+      "maris"
+     ],
+     "dative": [
+      "marī"
+     ],
+     "accusative": [
+      "mare"
+     ],
+     "ablative": [
+      "marī",
+      "mare"
+     ],
+     "vocative": [
+      "mare"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "maria"
+     ],
+     "genitive": [
+      "marium",
+      "marum"
+     ],
+     "dative": [
+      "maribus"
+     ],
+     "accusative": [
+      "maria"
+     ],
+     "ablative": [
+      "maribus"
+     ],
+     "vocative": [
+      "maria"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "manus": {
+   "pages": [
+    "manus"
+   ],
+   "category": "4th declension",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "manus"
+     ],
+     "genitive": [
+      "manūs"
+     ],
+     "dative": [
+      "manuī"
+     ],
+     "accusative": [
+      "manum"
+     ],
+     "ablative": [
+      "manū"
+     ],
+     "vocative": [
+      "manus"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "manūs"
+     ],
+     "genitive": [
+      "manuum"
+     ],
+     "dative": [
+      "manibus"
+     ],
+     "accusative": [
+      "manūs"
+     ],
+     "ablative": [
+      "manibus"
+     ],
+     "vocative": [
+      "manūs"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "cornū": {
+   "pages": [
+    "cornu"
+   ],
+   "category": "4th declension neuter",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "cornū̆"
+     ],
+     "genitive": [
+      "cornūs",
+      "cornū"
+     ],
+     "dative": [
+      "cornū",
+      "cornuī"
+     ],
+     "accusative": [
+      "cornū̆"
+     ],
+     "ablative": [
+      "cornū"
+     ],
+     "vocative": [
+      "cornū̆"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "cornua"
+     ],
+     "genitive": [
+      "cornuum"
+     ],
+     "dative": [
+      "cornibus"
+     ],
+     "accusative": [
+      "cornua"
+     ],
+     "ablative": [
+      "cornibus"
+     ],
+     "vocative": [
+      "cornua"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "rēs": {
+   "pages": [
+    "res"
+   ],
+   "category": "5th declension",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "rēs"
+     ],
+     "genitive": [
+      "reī"
+     ],
+     "dative": [
+      "reī"
+     ],
+     "accusative": [
+      "rem"
+     ],
+     "ablative": [
+      "rē"
+     ],
+     "vocative": [
+      "rēs"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "rēs"
+     ],
+     "genitive": [
+      "rērum"
+     ],
+     "dative": [
+      "rēbus"
+     ],
+     "accusative": [
+      "rēs"
+     ],
+     "ablative": [
+      "rēbus"
+     ],
+     "vocative": [
+      "rēs"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "diēs": {
+   "pages": [
+    "dies"
+   ],
+   "category": "5th declension",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "diēs"
+     ],
+     "genitive": [
+      "diēī"
+     ],
+     "dative": [
+      "diēī"
+     ],
+     "accusative": [
+      "diem"
+     ],
+     "ablative": [
+      "diē"
+     ],
+     "vocative": [
+      "diēs"
+     ],
+     "locative": [
+      "diē"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "diēs"
+     ],
+     "genitive": [
+      "diērum"
+     ],
+     "dative": [
+      "diēbus"
+     ],
+     "accusative": [
+      "diēs"
+     ],
+     "ablative": [
+      "diēbus"
+     ],
+     "vocative": [
+      "diēs"
+     ],
+     "locative": [
+      "diēbus"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "deus": {
+   "pages": [
+    "deus"
+   ],
+   "category": "irregular noun",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "deus"
+     ],
+     "genitive": [
+      "deī"
+     ],
+     "dative": [
+      "deō"
+     ],
+     "accusative": [
+      "deum"
+     ],
+     "ablative": [
+      "deō"
+     ],
+     "vocative": [
+      "deus",
+      "dee"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "dī",
+      "diī",
+      "deī"
+     ],
+     "genitive": [
+      "deōrum",
+      "deum"
+     ],
+     "dative": [
+      "dīs",
+      "diīs",
+      "deīs"
+     ],
+     "accusative": [
+      "deōs"
+     ],
+     "ablative": [
+      "dīs",
+      "diīs",
+      "deīs"
+     ],
+     "vocative": [
+      "dī",
+      "diī",
+      "deī"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "domus": {
+   "pages": [
+    "domus"
+   ],
+   "category": "irregular noun",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "domus"
+     ],
+     "genitive": [
+      "domūs",
+      "domī"
+     ],
+     "dative": [
+      "domuī",
+      "domō"
+     ],
+     "accusative": [
+      "domum"
+     ],
+     "ablative": [
+      "domū",
+      "domō"
+     ],
+     "vocative": [
+      "domus"
+     ],
+     "locative": [
+      "domī"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "domūs"
+     ],
+     "genitive": [
+      "domuum",
+      "domōrum"
+     ],
+     "dative": [
+      "domibus"
+     ],
+     "accusative": [
+      "domūs",
+      "domōs"
+     ],
+     "ablative": [
+      "domibus"
+     ],
+     "vocative": [
+      "domūs"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "vīs": {
+   "pages": [
+    "vis"
+   ],
+   "category": "irregular noun",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "vīs"
+     ],
+     "genitive": [
+      "vīs"
+     ],
+     "dative": [
+      "vī"
+     ],
+     "accusative": [
+      "vim"
+     ],
+     "ablative": [
+      "vī"
+     ],
+     "vocative": [
+      "vīs"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "vīrēs",
+      "vīs"
+     ],
+     "genitive": [
+      "vīrium"
+     ],
+     "dative": [
+      "vīribus"
+     ],
+     "accusative": [
+      "vīrēs",
+      "vīrīs",
+      "vīs"
+     ],
+     "ablative": [
+      "vīribus"
+     ],
+     "vocative": [
+      "vīrēs",
+      "vīs"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "Iuppiter": {
+   "pages": [
+    "Iuppiter"
+   ],
+   "category": "irregular noun",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "Iuppiter"
+     ],
+     "genitive": [
+      "Iovis"
+     ],
+     "dative": [
+      "Iovī"
+     ],
+     "accusative": [
+      "Iovem"
+     ],
+     "ablative": [
+      "Iove"
+     ],
+     "vocative": [
+      "Iuppiter"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "ego": {
+   "pages": [
+    "ego",
+    "nos"
+   ],
+   "category": "personal pronoun (1st person)",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "egō̆"
+     ],
+     "genitive": [
+      "meī"
+     ],
+     "dative": [
+      "mihī̆"
+     ],
+     "accusative": [
+      "mē",
+      "mēmē"
+     ],
+     "ablative": [
+      "mē",
+      "mēmē"
+     ],
+     "vocative": [
+      "egō̆"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "nōs"
+     ],
+     "genitive": [
+      "nostrī",
+      "nostrum"
+     ],
+     "dative": [
+      "nōbīs"
+     ],
+     "accusative": [
+      "nōs"
+     ],
+     "ablative": [
+      "nōbīs"
+     ],
+     "vocative": [
+      "nōs"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "tū": {
+   "pages": [
+    "tu",
+    "vos"
+   ],
+   "category": "personal pronoun (2nd person)",
+   "forms": {
+    "singular": {
+     "nominative": [
+      "tū"
+     ],
+     "genitive": [
+      "tuī"
+     ],
+     "dative": [
+      "tibī̆"
+     ],
+     "accusative": [
+      "tē",
+      "tētē"
+     ],
+     "ablative": [
+      "tē",
+      "tētē"
+     ],
+     "vocative": [
+      "tū"
+     ]
+    },
+    "plural": {
+     "nominative": [
+      "vōs"
+     ],
+     "genitive": [
+      "vestrī",
+      "vestrum"
+     ],
+     "dative": [
+      "vōbīs"
+     ],
+     "accusative": [
+      "vōs"
+     ],
+     "ablative": [
+      "vōbīs"
+     ],
+     "vocative": [
+      "vōs"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "suī": {
+   "pages": [
+    "sui"
+   ],
+   "category": "reflexive pronoun",
+   "forms": {
+    "singular": {
+     "genitive": [
+      "suī"
+     ],
+     "dative": [
+      "sibī̆"
+     ],
+     "accusative": [
+      "sē",
+      "sēsē"
+     ],
+     "ablative": [
+      "sē",
+      "sēsē"
+     ]
+    },
+    "plural": {
+     "genitive": [
+      "suī"
+     ],
+     "dative": [
+      "sibī̆"
+     ],
+     "accusative": [
+      "sē",
+      "sēsē"
+     ],
+     "ablative": [
+      "sē",
+      "sēsē"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "is": {
+   "pages": [
+    "is"
+   ],
+   "category": "demonstrative pronoun",
+   "genders": [
+    "masculine",
+    "feminine",
+    "neuter"
+   ],
+   "forms": {
+    "singular": {
+     "masculine": {
+      "nominative": [
+       "is"
+      ],
+      "genitive": [
+       "eius",
+       "ejus"
+      ],
+      "dative": [
+       "eī",
+       "e͡i",
+       "ēī"
+      ],
+      "accusative": [
+       "eum"
+      ],
+      "ablative": [
+       "eō"
+      ]
+     },
+     "feminine": {
+      "nominative": [
+       "ea"
+      ],
+      "genitive": [
+       "eius",
+       "ejus"
+      ],
+      "dative": [
+       "eī",
+       "e͡i",
+       "ēī",
+       "eae"
+      ],
+      "accusative": [
+       "eam"
+      ],
+      "ablative": [
+       "eā"
+      ]
+     },
+     "neuter": {
+      "nominative": [
+       "id"
+      ],
+      "genitive": [
+       "eius",
+       "ejus"
+      ],
+      "dative": [
+       "eī",
+       "e͡i",
+       "ēī"
+      ],
+      "accusative": [
+       "id"
+      ],
+      "ablative": [
+       "eō"
+      ]
+     }
+    },
+    "plural": {
+     "masculine": {
+      "nominative": [
+       "iī",
+       "eī",
+       "ī"
+      ],
+      "genitive": [
+       "eōrum",
+       "eum"
+      ],
+      "dative": [
+       "iīs",
+       "eīs",
+       "īs",
+       "ībus"
+      ],
+      "accusative": [
+       "eōs"
+      ],
+      "ablative": [
+       "iīs",
+       "eīs",
+       "īs"
+      ]
+     },
+     "feminine": {
+      "nominative": [
+       "eae"
+      ],
+      "genitive": [
+       "eārum"
+      ],
+      "dative": [
+       "iīs",
+       "eīs",
+       "īs",
+       "eābus"
+      ],
+      "accusative": [
+       "eās"
+      ],
+      "ablative": [
+       "iīs",
+       "eīs",
+       "īs"
+      ]
+     },
+     "neuter": {
+      "nominative": [
+       "ea"
+      ],
+      "genitive": [
+       "eōrum",
+       "eum"
+      ],
+      "dative": [
+       "iīs",
+       "eīs",
+       "īs"
+      ],
+      "accusative": [
+       "ea"
+      ],
+      "ablative": [
+       "iīs",
+       "eīs",
+       "īs"
+      ]
+     }
+    }
+   },
+   "unparsed": []
+  },
+  "hic": {
+   "pages": [
+    "hic"
+   ],
+   "category": "demonstrative pronoun",
+   "genders": [
+    "masculine",
+    "feminine",
+    "neuter"
+   ],
+   "forms": {
+    "singular": {
+     "masculine": {
+      "nominative": [
+       "hic"
+      ],
+      "genitive": [
+       "huius"
+      ],
+      "dative": [
+       "huic"
+      ],
+      "accusative": [
+       "hunc"
+      ],
+      "ablative": [
+       "hōc"
+      ]
+     },
+     "feminine": {
+      "nominative": [
+       "haec"
+      ],
+      "genitive": [
+       "huius"
+      ],
+      "dative": [
+       "huic"
+      ],
+      "accusative": [
+       "hanc"
+      ],
+      "ablative": [
+       "hāc"
+      ]
+     },
+     "neuter": {
+      "nominative": [
+       "hoc"
+      ],
+      "genitive": [
+       "huius"
+      ],
+      "dative": [
+       "huic"
+      ],
+      "accusative": [
+       "hoc"
+      ],
+      "ablative": [
+       "hōc"
+      ]
+     }
+    },
+    "plural": {
+     "masculine": {
+      "nominative": [
+       "hī"
+      ],
+      "genitive": [
+       "hōrum"
+      ],
+      "dative": [
+       "hīs",
+       "hibus"
+      ],
+      "accusative": [
+       "hōs"
+      ],
+      "ablative": [
+       "hīs"
+      ]
+     },
+     "feminine": {
+      "nominative": [
+       "hae"
+      ],
+      "genitive": [
+       "hārum"
+      ],
+      "dative": [
+       "hīs",
+       "hibus"
+      ],
+      "accusative": [
+       "hās"
+      ],
+      "ablative": [
+       "hīs"
+      ]
+     },
+     "neuter": {
+      "nominative": [
+       "haec"
+      ],
+      "genitive": [
+       "hōrum"
+      ],
+      "dative": [
+       "hīs",
+       "hibus"
+      ],
+      "accusative": [
+       "haec"
+      ],
+      "ablative": [
+       "hīs"
+      ]
+     }
+    }
+   },
+   "unparsed": []
+  },
+  "ille": {
+   "pages": [
+    "ille"
+   ],
+   "category": "demonstrative pronoun",
+   "genders": [
+    "masculine",
+    "feminine",
+    "neuter"
+   ],
+   "forms": {
+    "singular": {
+     "masculine": {
+      "nominative": [
+       "ille"
+      ],
+      "genitive": [
+       "illī̆us"
+      ],
+      "dative": [
+       "illī"
+      ],
+      "accusative": [
+       "illum"
+      ],
+      "ablative": [
+       "illō"
+      ]
+     },
+     "feminine": {
+      "nominative": [
+       "illa"
+      ],
+      "genitive": [
+       "illī̆us"
+      ],
+      "dative": [
+       "illī"
+      ],
+      "accusative": [
+       "illam"
+      ],
+      "ablative": [
+       "illā"
+      ]
+     },
+     "neuter": {
+      "nominative": [
+       "illud"
+      ],
+      "genitive": [
+       "illī̆us"
+      ],
+      "dative": [
+       "illī"
+      ],
+      "accusative": [
+       "illud"
+      ],
+      "ablative": [
+       "illō"
+      ]
+     }
+    },
+    "plural": {
+     "masculine": {
+      "nominative": [
+       "illī"
+      ],
+      "genitive": [
+       "illōrum"
+      ],
+      "dative": [
+       "illīs"
+      ],
+      "accusative": [
+       "illōs"
+      ],
+      "ablative": [
+       "illīs"
+      ]
+     },
+     "feminine": {
+      "nominative": [
+       "illae"
+      ],
+      "genitive": [
+       "illārum"
+      ],
+      "dative": [
+       "illīs"
+      ],
+      "accusative": [
+       "illās"
+      ],
+      "ablative": [
+       "illīs"
+      ]
+     },
+     "neuter": {
+      "nominative": [
+       "illa"
+      ],
+      "genitive": [
+       "illōrum"
+      ],
+      "dative": [
+       "illīs"
+      ],
+      "accusative": [
+       "illa"
+      ],
+      "ablative": [
+       "illīs"
+      ]
+     }
+    }
+   },
+   "unparsed": []
+  },
+  "iste": {
+   "pages": [
+    "iste"
+   ],
+   "category": "demonstrative pronoun",
+   "genders": [
+    "masculine",
+    "feminine",
+    "neuter"
+   ],
+   "forms": {
+    "singular": {
+     "masculine": {
+      "nominative": [
+       "iste"
+      ],
+      "genitive": [
+       "istī̆us"
+      ],
+      "dative": [
+       "istī"
+      ],
+      "accusative": [
+       "istum"
+      ],
+      "ablative": [
+       "istō"
+      ]
+     },
+     "feminine": {
+      "nominative": [
+       "ista"
+      ],
+      "genitive": [
+       "istī̆us"
+      ],
+      "dative": [
+       "istī"
+      ],
+      "accusative": [
+       "istam"
+      ],
+      "ablative": [
+       "istā"
+      ]
+     },
+     "neuter": {
+      "nominative": [
+       "istud"
+      ],
+      "genitive": [
+       "istī̆us"
+      ],
+      "dative": [
+       "istī"
+      ],
+      "accusative": [
+       "istud"
+      ],
+      "ablative": [
+       "istō"
+      ]
+     }
+    },
+    "plural": {
+     "masculine": {
+      "nominative": [
+       "istī"
+      ],
+      "genitive": [
+       "istōrum"
+      ],
+      "dative": [
+       "istīs"
+      ],
+      "accusative": [
+       "istōs"
+      ],
+      "ablative": [
+       "istīs"
+      ]
+     },
+     "feminine": {
+      "nominative": [
+       "istae"
+      ],
+      "genitive": [
+       "istārum"
+      ],
+      "dative": [
+       "istīs"
+      ],
+      "accusative": [
+       "istās"
+      ],
+      "ablative": [
+       "istīs"
+      ]
+     },
+     "neuter": {
+      "nominative": [
+       "ista"
+      ],
+      "genitive": [
+       "istōrum"
+      ],
+      "dative": [
+       "istīs"
+      ],
+      "accusative": [
+       "ista"
+      ],
+      "ablative": [
+       "istīs"
+      ]
+     }
+    }
+   },
+   "unparsed": []
+  },
+  "ipse": {
+   "pages": [
+    "ipse"
+   ],
+   "category": "intensive pronoun",
+   "genders": [
+    "masculine",
+    "feminine",
+    "neuter"
+   ],
+   "forms": {
+    "singular": {
+     "masculine": {
+      "nominative": [
+       "ipse"
+      ],
+      "genitive": [
+       "ipsī̆us"
+      ],
+      "dative": [
+       "ipsī"
+      ],
+      "accusative": [
+       "ipsum"
+      ],
+      "ablative": [
+       "ipsō"
+      ]
+     },
+     "feminine": {
+      "nominative": [
+       "ipsa"
+      ],
+      "genitive": [
+       "ipsī̆us"
+      ],
+      "dative": [
+       "ipsī"
+      ],
+      "accusative": [
+       "ipsam"
+      ],
+      "ablative": [
+       "ipsā"
+      ]
+     },
+     "neuter": {
+      "nominative": [
+       "ipsum",
+       "ipsud"
+      ],
+      "genitive": [
+       "ipsī̆us"
+      ],
+      "dative": [
+       "ipsī"
+      ],
+      "accusative": [
+       "ipsum",
+       "ipsud"
+      ],
+      "ablative": [
+       "ipsō"
+      ]
+     }
+    },
+    "plural": {
+     "masculine": {
+      "nominative": [
+       "ipsī"
+      ],
+      "genitive": [
+       "ipsōrum"
+      ],
+      "dative": [
+       "ipsīs"
+      ],
+      "accusative": [
+       "ipsōs"
+      ],
+      "ablative": [
+       "ipsīs"
+      ]
+     },
+     "feminine": {
+      "nominative": [
+       "ipsae"
+      ],
+      "genitive": [
+       "ipsārum"
+      ],
+      "dative": [
+       "ipsīs"
+      ],
+      "accusative": [
+       "ipsās"
+      ],
+      "ablative": [
+       "ipsīs"
+      ]
+     },
+     "neuter": {
+      "nominative": [
+       "ipsa"
+      ],
+      "genitive": [
+       "ipsōrum"
+      ],
+      "dative": [
+       "ipsīs"
+      ],
+      "accusative": [
+       "ipsa"
+      ],
+      "ablative": [
+       "ipsīs"
+      ]
+     }
+    }
+   },
+   "unparsed": []
+  },
+  "īdem": {
+   "pages": [
+    "idem"
+   ],
+   "category": "demonstrative pronoun",
+   "genders": [
+    "masculine",
+    "feminine",
+    "neuter"
+   ],
+   "forms": {
+    "singular": {
+     "masculine": {
+      "nominative": [
+       "īdem"
+      ],
+      "genitive": [
+       "eiusdem",
+       "ejusdem"
+      ],
+      "dative": [
+       "eīdem",
+       "e͡idem",
+       "ēīdem"
+      ],
+      "accusative": [
+       "eundem",
+       "eumdem"
+      ],
+      "ablative": [
+       "eōdem"
+      ]
+     },
+     "feminine": {
+      "nominative": [
+       "eadem"
+      ],
+      "genitive": [
+       "eiusdem",
+       "ejusdem"
+      ],
+      "dative": [
+       "eīdem",
+       "e͡idem",
+       "ēīdem",
+       "eaedem"
+      ],
+      "accusative": [
+       "eandem",
+       "eamdem"
+      ],
+      "ablative": [
+       "eādem"
+      ]
+     },
+     "neuter": {
+      "nominative": [
+       "idem"
+      ],
+      "genitive": [
+       "eiusdem",
+       "ejusdem"
+      ],
+      "dative": [
+       "eīdem",
+       "e͡idem",
+       "ēīdem"
+      ],
+      "accusative": [
+       "idem"
+      ],
+      "ablative": [
+       "eōdem"
+      ]
+     }
+    },
+    "plural": {
+     "masculine": {
+      "nominative": [
+       "iīdem",
+       "eīdem",
+       "īdem"
+      ],
+      "genitive": [
+       "eōrundem",
+       "eōrumdem",
+       "eundem",
+       "eumdem"
+      ],
+      "dative": [
+       "iīsdem",
+       "eīsdem",
+       "īsdem",
+       "ībusdem"
+      ],
+      "accusative": [
+       "eōsdem"
+      ],
+      "ablative": [
+       "iīsdem",
+       "eīsdem",
+       "īsdem"
+      ]
+     },
+     "feminine": {
+      "nominative": [
+       "eaedem"
+      ],
+      "genitive": [
+       "eārundem",
+       "eārumdem"
+      ],
+      "dative": [
+       "iīsdem",
+       "eīsdem",
+       "īsdem",
+       "eābusdem"
+      ],
+      "accusative": [
+       "eāsdem"
+      ],
+      "ablative": [
+       "iīsdem",
+       "eīsdem",
+       "īsdem"
+      ]
+     },
+     "neuter": {
+      "nominative": [
+       "eadem"
+      ],
+      "genitive": [
+       "eōrundem",
+       "eōrumdem",
+       "eundem",
+       "eumdem"
+      ],
+      "dative": [
+       "iīsdem",
+       "eīsdem",
+       "īsdem"
+      ],
+      "accusative": [
+       "eadem"
+      ],
+      "ablative": [
+       "iīsdem",
+       "eīsdem",
+       "īsdem"
+      ]
+     }
+    }
+   },
+   "unparsed": []
+  },
+  "quī": {
+   "pages": [
+    "qui"
+   ],
+   "category": "relative pronoun",
+   "genders": [
+    "masculine",
+    "feminine",
+    "neuter"
+   ],
+   "forms": {
+    "singular": {
+     "masculine": {
+      "nominative": [
+       "quī",
+       "quei"
+      ],
+      "genitive": [
+       "cuius",
+       "quoius"
+      ],
+      "dative": [
+       "cui",
+       "quoi",
+       "quoī",
+       "quoei",
+       "quoiī",
+       "quoiei"
+      ],
+      "accusative": [
+       "quem"
+      ],
+      "ablative": [
+       "quō",
+       "quī"
+      ]
+     },
+     "feminine": {
+      "nominative": [
+       "quae",
+       "quai"
+      ],
+      "genitive": [
+       "cuius",
+       "quoius"
+      ],
+      "dative": [
+       "cui",
+       "quoi",
+       "quoī",
+       "quoei",
+       "quoiī",
+       "quoiei"
+      ],
+      "accusative": [
+       "quam"
+      ],
+      "ablative": [
+       "quā",
+       "quī"
+      ]
+     },
+     "neuter": {
+      "nominative": [
+       "quod"
+      ],
+      "genitive": [
+       "cuius",
+       "quoius"
+      ],
+      "dative": [
+       "cui",
+       "quoi",
+       "quoī",
+       "quoei",
+       "quoiī",
+       "quoiei"
+      ],
+      "accusative": [
+       "quod"
+      ],
+      "ablative": [
+       "quō",
+       "quī"
+      ]
+     }
+    },
+    "plural": {
+     "masculine": {
+      "nominative": [
+       "quī",
+       "quei"
+      ],
+      "genitive": [
+       "quōrum"
+      ],
+      "dative": [
+       "quibus",
+       "quīs",
+       "queis"
+      ],
+      "accusative": [
+       "quōs"
+      ],
+      "ablative": [
+       "quibus",
+       "quīs",
+       "queis"
+      ]
+     },
+     "feminine": {
+      "nominative": [
+       "quae"
+      ],
+      "genitive": [
+       "quārum"
+      ],
+      "dative": [
+       "quibus",
+       "quīs",
+       "queis"
+      ],
+      "accusative": [
+       "quās"
+      ],
+      "ablative": [
+       "quibus",
+       "quīs",
+       "queis"
+      ]
+     },
+     "neuter": {
+      "nominative": [
+       "quae"
+      ],
+      "genitive": [
+       "quōrum"
+      ],
+      "dative": [
+       "quibus",
+       "quīs",
+       "queis"
+      ],
+      "accusative": [
+       "quae"
+      ],
+      "ablative": [
+       "quibus",
+       "quīs",
+       "queis"
+      ]
+     }
+    }
+   },
+   "unparsed": []
+  },
+  "quis": {
+   "pages": [
+    "quis"
+   ],
+   "category": "interrogative pronoun",
+   "genders": [
+    "masculine",
+    "feminine",
+    "neuter"
+   ],
+   "forms": {
+    "singular": {
+     "masculine": {
+      "nominative": [
+       "quis",
+       "quī",
+       "quei"
+      ],
+      "genitive": [
+       "cuius",
+       "quoius"
+      ],
+      "dative": [
+       "cui",
+       "quoi",
+       "quoī",
+       "quoei",
+       "quoiī",
+       "quoiei"
+      ],
+      "accusative": [
+       "quem"
+      ],
+      "ablative": [
+       "quō",
+       "quī"
+      ]
+     },
+     "feminine": {
+      "nominative": [
+       "quae",
+       "quis",
+       "qua"
+      ],
+      "genitive": [
+       "cuius",
+       "quoius"
+      ],
+      "dative": [
+       "cui",
+       "quoi",
+       "quoī",
+       "quoei",
+       "quoiī",
+       "quoiei"
+      ],
+      "accusative": [
+       "quam",
+       "quem"
+      ],
+      "ablative": [
+       "quā",
+       "quī"
+      ]
+     },
+     "neuter": {
+      "nominative": [
+       "quid"
+      ],
+      "genitive": [
+       "cuius",
+       "quoius"
+      ],
+      "dative": [
+       "cui",
+       "quoi",
+       "quoī",
+       "quoei",
+       "quoiī",
+       "quoiei"
+      ],
+      "accusative": [
+       "quid"
+      ],
+      "ablative": [
+       "quō",
+       "quī"
+      ]
+     }
+    },
+    "plural": {
+     "masculine": {
+      "nominative": [
+       "quī",
+       "quei",
+       "quēs"
+      ],
+      "genitive": [
+       "quōrum",
+       "quium"
+      ],
+      "dative": [
+       "quibus",
+       "quīs",
+       "queis"
+      ],
+      "accusative": [
+       "quōs",
+       "quēs"
+      ],
+      "ablative": [
+       "quibus",
+       "quīs",
+       "queis"
+      ]
+     },
+     "feminine": {
+      "nominative": [
+       "quae",
+       "quēs"
+      ],
+      "genitive": [
+       "quārum",
+       "quium"
+      ],
+      "dative": [
+       "quibus",
+       "quīs",
+       "queis"
+      ],
+      "accusative": [
+       "quās",
+       "quēs"
+      ],
+      "ablative": [
+       "quibus",
+       "quīs",
+       "queis"
+      ]
+     },
+     "neuter": {
+      "nominative": [
+       "quae",
+       "qua"
+      ],
+      "genitive": [
+       "quōrum",
+       "quium"
+      ],
+      "dative": [
+       "quibus",
+       "quīs",
+       "queis"
+      ],
+      "accusative": [
+       "quae",
+       "qua"
+      ],
+      "ablative": [
+       "quibus",
+       "quīs",
+       "queis"
+      ]
+     }
+    }
+   },
+   "unparsed": []
+  }
+ }
+}

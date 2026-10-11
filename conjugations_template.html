@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Dovvlinator MMM</title>
+<title>Dovvlinator MMM · Conjugations</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap">
@@ -67,11 +67,18 @@ body.quiz #macrons{display:flex}
 #macrons .hint{align-self:center;margin-left:6px;font:12px/1.35 system-ui,sans-serif;color:var(--muted)}
 #macrons kbd{font:12px ui-monospace,monospace;background:var(--chip);border:1px solid var(--line);
              border-radius:3px;padding:0 4px;color:var(--fg)}
+h1 a{color:inherit;text-decoration:none}
+.pages{margin-top:6px;font:14px system-ui,sans-serif;letter-spacing:.04em}
+.pages a{color:var(--muted);text-decoration:none}
+.pages a:hover{color:var(--accent)}
+.pages [aria-current]{color:var(--fg);font-weight:600}
 </style>
 </head>
 <body class="hide">
 
-<header><h1>Dovvlinator MMM</h1></header>
+<header><h1><a href="index.html">Dovvlinator MMM</a></h1>
+  <div class="pages"><a href="conjugations.html" aria-current="page">Conjugations</a> · <a href="declensions.html">Declensions</a></div>
+</header>
 
 <nav>
   <!-- VERB_NAV -->

@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-Display the conjugation tables in latin_conjugations.json.
+Display the conjugation tables in latin_conjugations.json, and the declension
+tables in latin_declensions.json when it exists.
 
-    python show_conjugations.py                     # writes latin_conjugations.html
+    python show_conjugations.py                     # writes docs/conjugations.html + docs/declensions.html
     python show_conjugations.py --text              # prints the tables in the terminal
     python show_conjugations.py --text --verb amō   # just one verb (macrons optional: amo)
     python show_conjugations.py -i other.json -o other.html
@@ -11,8 +12,9 @@ Periphrastic cells such as "amātus + present active indicative of sum"
 are expanded into real forms (amātus sum, amātus es, …) using the sum
 table from the same file, when it is there.
 
-The HTML page's layout, styles and scripts live in conjugations_template.html
-(next to this script, or pass -t); this script only fills in the verbs.
+The pages' layout, styles and scripts live in conjugations_template.html and
+declensions_template.html (next to this script, or pass -t / --nouns-template);
+this script only fills in the words.
 
 Standard library only.
 """
@@ -126,9 +128,10 @@ def td(forms):
             f"<span class='t'>{'<br>'.join(h(f) for f in forms)}</span></td>")
 
 
-def block(title, table):
+def block(title, table, h3_class="", note="", wide=False):
     """A heading + table, with the quiz-mode Grade button and score beside the heading."""
-    return (f"<div class='block'><div class='bhead'><h3>{title}</h3>"
+    cls = f" class='{h3_class}'" if h3_class else ""
+    return (f"<div class='block{' wide' if wide else ''}'><div class='bhead'><h3{cls}>{title}</h3>{note}"
             f"<span class='grader'><button type='button' class='grade'>Grade</button>"
             f"<span class='score'></span></span></div>"
             f"<div class='scroll'><table>{table}</table></div></div>")
@@ -185,21 +188,85 @@ def html_verb(lemma, verb, sum_finite, anchor):
     return "".join(out)
 
 
-def write_html(data, verbs, sum_finite, path, template=TEMPLATE):
-    """Fill the page template's <!-- VERB_NAV -->, <!-- VERBS --> and <!-- SOURCE --> markers."""
-    anchors = {lemma: f"v{i}" for i, lemma in enumerate(verbs)}
-    fill = {
-        "VERB_NAV": "".join(f'<a href="#{anchors[l]}">{h(l)}</a>' for l in verbs),
-        "VERBS": "".join(html_verb(l, verbs[l], sum_finite, anchors[l]) for l in verbs),
-        "SOURCE": f"Source: {h(data.get('source', ''))}, retrieved {h(data.get('retrieved', ''))}",
-    }
+def source_line(data):
+    return f"Source: {h(data.get('source', ''))}, retrieved {h(data.get('retrieved', ''))}"
+
+
+def fill_template(template, fill, path):
+    """Replace each <!-- NAME --> marker in the template with fill[NAME] and write the page."""
     page = Path(template).read_text(encoding="utf-8")
     for name, content in fill.items():
         marker = f"<!-- {name} -->"
         if marker not in page:
             sys.exit(f"{template} has no {marker} marker")
         page = page.replace(marker, content)
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
     Path(path).write_text(page, encoding="utf-8")
+
+
+def write_html(data, verbs, sum_finite, path, template=TEMPLATE):
+    """Fill the conjugation template's VERB_NAV, VERBS and SOURCE markers."""
+    anchors = {lemma: f"v{i}" for i, lemma in enumerate(verbs)}
+    fill_template(template, {
+        "VERB_NAV": "".join(f'<a href="#{anchors[l]}">{h(l)}</a>' for l in verbs),
+        "VERBS": "".join(html_verb(l, verbs[l], sum_finite, anchors[l]) for l in verbs),
+        "SOURCE": source_line(data),
+    }, path)
+
+
+# ---------------------------------------------------------------- declension page
+
+DECL_TEMPLATE = Path(__file__).with_name("declensions_template.html")
+NOUN_CASES = ["nominative", "genitive", "dative", "accusative", "ablative", "vocative", "locative"]
+GENDER_LABEL = {"masculine": "masc.", "feminine": "fem.", "neuter": "neut."}
+
+
+def group_of(category):
+    """'3rd declension i-stem' → '3rd declension'; pronouns and irregular nouns get their own groups."""
+    m = re.match(r"\d\w\w declension", category)
+    if m:
+        return m.group(0)
+    return "pronouns" if "pronoun" in category else "irregular nouns"
+
+
+def html_noun(key, noun):
+    """One table for a noun or pronoun: cases down the side, number (and gender) across."""
+    forms, genders = noun["forms"], noun.get("genders")
+    numbers = [n for n in ("singular", "plural") if n in forms]
+    if genders:
+        cols = [(n, g) for n in numbers for g in genders]
+        get = lambda n, g, c: forms[n].get(g, {}).get(c, [])
+        head = ("<thead><tr><th rowspan=2></th>"
+                + "".join(f"<th colspan={len(genders)}>{n}</th>" for n in numbers) + "</tr><tr>"
+                + "".join(f"<th>{GENDER_LABEL.get(g, h(g))}</th>" for _, g in cols) + "</tr></thead>")
+    else:
+        cols = [(n, None) for n in numbers]
+        get = lambda n, g, c: forms[n].get(c, [])
+        head = "<thead><tr><th></th>" + "".join(f"<th>{n}</th>" for n in numbers) + "</tr></thead>"
+    cases = [c for c in NOUN_CASES if any(get(n, g, c) for n, g in cols)]
+    body = "".join(f"<tr><th>{c}</th>" + "".join(td(get(n, g, c)) for n, g in cols) + "</tr>"
+                   for c in cases)
+    out = block(h(key), head + f"<tbody>{body}</tbody>", h3_class="word",
+                note=f"<span class='cat'>{h(noun['category'])}</span>", wide=bool(genders))
+    if noun.get("unparsed"):
+        out += "<ul class='unparsed'>" + "".join(
+            f"<li>{h(u['form'])} ← {h(' | '.join(u['labels']))}</li>" for u in noun["unparsed"]) + "</ul>"
+    return out
+
+
+def write_declensions(data, path, template=DECL_TEMPLATE):
+    """Fill the declension template's NOUN_NAV, NOUNS and SOURCE markers."""
+    groups = {}
+    for key, noun in data["nouns"].items():
+        groups.setdefault(group_of(noun["category"]), []).append((key, noun))
+    anchors = {g: f"g{i}" for i, g in enumerate(groups)}
+    fill_template(template, {
+        "NOUN_NAV": "".join(f'<a href="#{anchors[g]}">{h(g)}</a>' for g in groups),
+        "NOUNS": "".join(f'<section class="group" id="{anchors[g]}"><h2>{h(g)}</h2><div class="words">'
+                         + "".join(html_noun(k, n) for k, n in words) + "</div></section>"
+                         for g, words in groups.items()),
+        "SOURCE": source_line(data),
+    }, path)
 
 
 # ---------------------------------------------------------------- main
@@ -207,10 +274,14 @@ def write_html(data, verbs, sum_finite, path, template=TEMPLATE):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("-i", "--input", default="latin_conjugations.json")
-    ap.add_argument("-o", "--out", default="docs/index.html")
+    ap.add_argument("-o", "--out", default="docs/conjugations.html")
     ap.add_argument("-t", "--template", default=TEMPLATE, help="HTML page template")
+    ap.add_argument("--nouns-input", default="latin_declensions.json",
+                    help="declensions JSON from wikt_latin_nouns.py (skipped if missing)")
+    ap.add_argument("--nouns-out", default="docs/declensions.html")
+    ap.add_argument("--nouns-template", default=DECL_TEMPLATE, help="declension page template")
     ap.add_argument("--text", action="store_true", help="print to the terminal instead of writing HTML")
-    ap.add_argument("--verb", help="show only this verb (macrons optional)")
+    ap.add_argument("--verb", help="show only this verb (macrons optional); skips the declension page")
     args = ap.parse_args()
 
     data = json.loads(Path(args.input).read_text(encoding="utf-8"))
@@ -230,6 +301,15 @@ def main():
     else:
         write_html(data, verbs, sum_finite, args.out, args.template)
         print(f"Wrote {args.out}", file=sys.stderr)
+        if args.verb:
+            return
+        nouns = Path(args.nouns_input)
+        if nouns.exists():
+            write_declensions(json.loads(nouns.read_text(encoding="utf-8")), args.nouns_out, args.nouns_template)
+            print(f"Wrote {args.nouns_out}", file=sys.stderr)
+        else:
+            print(f"{nouns} not found; skipping the declension page "
+                  f"(run wikt_latin_nouns.py to create it)", file=sys.stderr)
 
 
 if __name__ == "__main__":

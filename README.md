@@ -29,11 +29,15 @@ pip install requests beautifulsoup4
 
 ```sh
 uv run wikt_latin_verbs.py       # scrape Wiktionary → latin_conjugations.json
-uv run show_conjugations.py      # build the page   → latin_conjugations.html
+uv run wikt_latin_nouns.py       # (optional) nouns & pronouns → latin_declensions.json
+uv run show_conjugations.py      # build the pages  → docs/conjugations.html, docs/declensions.html
 ```
 
-Then open `latin_conjugations.html` in a browser. (Without uv, use `python` in
-place of `uv run`.)
+Then open `docs/index.html`, the homepage, in a browser and pick
+**Declensions** or **Conjugations**. The title on each table page links back
+home, and the links under it switch between the two. The homepage is a static
+file in `docs/`; only the two table pages are generated. (Without uv, use
+`python` in place of `uv run`.)
 
 ## 1. Scraping: `wikt_latin_verbs.py`
 
@@ -116,10 +120,54 @@ Every slot holds a list of forms, because many slots have accepted variants
   all the verbs above; if you add a verb and it isn't, the labels there show why.
 - Moods, voices and tenses appear in the order Wiktionary gives them.
 
+### Nouns and pronouns: `wikt_latin_nouns.py`
+
+```sh
+uv run wikt_latin_nouns.py                     # writes latin_declensions.json
+uv run wikt_latin_nouns.py -o nouns.json --refresh
+```
+
+Same options as the verb scraper (`-o`, `--cache`, `--refresh`), sharing the same
+page cache. It covers:
+
+| Group | Words |
+|---|---|
+| 1st declension | puella |
+| 2nd declension | dominus, puer, ager, bellum |
+| 3rd declension | rēx, corpus, cīvis (i-stem), mare (neuter i-stem) |
+| 4th declension | manus, cornū |
+| 5th declension | rēs, diēs |
+| Irregular nouns | deus, domus, vīs, Iuppiter |
+| Pronouns | ego / nōs, tū / vōs, suī, is, hic, ille, iste, ipse, īdem, quī, quis |
+
+Nouns map number → case → forms; pronouns that vary by gender also have a
+`genders` list and map number → gender → case → forms:
+
+```json
+"cīvis": {"pages": ["civis"], "category": "3rd declension i-stem",
+          "forms": {"singular": {"nominative": ["cīvis"], "ablative": ["cīve", "cīvī"], "...": []},
+                    "plural":   {"genitive": ["cīvium"], "...": []}},
+          "unparsed": []},
+"hic":   {"pages": ["hic"], "category": "demonstrative pronoun",
+          "genders": ["masculine", "feminine", "neuter"],
+          "forms": {"singular": {"masculine": {"nominative": ["hic"], "...": []}, "...": {}}},
+          "unparsed": []}
+```
+
+- Cases run nominative, genitive, dative, accusative, ablative, vocative, plus
+  locative where Wiktionary gives one (*domī*, *bellī*, *diē*). Pronouns have no
+  vocative, and *suī* no nominative.
+- Wiktionary lists *ego* and *nōs* (and *tū* / *vōs*) on separate pages; each is
+  merged into one entry, so `TARGETS` takes a list of `(page, identifying form)`
+  pairs. To add a word, append an entry with a form that appears only in the
+  table you want, e.g. `("lupus", "2nd declension", [("lupus", "lupōrum")])`.
+- A few forms carry Wiktionary's anceps mark for a vowel that may be long or
+  short: *egō̆*, *mihī̆*, *sibī̆*.
+
 ## 2. Viewing: `show_conjugations.py`
 
 ```sh
-uv run show_conjugations.py                          # writes latin_conjugations.html
+uv run show_conjugations.py                          # writes docs/conjugations.html + docs/declensions.html
 uv run show_conjugations.py -i verbs.json -o verbs.html
 uv run show_conjugations.py --text                   # print tables in the terminal
 uv run show_conjugations.py --text --verb amō        # one verb (macrons optional: amo)
@@ -129,22 +177,43 @@ uv run show_conjugations.py --verb sum               # HTML page for one verb
 | Option | Default | Meaning |
 |---|---|---|
 | `-i`, `--input` | `latin_conjugations.json` | JSON file to read |
-| `-o`, `--out` | `latin_conjugations.html` | HTML file to write |
-| `-t`, `--template` | `conjugations_template.html` | Page template (looked up next to the script) |
-| `--text` | off | Print to the terminal instead of writing HTML |
-| `--verb` | all | Only this verb (lemma or page name, macrons optional) |
+| `-o`, `--out` | `docs/conjugations.html` | Conjugation page to write |
+| `-t`, `--template` | `conjugations_template.html` | Conjugation page template (looked up next to the script) |
+| `--nouns-input` | `latin_declensions.json` | Declensions JSON; the declension page is skipped if it's missing |
+| `--nouns-out` | `docs/declensions.html` | Declension page to write |
+| `--nouns-template` | `declensions_template.html` | Declension page template |
+| `--text` | off | Print verbs to the terminal instead of writing HTML |
+| `--verb` | all | Only this verb (lemma or page name, macrons optional); skips the declension page |
 
-### Page template
+The declension page groups words by declension (1st–5th, irregular nouns,
+pronouns), with one table per word: cases down the side, singular and plural
+across, split by gender for pronouns such as *hic* and *quī*. Hide forms, Quiz
+mode, grading and the macron shortcuts all work the same as on the conjugation
+page.
 
-The page's layout, styles, controls and JavaScript live in
-`conjugations_template.html`; edit that file to change how the page looks or
-behaves. The script reads it and replaces three markers:
+The pages link to each other by file name (`index.html`, `conjugations.html`,
+`declensions.html`), so keep them together in `docs/`; if you rename one with
+`-o` / `--nouns-out`, update the links in `docs/index.html` and under `<h1>` in
+both templates.
 
-| Marker | Replaced with |
-|---|---|
-| `<!-- VERB_NAV -->` | a link to each verb, in the top bar |
-| `<!-- VERBS -->` | one `<section class="verb">` per verb, holding its tables |
-| `<!-- SOURCE -->` | the data source and retrieval date |
+### Page templates
+
+Each page's layout, styles, controls and JavaScript live in its template:
+`conjugations_template.html` and `declensions_template.html`. Edit those to
+change how the pages look or behave. The script reads them and replaces these
+markers:
+
+| Template | Marker | Replaced with |
+|---|---|---|
+| conjugations | `<!-- VERB_NAV -->` | a link to each verb, in the top bar |
+| conjugations | `<!-- VERBS -->` | one `<section class="verb">` per verb, holding its tables |
+| declensions | `<!-- NOUN_NAV -->` | a link to each group (1st declension, …, pronouns) |
+| declensions | `<!-- NOUNS -->` | one `<section class="group">` per group, a table per word |
+| both | `<!-- SOURCE -->` | the data source and retrieval date |
+
+The two templates share the same CSS and JavaScript (copied, so each page stays
+a single self-contained file): a fix to the quiz or hide logic in one should be
+made in the other too.
 
 Each form cell is generated as `<td class="f" data-a='["amāvistī","amāstī"]'>`,
 with its accepted answers in `data-a`, which is what the template's quiz
