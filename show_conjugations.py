@@ -152,6 +152,10 @@ body.quiz td.f input{display:block}
 body.quiz td.f .t{display:none}
 body.quiz td.f.ok{background:var(--ok)}
 body.quiz td.f.bad{background:var(--bad)}
+#macrons{position:fixed;right:16px;bottom:16px;z-index:3;display:none;gap:4px;padding:6px;
+         background:var(--head);border:1px solid var(--line);border-radius:10px;box-shadow:0 2px 10px #0003}
+body.quiz #macrons{display:flex}
+#macrons button{font:18px/1 Georgia,serif;width:2em;height:2em;padding:0}
 """
 
 JS = """
@@ -176,6 +180,19 @@ document.querySelectorAll('td.f').forEach(c => {
   c.appendChild(i);
 });
 $('quiz').addEventListener('change', e => body.classList.toggle('quiz', e.target.checked));
+
+// floating macron keyboard: types into the focused (or last focused) quiz box
+let lastInput = null;
+document.addEventListener('focusin', e => { if (e.target.matches('td.f input')) lastInput = e.target; });
+$('macrons').addEventListener('mousedown', e => e.preventDefault());  // keep focus in the text box
+$('macrons').addEventListener('click', e => {
+  const b = e.target.closest('button');
+  if (!b || !lastInput) return;
+  const ch = e.shiftKey ? b.textContent.toUpperCase() : b.textContent;
+  lastInput.focus();
+  lastInput.setRangeText(ch, lastInput.selectionStart, lastInput.selectionEnd, 'end');
+  lastInput.dispatchEvent(new Event('input', {bubbles: true}));
+});
 
 const norm = s => {
   s = s.trim().replace(/\\s+/g, ' ').toLowerCase();
@@ -295,7 +312,10 @@ def write_html(data, verbs, sum_finite, path):
             f"<label><input type='checkbox' id='nomacrons' checked> Ignore macrons</label>"
             f"<button type='button' id='gradeall'>Grade All</button>"
             f"<button type='button' id='reset'>Clear</button></span>"
-            f"</div></nav><main>{body}"
+            f"</div></nav>"
+            f"<div id='macrons' title='Shift-click for capitals'>"
+            + "".join(f"<button type='button'>{v}</button>" for v in "āēīōūȳ")
+            + f"</div><main>{body}"
             f"<p class='meta'>Source: {h(data.get('source', ''))}, retrieved {h(data.get('retrieved', ''))}</p>"
             f"</main><script>{JS}</script></body></html>")
     Path(path).write_text(page, encoding="utf-8")
