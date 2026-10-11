@@ -180,6 +180,9 @@ document.querySelectorAll('td.f').forEach(c => {
   c.appendChild(i);
 });
 $('quiz').addEventListener('change', e => body.classList.toggle('quiz', e.target.checked));
+// match the page to the checkboxes (browsers may restore their state on reload)
+body.classList.toggle('hide', $('hide').checked);
+body.classList.toggle('quiz', $('quiz').checked);
 
 // typing a vowel then "-" turns it into the macron vowel: a- → ā
 const MACRON = {a:'ā', e:'ē', i:'ī', o:'ō', u:'ū', y:'ȳ', A:'Ā', E:'Ē', I:'Ī', O:'Ō', U:'Ū', Y:'Ȳ'};
@@ -314,9 +317,9 @@ def write_html(data, verbs, sum_finite, path):
     body = "".join(html_verb(l, verbs[l], sum_finite, anchors[l]) for l in verbs)
     page = (f"<!doctype html><html lang='en'><head><meta charset='utf-8'>"
             f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
-            f"<title>Latin Conjugations</title><style>{CSS}</style></head><body>"
+            f"<title>Latin Conjugations</title><style>{CSS}</style></head><body class='hide'>"
             f"<nav>{nav}<div class='controls'>"
-            f"<label><input type='checkbox' id='hide'> Hide forms</label>"
+            f"<label><input type='checkbox' id='hide' checked> Hide forms</label>"
             f"<label><input type='checkbox' id='quiz'> Quiz mode</label>"
             f"<span class='quiz-only' style='gap:8px;align-items:center'>"
             f"<label><input type='checkbox' id='nomacrons' checked> Ignore macrons</label>"
