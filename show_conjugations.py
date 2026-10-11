@@ -181,6 +181,16 @@ document.querySelectorAll('td.f').forEach(c => {
 });
 $('quiz').addEventListener('change', e => body.classList.toggle('quiz', e.target.checked));
 
+// typing a vowel then "-" turns it into the macron vowel: a- → ā
+const MACRON = {a:'ā', e:'ē', i:'ī', o:'ō', u:'ū', y:'ȳ', A:'Ā', E:'Ē', I:'Ī', O:'Ō', U:'Ū', Y:'Ȳ'};
+document.addEventListener('input', e => {
+  const i = e.target;
+  if (e.data !== '-' || !i.matches('td.f input')) return;
+  const p = i.selectionStart;
+  const v = MACRON[i.value[p - 2]];
+  if (p >= 2 && i.value[p - 1] === '-' && v) i.setRangeText(v, p - 2, p, 'end');
+});
+
 // floating macron keyboard: types into the focused (or last focused) quiz box
 let lastInput = null;
 document.addEventListener('focusin', e => { if (e.target.matches('td.f input')) lastInput = e.target; });
