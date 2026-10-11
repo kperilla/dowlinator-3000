@@ -11,6 +11,9 @@ Periphrastic cells such as "amātus + present active indicative of sum"
 are expanded into real forms (amātus sum, amātus es, …) using the sum
 table from the same file, when it is there.
 
+The HTML page's layout, styles and scripts live in conjugations_template.html
+(next to this script, or pass -t); this script only fills in the verbs.
+
 Standard library only.
 """
 
@@ -108,142 +111,7 @@ def print_verb(lemma, verb, sum_finite):
 
 # ---------------------------------------------------------------- HTML output
 
-CSS = """
-:root{--bg:#fbfaf7;--fg:#22201c;--muted:#6f6a60;--line:#e2ded5;--head:#f1eee7;--accent:#8a3324;--chip:#efe7dc;--ok:#d6efd6;--bad:#f6d3cf}
-@media (prefers-color-scheme:dark){:root{--bg:#1a1917;--fg:#ebe7df;--muted:#a19b90;--line:#36332e;--head:#24221f;--accent:#e08a6f;--chip:#2c2925;--ok:#1f3b24;--bad:#4a2420}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 Georgia,"Iowan Old Style",serif}
-header{text-align:center;padding:28px 16px 18px}
-h1{margin:0;font:600 clamp(36px,8vw,72px)/1.1 Cinzel,"Trajan Pro","Times New Roman",serif;
-   letter-spacing:.12em;color:var(--accent)}
-nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 16px;
-    display:flex;flex-wrap:wrap;gap:6px;z-index:2}
-nav a{color:var(--fg);text-decoration:none;background:var(--chip);padding:2px 10px;border-radius:999px;font-size:14px}
-nav a:hover{color:var(--accent)}
-main{max-width:1100px;margin:0 auto;padding:16px}
-section.verb{margin:32px 0 48px;scroll-margin-top:70px}
-h2{font-size:28px;margin:0;color:var(--accent)}
-.meta{color:var(--muted);font:13px/1.4 system-ui,sans-serif;margin:2px 0 14px}
-h3{font:600 12px/1 system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:22px 0 6px}
-.scroll{overflow-x:auto}
-table{border-collapse:collapse;min-width:100%;font-size:15px}
-th,td{border:1px solid var(--line);padding:5px 9px;text-align:left;vertical-align:top}
-thead th{background:var(--head);font:600 12px/1.3 system-ui,sans-serif;color:var(--muted)}
-tbody th{font:600 13px/1.3 system-ui,sans-serif;color:var(--muted);background:var(--head);white-space:nowrap}
-td.empty{color:var(--muted);text-align:center}
-.unparsed{font-size:13px;color:var(--muted)}
-.controls{margin-left:auto;display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;font:14px system-ui,sans-serif}
-.controls label{display:flex;align-items:center;gap:6px;cursor:pointer}
-button{font:13px system-ui,sans-serif;padding:2px 10px;border:1px solid var(--line);border-radius:6px;
-       background:var(--chip);color:var(--fg);cursor:pointer}
-button:hover{color:var(--accent)}
-.quiz-only{display:none}
-body.quiz .quiz-only{display:flex}
-/* hide mode (ignored while quizzing) */
-body.hide:not(.quiz) td.f{cursor:pointer}
-body.hide:not(.quiz) td.f:not(.shown){color:transparent;background:var(--chip)}
-body.hide:not(.quiz) td.f:not(.shown):hover{background:var(--line)}
-/* quiz mode */
-.bhead{display:flex;align-items:baseline;gap:12px;margin:22px 0 6px}
-.bhead h3{margin:0}
-.grader{display:none;align-items:baseline;gap:10px}
-body.quiz .grader{display:flex}
-.score{font:600 13px system-ui,sans-serif;color:var(--muted)}
-td.f input{display:none;width:100%;min-width:7em;font:inherit;color:var(--fg);background:transparent;
-           border:1px solid var(--line);border-radius:4px;padding:2px 5px}
-body.quiz td.f input{display:block}
-body.quiz td.f .t{display:none}
-body.quiz td.f.ok{background:var(--ok)}
-body.quiz td.f.bad{background:var(--bad)}
-#macrons{position:fixed;right:16px;bottom:16px;z-index:3;display:none;gap:4px;padding:6px;
-         background:var(--head);border:1px solid var(--line);border-radius:10px;box-shadow:0 2px 10px #0003}
-body.quiz #macrons{display:flex}
-#macrons button{font:18px/1 Georgia,serif;width:2em;height:2em;padding:0}
-#macrons .hint{align-self:center;margin-left:6px;font:12px/1.35 system-ui,sans-serif;color:var(--muted)}
-#macrons kbd{font:12px ui-monospace,monospace;background:var(--chip);border:1px solid var(--line);
-             border-radius:3px;padding:0 4px;color:var(--fg)}
-"""
-
-JS = """
-const body = document.body;
-const $ = id => document.getElementById(id);
-
-// hide mode: click a blanked cell to reveal it
-$('hide').addEventListener('change', e => {
-  body.classList.toggle('hide', e.target.checked);
-  document.querySelectorAll('td.f.shown').forEach(c => c.classList.remove('shown'));
-});
-document.addEventListener('click', e => {
-  const c = e.target.closest('td.f');
-  if (c && body.classList.contains('hide') && !body.classList.contains('quiz')) c.classList.toggle('shown');
-});
-
-// quiz mode: a text box in every form cell
-document.querySelectorAll('td.f').forEach(c => {
-  const i = document.createElement('input');
-  i.type = 'text'; i.autocomplete = 'off'; i.spellcheck = false;
-  i.setAttribute('autocapitalize', 'off');
-  c.appendChild(i);
-});
-$('quiz').addEventListener('change', e => body.classList.toggle('quiz', e.target.checked));
-// match the page to the checkboxes (browsers may restore their state on reload)
-body.classList.toggle('hide', $('hide').checked);
-body.classList.toggle('quiz', $('quiz').checked);
-
-// typing a vowel then "-" turns it into the macron vowel: a- → ā
-const MACRON = {a:'ā', e:'ē', i:'ī', o:'ō', u:'ū', y:'ȳ', A:'Ā', E:'Ē', I:'Ī', O:'Ō', U:'Ū', Y:'Ȳ'};
-document.addEventListener('input', e => {
-  const i = e.target;
-  if (e.data !== '-' || !i.matches('td.f input')) return;
-  const p = i.selectionStart;
-  const v = MACRON[i.value[p - 2]];
-  if (p >= 2 && i.value[p - 1] === '-' && v) i.setRangeText(v, p - 2, p, 'end');
-});
-
-// floating macron keyboard: types into the focused (or last focused) quiz box
-let lastInput = null;
-document.addEventListener('focusin', e => { if (e.target.matches('td.f input')) lastInput = e.target; });
-$('macrons').addEventListener('mousedown', e => e.preventDefault());  // keep focus in the text box
-$('macrons').addEventListener('click', e => {
-  const b = e.target.closest('button');
-  if (!b || !lastInput) return;
-  const ch = e.shiftKey ? b.textContent.toUpperCase() : b.textContent;
-  lastInput.focus();
-  lastInput.setRangeText(ch, lastInput.selectionStart, lastInput.selectionEnd, 'end');
-  lastInput.dispatchEvent(new Event('input', {bubbles: true}));
-});
-
-const norm = s => {
-  s = s.trim().replace(/\\s+/g, ' ').toLowerCase();
-  if ($('nomacrons').checked) s = s.normalize('NFD').replace(/[\\u0300-\\u036f]/g, '');
-  return s;
-};
-
-function grade(block) {
-  const cells = block.querySelectorAll('td.f');
-  let right = 0;
-  cells.forEach(c => {
-    const answers = JSON.parse(c.dataset.a);
-    const ok = answers.some(a => norm(a) === norm(c.querySelector('input').value));
-    c.classList.toggle('ok', ok);
-    c.classList.toggle('bad', !ok);
-    c.title = ok ? '' : answers.join(', ');  // hover a red cell to see the answer
-    right += ok;
-  });
-  const pct = cells.length ? Math.round(100 * right / cells.length) : 0;
-  block.querySelector('.score').textContent = `${right} / ${cells.length} (${pct}%)`;
-}
-
-document.querySelectorAll('.block').forEach(b =>
-  b.querySelector('.grade').addEventListener('click', () => grade(b)));
-$('gradeall').addEventListener('click', () => document.querySelectorAll('.block').forEach(grade));
-$('reset').addEventListener('click', () => {
-  document.querySelectorAll('td.f').forEach(c => {
-    c.querySelector('input').value = ''; c.classList.remove('ok', 'bad'); c.title = '';
-  });
-  document.querySelectorAll('.score').forEach(s => s.textContent = '');
-});
-"""
+TEMPLATE = Path(__file__).with_name("conjugations_template.html")
 
 
 def h(s):
@@ -317,32 +185,20 @@ def html_verb(lemma, verb, sum_finite, anchor):
     return "".join(out)
 
 
-def write_html(data, verbs, sum_finite, path):
+def write_html(data, verbs, sum_finite, path, template=TEMPLATE):
+    """Fill the page template's <!-- VERB_NAV -->, <!-- VERBS --> and <!-- SOURCE --> markers."""
     anchors = {lemma: f"v{i}" for i, lemma in enumerate(verbs)}
-    nav = "".join(f'<a href="#{anchors[l]}">{h(l)}</a>' for l in verbs)
-    body = "".join(html_verb(l, verbs[l], sum_finite, anchors[l]) for l in verbs)
-    page = (f"<!doctype html><html lang='en'><head><meta charset='utf-8'>"
-            f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
-            f"<title>Dovvlinator MMM</title>"
-            f"<link rel='preconnect' href='https://fonts.googleapis.com'>"
-            f"<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>"
-            f"<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap'>"
-            f"<style>{CSS}</style></head><body class='hide'>"
-            f"<header><h1>Dovvlinator MMM</h1></header>"
-            f"<nav>{nav}<div class='controls'>"
-            f"<label><input type='checkbox' id='hide' checked> Hide forms</label>"
-            f"<label><input type='checkbox' id='quiz'> Quiz mode</label>"
-            f"<span class='quiz-only' style='gap:8px;align-items:center'>"
-            f"<label><input type='checkbox' id='nomacrons' checked> Ignore macrons</label>"
-            f"<button type='button' id='gradeall'>Grade All</button>"
-            f"<button type='button' id='reset'>Clear</button></span>"
-            f"</div></nav>"
-            f"<div id='macrons' title='Shift-click for capitals'>"
-            + "".join(f"<button type='button'>{v}</button>" for v in "āēīōūȳ")
-            + f"<span class='hint'>or type a vowel + hyphen:<br><kbd>a-</kbd> → ā</span>"
-            + f"</div><main>{body}"
-            f"<p class='meta'>Source: {h(data.get('source', ''))}, retrieved {h(data.get('retrieved', ''))}</p>"
-            f"</main><script>{JS}</script></body></html>")
+    fill = {
+        "VERB_NAV": "".join(f'<a href="#{anchors[l]}">{h(l)}</a>' for l in verbs),
+        "VERBS": "".join(html_verb(l, verbs[l], sum_finite, anchors[l]) for l in verbs),
+        "SOURCE": f"Source: {h(data.get('source', ''))}, retrieved {h(data.get('retrieved', ''))}",
+    }
+    page = Path(template).read_text(encoding="utf-8")
+    for name, content in fill.items():
+        marker = f"<!-- {name} -->"
+        if marker not in page:
+            sys.exit(f"{template} has no {marker} marker")
+        page = page.replace(marker, content)
     Path(path).write_text(page, encoding="utf-8")
 
 
@@ -352,6 +208,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("-i", "--input", default="latin_conjugations.json")
     ap.add_argument("-o", "--out", default="latin_conjugations.html")
+    ap.add_argument("-t", "--template", default=TEMPLATE, help="HTML page template")
     ap.add_argument("--text", action="store_true", help="print to the terminal instead of writing HTML")
     ap.add_argument("--verb", help="show only this verb (macrons optional)")
     args = ap.parse_args()
@@ -371,7 +228,7 @@ def main():
         for lemma, verb in verbs.items():
             print_verb(lemma, verb, sum_finite)
     else:
-        write_html(data, verbs, sum_finite, args.out)
+        write_html(data, verbs, sum_finite, args.out, args.template)
         print(f"Wrote {args.out}", file=sys.stderr)
 
 

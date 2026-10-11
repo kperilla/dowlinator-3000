@@ -130,8 +130,25 @@ uv run show_conjugations.py --verb sum               # HTML page for one verb
 |---|---|---|
 | `-i`, `--input` | `latin_conjugations.json` | JSON file to read |
 | `-o`, `--out` | `latin_conjugations.html` | HTML file to write |
+| `-t`, `--template` | `conjugations_template.html` | Page template (looked up next to the script) |
 | `--text` | off | Print to the terminal instead of writing HTML |
 | `--verb` | all | Only this verb (lemma or page name, macrons optional) |
+
+### Page template
+
+The page's layout, styles, controls and JavaScript live in
+`conjugations_template.html`; edit that file to change how the page looks or
+behaves. The script reads it and replaces three markers:
+
+| Marker | Replaced with |
+|---|---|
+| `<!-- VERB_NAV -->` | a link to each verb, in the top bar |
+| `<!-- VERBS -->` | one `<section class="verb">` per verb, holding its tables |
+| `<!-- SOURCE -->` | the data source and retrieval date |
+
+Each form cell is generated as `<td class="f" data-a='["amāvistī","amāstī"]'>`,
+with its accepted answers in `data-a`, which is what the template's quiz
+script grades against. Rerun `show_conjugations.py` after editing the template.
 
 On Windows, if `--text` fails with a `UnicodeEncodeError`, set
 `PYTHONIOENCODING=utf-8` (or run `chcp 65001`) so the console can print macrons.

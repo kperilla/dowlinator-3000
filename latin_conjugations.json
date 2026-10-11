@@ -1,0 +1,7619 @@
+{
+ "source": "en.wiktionary.org (CC BY-SA)",
+ "retrieved": "2026-10-11",
+ "verbs": {
+  "amo": {
+   "page": "amo",
+   "category": "1st conjugation",
+   "title": "indicative",
+   "finite": {
+    "indicative": {
+     "active": {
+      "present": {
+       "1sg": [
+        "amō"
+       ],
+       "2sg": [
+        "amās"
+       ],
+       "3sg": [
+        "amat"
+       ],
+       "1pl": [
+        "amāmus"
+       ],
+       "2pl": [
+        "amātis"
+       ],
+       "3pl": [
+        "amant"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "amābam"
+       ],
+       "2sg": [
+        "amābās"
+       ],
+       "3sg": [
+        "amābat"
+       ],
+       "1pl": [
+        "amābāmus"
+       ],
+       "2pl": [
+        "amābātis"
+       ],
+       "3pl": [
+        "amābant"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "amābō"
+       ],
+       "2sg": [
+        "amābis"
+       ],
+       "3sg": [
+        "amābit"
+       ],
+       "1pl": [
+        "amābimus"
+       ],
+       "2pl": [
+        "amābitis"
+       ],
+       "3pl": [
+        "amābunt"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "amāvī"
+       ],
+       "2sg": [
+        "amāvistī",
+        "amāstī"
+       ],
+       "3sg": [
+        "amāvit",
+        "amāt"
+       ],
+       "1pl": [
+        "amāvimus",
+        "amāmus"
+       ],
+       "2pl": [
+        "amāvistis",
+        "amāstis"
+       ],
+       "3pl": [
+        "amāvērunt",
+        "amārunt",
+        "amāvēre"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "amāveram",
+        "amāram"
+       ],
+       "2sg": [
+        "amāverās",
+        "amārās"
+       ],
+       "3sg": [
+        "amāverat",
+        "amārat"
+       ],
+       "1pl": [
+        "amāverāmus",
+        "amārāmus"
+       ],
+       "2pl": [
+        "amāverātis",
+        "amārātis"
+       ],
+       "3pl": [
+        "amāverant",
+        "amārant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "amāverō",
+        "amārō"
+       ],
+       "2sg": [
+        "amāveris",
+        "amāris"
+       ],
+       "3sg": [
+        "amāverit",
+        "amārit"
+       ],
+       "1pl": [
+        "amāverimus",
+        "amārimus"
+       ],
+       "2pl": [
+        "amāveritis",
+        "amāritis"
+       ],
+       "3pl": [
+        "amāverint",
+        "amārint"
+       ]
+      },
+      "sigmatic future": {
+       "1sg": [
+        "amāssō"
+       ],
+       "2sg": [
+        "amāssis"
+       ],
+       "3sg": [
+        "amāssit"
+       ],
+       "1pl": [
+        "amāssimus"
+       ],
+       "2pl": [
+        "amāssitis"
+       ],
+       "3pl": [
+        "amāssint"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "1sg": [
+        "amor"
+       ],
+       "2sg": [
+        "amāris",
+        "amāre"
+       ],
+       "3sg": [
+        "amātur"
+       ],
+       "1pl": [
+        "amāmur"
+       ],
+       "2pl": [
+        "amāminī"
+       ],
+       "3pl": [
+        "amantur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "amābar"
+       ],
+       "2sg": [
+        "amābāris",
+        "amābāre"
+       ],
+       "3sg": [
+        "amābātur"
+       ],
+       "1pl": [
+        "amābāmur"
+       ],
+       "2pl": [
+        "amābāminī"
+       ],
+       "3pl": [
+        "amābantur"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "amābor"
+       ],
+       "2sg": [
+        "amāberis",
+        "amābere"
+       ],
+       "3sg": [
+        "amābitur"
+       ],
+       "1pl": [
+        "amābimur"
+       ],
+       "2pl": [
+        "amābiminī"
+       ],
+       "3pl": [
+        "amābuntur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "amātus sum"
+       ],
+       "2sg": [
+        "amātus es"
+       ],
+       "3sg": [
+        "amātus est"
+       ],
+       "1pl": [
+        "amātus sumus"
+       ],
+       "2pl": [
+        "amātus estis"
+       ],
+       "3pl": [
+        "amātus sunt"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "amātus eram"
+       ],
+       "2sg": [
+        "amātus erās"
+       ],
+       "3sg": [
+        "amātus erat"
+       ],
+       "1pl": [
+        "amātus erāmus"
+       ],
+       "2pl": [
+        "amātus erātis"
+       ],
+       "3pl": [
+        "amātus erant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "amātus erō"
+       ],
+       "2sg": [
+        "amātus eris",
+        "amātus ere"
+       ],
+       "3sg": [
+        "amātus erit"
+       ],
+       "1pl": [
+        "amātus erimus"
+       ],
+       "2pl": [
+        "amātus eritis"
+       ],
+       "3pl": [
+        "amātus erunt"
+       ]
+      }
+     }
+    },
+    "subjunctive": {
+     "active": {
+      "present": {
+       "1sg": [
+        "amem"
+       ],
+       "2sg": [
+        "amēs"
+       ],
+       "3sg": [
+        "amet"
+       ],
+       "1pl": [
+        "amēmus"
+       ],
+       "2pl": [
+        "amētis"
+       ],
+       "3pl": [
+        "ament"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "amārem"
+       ],
+       "2sg": [
+        "amārēs"
+       ],
+       "3sg": [
+        "amāret"
+       ],
+       "1pl": [
+        "amārēmus"
+       ],
+       "2pl": [
+        "amārētis"
+       ],
+       "3pl": [
+        "amārent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "amāverim",
+        "amārim"
+       ],
+       "2sg": [
+        "amāverīs",
+        "amārīs"
+       ],
+       "3sg": [
+        "amāverit",
+        "amārit"
+       ],
+       "1pl": [
+        "amāverīmus",
+        "amārīmus"
+       ],
+       "2pl": [
+        "amāverītis",
+        "amārītis"
+       ],
+       "3pl": [
+        "amāverint",
+        "amārint"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "amāvissem",
+        "amāssem"
+       ],
+       "2sg": [
+        "amāvissēs",
+        "amāssēs"
+       ],
+       "3sg": [
+        "amāvisset",
+        "amāsset"
+       ],
+       "1pl": [
+        "amāvissēmus",
+        "amāssēmus"
+       ],
+       "2pl": [
+        "amāvissētis",
+        "amāssētis"
+       ],
+       "3pl": [
+        "amāvissent",
+        "amāssent"
+       ]
+      },
+      "sigmatic aorist": {
+       "1sg": [
+        "amāssim"
+       ],
+       "2sg": [
+        "amāssīs"
+       ],
+       "3sg": [
+        "amāssīt"
+       ],
+       "1pl": [
+        "amāssīmus"
+       ],
+       "2pl": [
+        "amāssītis"
+       ],
+       "3pl": [
+        "amāssint"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "1sg": [
+        "amer"
+       ],
+       "2sg": [
+        "amēris",
+        "amēre"
+       ],
+       "3sg": [
+        "amētur"
+       ],
+       "1pl": [
+        "amēmur"
+       ],
+       "2pl": [
+        "amēminī"
+       ],
+       "3pl": [
+        "amentur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "amārer"
+       ],
+       "2sg": [
+        "amārēris",
+        "amārēre"
+       ],
+       "3sg": [
+        "amārētur"
+       ],
+       "1pl": [
+        "amārēmur"
+       ],
+       "2pl": [
+        "amārēminī"
+       ],
+       "3pl": [
+        "amārentur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "amātus sim",
+        "amātus siem",
+        "amātus fuam"
+       ],
+       "2sg": [
+        "amātus sīs",
+        "amātus siēs",
+        "amātus fuās"
+       ],
+       "3sg": [
+        "amātus sit",
+        "amātus siet",
+        "amātus fuat"
+       ],
+       "1pl": [
+        "amātus sīmus",
+        "amātus siēmus",
+        "amātus fuāmus"
+       ],
+       "2pl": [
+        "amātus sītis",
+        "amātus siētis",
+        "amātus fuātis"
+       ],
+       "3pl": [
+        "amātus sint",
+        "amātus sient",
+        "amātus fuant"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "amātus essem",
+        "amātus forem"
+       ],
+       "2sg": [
+        "amātus essēs",
+        "amātus forēs"
+       ],
+       "3sg": [
+        "amātus esset",
+        "amātus foret"
+       ],
+       "1pl": [
+        "amātus essēmus",
+        "amātus forēmus"
+       ],
+       "2pl": [
+        "amātus essētis",
+        "amātus forētis"
+       ],
+       "3pl": [
+        "amātus essent",
+        "amātus forent"
+       ]
+      }
+     }
+    },
+    "imperative": {
+     "active": {
+      "present": {
+       "2sg": [
+        "amā"
+       ],
+       "2pl": [
+        "amāte"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "amātō"
+       ],
+       "3sg": [
+        "amātō"
+       ],
+       "2pl": [
+        "amātōte"
+       ],
+       "3pl": [
+        "amantō"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "2sg": [
+        "amāre"
+       ],
+       "2pl": [
+        "amāminī"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "amātor"
+       ],
+       "3sg": [
+        "amātor"
+       ],
+       "3pl": [
+        "amantor"
+       ]
+      }
+     }
+    }
+   },
+   "nonfinite": {
+    "infinitive": {
+     "active": {
+      "present": [
+       "amāre"
+      ],
+      "future": [
+       "amātūrum esse"
+      ],
+      "perfect": [
+       "amāvisse",
+       "amāsse"
+      ],
+      "perfect potential": [
+       "amātūrum fuisse"
+      ]
+     },
+     "passive": {
+      "present": [
+       "amārī"
+      ],
+      "future": [
+       "amātum īrī"
+      ],
+      "perfect": [
+       "amātum esse"
+      ],
+      "future perfect": [
+       "amātum fore"
+      ]
+     }
+    },
+    "participle": {
+     "active": {
+      "present": [
+       "amāns"
+      ],
+      "future": [
+       "amātūrus"
+      ]
+     },
+     "passive": {
+      "future": [
+       "amandus"
+      ],
+      "perfect": [
+       "amātus"
+      ]
+     }
+    },
+    "gerund": {
+     "genitive": [
+      "amandī"
+     ],
+     "dative": [
+      "amandō"
+     ],
+     "accusative": [
+      "amandum"
+     ],
+     "ablative": [
+      "amandō"
+     ]
+    },
+    "supine": {
+     "accusative": [
+      "amātum"
+     ],
+     "ablative": [
+      "amātū"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "moneo": {
+   "page": "moneo",
+   "category": "2nd conjugation",
+   "title": "indicative",
+   "finite": {
+    "indicative": {
+     "active": {
+      "present": {
+       "1sg": [
+        "moneō"
+       ],
+       "2sg": [
+        "monēs"
+       ],
+       "3sg": [
+        "monet"
+       ],
+       "1pl": [
+        "monēmus"
+       ],
+       "2pl": [
+        "monētis"
+       ],
+       "3pl": [
+        "monent"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "monēbam"
+       ],
+       "2sg": [
+        "monēbās"
+       ],
+       "3sg": [
+        "monēbat"
+       ],
+       "1pl": [
+        "monēbāmus"
+       ],
+       "2pl": [
+        "monēbātis"
+       ],
+       "3pl": [
+        "monēbant"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "monēbō"
+       ],
+       "2sg": [
+        "monēbis"
+       ],
+       "3sg": [
+        "monēbit"
+       ],
+       "1pl": [
+        "monēbimus"
+       ],
+       "2pl": [
+        "monēbitis"
+       ],
+       "3pl": [
+        "monēbunt"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "monuī"
+       ],
+       "2sg": [
+        "monuistī"
+       ],
+       "3sg": [
+        "monuit"
+       ],
+       "1pl": [
+        "monuimus"
+       ],
+       "2pl": [
+        "monuistis"
+       ],
+       "3pl": [
+        "monuērunt",
+        "monuēre"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "monueram"
+       ],
+       "2sg": [
+        "monuerās"
+       ],
+       "3sg": [
+        "monuerat"
+       ],
+       "1pl": [
+        "monuerāmus"
+       ],
+       "2pl": [
+        "monuerātis"
+       ],
+       "3pl": [
+        "monuerant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "monuerō"
+       ],
+       "2sg": [
+        "monueris"
+       ],
+       "3sg": [
+        "monuerit"
+       ],
+       "1pl": [
+        "monuerimus"
+       ],
+       "2pl": [
+        "monueritis"
+       ],
+       "3pl": [
+        "monuerint"
+       ]
+      },
+      "sigmatic future": {
+       "1sg": [
+        "monerō"
+       ],
+       "2sg": [
+        "moneris"
+       ],
+       "3sg": [
+        "monerit"
+       ],
+       "1pl": [
+        "monerimus"
+       ],
+       "2pl": [
+        "moneritis"
+       ],
+       "3pl": [
+        "monerint"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "1sg": [
+        "moneor"
+       ],
+       "2sg": [
+        "monēris",
+        "monēre"
+       ],
+       "3sg": [
+        "monētur"
+       ],
+       "1pl": [
+        "monēmur"
+       ],
+       "2pl": [
+        "monēminī"
+       ],
+       "3pl": [
+        "monentur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "monēbar"
+       ],
+       "2sg": [
+        "monēbāris",
+        "monēbāre"
+       ],
+       "3sg": [
+        "monēbātur"
+       ],
+       "1pl": [
+        "monēbāmur"
+       ],
+       "2pl": [
+        "monēbāminī"
+       ],
+       "3pl": [
+        "monēbantur"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "monēbor"
+       ],
+       "2sg": [
+        "monēberis",
+        "monēbere"
+       ],
+       "3sg": [
+        "monēbitur"
+       ],
+       "1pl": [
+        "monēbimur"
+       ],
+       "2pl": [
+        "monēbiminī"
+       ],
+       "3pl": [
+        "monēbuntur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "monitus sum"
+       ],
+       "2sg": [
+        "monitus es"
+       ],
+       "3sg": [
+        "monitus est"
+       ],
+       "1pl": [
+        "monitus sumus"
+       ],
+       "2pl": [
+        "monitus estis"
+       ],
+       "3pl": [
+        "monitus sunt"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "monitus eram"
+       ],
+       "2sg": [
+        "monitus erās"
+       ],
+       "3sg": [
+        "monitus erat"
+       ],
+       "1pl": [
+        "monitus erāmus"
+       ],
+       "2pl": [
+        "monitus erātis"
+       ],
+       "3pl": [
+        "monitus erant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "monitus erō"
+       ],
+       "2sg": [
+        "monitus eris",
+        "monitus ere"
+       ],
+       "3sg": [
+        "monitus erit"
+       ],
+       "1pl": [
+        "monitus erimus"
+       ],
+       "2pl": [
+        "monitus eritis"
+       ],
+       "3pl": [
+        "monitus erunt"
+       ]
+      }
+     }
+    },
+    "subjunctive": {
+     "active": {
+      "present": {
+       "1sg": [
+        "moneam"
+       ],
+       "2sg": [
+        "moneās"
+       ],
+       "3sg": [
+        "moneat"
+       ],
+       "1pl": [
+        "moneāmus"
+       ],
+       "2pl": [
+        "moneātis"
+       ],
+       "3pl": [
+        "moneant"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "monērem"
+       ],
+       "2sg": [
+        "monērēs"
+       ],
+       "3sg": [
+        "monēret"
+       ],
+       "1pl": [
+        "monērēmus"
+       ],
+       "2pl": [
+        "monērētis"
+       ],
+       "3pl": [
+        "monērent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "monuerim"
+       ],
+       "2sg": [
+        "monuerīs"
+       ],
+       "3sg": [
+        "monuerit"
+       ],
+       "1pl": [
+        "monuerīmus"
+       ],
+       "2pl": [
+        "monuerītis"
+       ],
+       "3pl": [
+        "monuerint"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "monuissem"
+       ],
+       "2sg": [
+        "monuissēs"
+       ],
+       "3sg": [
+        "monuisset"
+       ],
+       "1pl": [
+        "monuissēmus"
+       ],
+       "2pl": [
+        "monuissētis"
+       ],
+       "3pl": [
+        "monuissent"
+       ]
+      },
+      "sigmatic aorist": {
+       "1sg": [
+        "monerim"
+       ],
+       "2sg": [
+        "monerīs"
+       ],
+       "3sg": [
+        "monerīt"
+       ],
+       "1pl": [
+        "monerīmus"
+       ],
+       "2pl": [
+        "monerītis"
+       ],
+       "3pl": [
+        "monerint"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "1sg": [
+        "monear"
+       ],
+       "2sg": [
+        "moneāris",
+        "moneāre"
+       ],
+       "3sg": [
+        "moneātur"
+       ],
+       "1pl": [
+        "moneāmur"
+       ],
+       "2pl": [
+        "moneāminī"
+       ],
+       "3pl": [
+        "moneantur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "monērer"
+       ],
+       "2sg": [
+        "monērēris",
+        "monērēre"
+       ],
+       "3sg": [
+        "monērētur"
+       ],
+       "1pl": [
+        "monērēmur"
+       ],
+       "2pl": [
+        "monērēminī"
+       ],
+       "3pl": [
+        "monērentur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "monitus sim",
+        "monitus siem",
+        "monitus fuam"
+       ],
+       "2sg": [
+        "monitus sīs",
+        "monitus siēs",
+        "monitus fuās"
+       ],
+       "3sg": [
+        "monitus sit",
+        "monitus siet",
+        "monitus fuat"
+       ],
+       "1pl": [
+        "monitus sīmus",
+        "monitus siēmus",
+        "monitus fuāmus"
+       ],
+       "2pl": [
+        "monitus sītis",
+        "monitus siētis",
+        "monitus fuātis"
+       ],
+       "3pl": [
+        "monitus sint",
+        "monitus sient",
+        "monitus fuant"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "monitus essem",
+        "monitus forem"
+       ],
+       "2sg": [
+        "monitus essēs",
+        "monitus forēs"
+       ],
+       "3sg": [
+        "monitus esset",
+        "monitus foret"
+       ],
+       "1pl": [
+        "monitus essēmus",
+        "monitus forēmus"
+       ],
+       "2pl": [
+        "monitus essētis",
+        "monitus forētis"
+       ],
+       "3pl": [
+        "monitus essent",
+        "monitus forent"
+       ]
+      }
+     }
+    },
+    "imperative": {
+     "active": {
+      "present": {
+       "2sg": [
+        "monē"
+       ],
+       "2pl": [
+        "monēte"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "monētō"
+       ],
+       "3sg": [
+        "monētō"
+       ],
+       "2pl": [
+        "monētōte"
+       ],
+       "3pl": [
+        "monentō"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "2sg": [
+        "monēre"
+       ],
+       "2pl": [
+        "monēminī"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "monētor"
+       ],
+       "3sg": [
+        "monētor"
+       ],
+       "3pl": [
+        "monentor"
+       ]
+      }
+     }
+    }
+   },
+   "nonfinite": {
+    "infinitive": {
+     "active": {
+      "present": [
+       "monēre"
+      ],
+      "future": [
+       "monitūrum esse"
+      ],
+      "perfect": [
+       "monuisse"
+      ],
+      "perfect potential": [
+       "monitūrum fuisse"
+      ]
+     },
+     "passive": {
+      "present": [
+       "monērī",
+       "monērier"
+      ],
+      "future": [
+       "monitum īrī"
+      ],
+      "perfect": [
+       "monitum esse"
+      ],
+      "future perfect": [
+       "monitum fore"
+      ]
+     }
+    },
+    "participle": {
+     "active": {
+      "present": [
+       "monēns"
+      ],
+      "future": [
+       "monitūrus"
+      ]
+     },
+     "passive": {
+      "future": [
+       "monendus"
+      ],
+      "perfect": [
+       "monitus"
+      ]
+     }
+    },
+    "gerund": {
+     "genitive": [
+      "monendī"
+     ],
+     "dative": [
+      "monendō"
+     ],
+     "accusative": [
+      "monendum"
+     ],
+     "ablative": [
+      "monendō"
+     ]
+    },
+    "supine": {
+     "accusative": [
+      "monitum"
+     ],
+     "ablative": [
+      "monitū"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "rego": {
+   "page": "rego",
+   "category": "3rd conjugation",
+   "title": "indicative",
+   "finite": {
+    "indicative": {
+     "active": {
+      "present": {
+       "1sg": [
+        "regō"
+       ],
+       "2sg": [
+        "regis"
+       ],
+       "3sg": [
+        "regit"
+       ],
+       "1pl": [
+        "regimus"
+       ],
+       "2pl": [
+        "regitis"
+       ],
+       "3pl": [
+        "regunt"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "regēbam"
+       ],
+       "2sg": [
+        "regēbās"
+       ],
+       "3sg": [
+        "regēbat"
+       ],
+       "1pl": [
+        "regēbāmus"
+       ],
+       "2pl": [
+        "regēbātis"
+       ],
+       "3pl": [
+        "regēbant"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "regam"
+       ],
+       "2sg": [
+        "regēs"
+       ],
+       "3sg": [
+        "reget"
+       ],
+       "1pl": [
+        "regēmus"
+       ],
+       "2pl": [
+        "regētis"
+       ],
+       "3pl": [
+        "regent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "rēxī"
+       ],
+       "2sg": [
+        "rēxistī"
+       ],
+       "3sg": [
+        "rēxit"
+       ],
+       "1pl": [
+        "rēximus"
+       ],
+       "2pl": [
+        "rēxistis"
+       ],
+       "3pl": [
+        "rēxērunt",
+        "rēxēre"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "rēxeram"
+       ],
+       "2sg": [
+        "rēxerās"
+       ],
+       "3sg": [
+        "rēxerat"
+       ],
+       "1pl": [
+        "rēxerāmus"
+       ],
+       "2pl": [
+        "rēxerātis"
+       ],
+       "3pl": [
+        "rēxerant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "rēxerō"
+       ],
+       "2sg": [
+        "rēxeris"
+       ],
+       "3sg": [
+        "rēxerit"
+       ],
+       "1pl": [
+        "rēxerimus"
+       ],
+       "2pl": [
+        "rēxeritis"
+       ],
+       "3pl": [
+        "rēxerint"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "1sg": [
+        "regor"
+       ],
+       "2sg": [
+        "regeris",
+        "regere"
+       ],
+       "3sg": [
+        "regitur"
+       ],
+       "1pl": [
+        "regimur"
+       ],
+       "2pl": [
+        "regiminī"
+       ],
+       "3pl": [
+        "reguntur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "regēbar"
+       ],
+       "2sg": [
+        "regēbāris",
+        "regēbāre"
+       ],
+       "3sg": [
+        "regēbātur"
+       ],
+       "1pl": [
+        "regēbāmur"
+       ],
+       "2pl": [
+        "regēbāminī"
+       ],
+       "3pl": [
+        "regēbantur"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "regar"
+       ],
+       "2sg": [
+        "regēris",
+        "regēre"
+       ],
+       "3sg": [
+        "regētur"
+       ],
+       "1pl": [
+        "regēmur"
+       ],
+       "2pl": [
+        "regēminī"
+       ],
+       "3pl": [
+        "regentur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "rēctus sum"
+       ],
+       "2sg": [
+        "rēctus es"
+       ],
+       "3sg": [
+        "rēctus est"
+       ],
+       "1pl": [
+        "rēctus sumus"
+       ],
+       "2pl": [
+        "rēctus estis"
+       ],
+       "3pl": [
+        "rēctus sunt"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "rēctus eram"
+       ],
+       "2sg": [
+        "rēctus erās"
+       ],
+       "3sg": [
+        "rēctus erat"
+       ],
+       "1pl": [
+        "rēctus erāmus"
+       ],
+       "2pl": [
+        "rēctus erātis"
+       ],
+       "3pl": [
+        "rēctus erant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "rēctus erō"
+       ],
+       "2sg": [
+        "rēctus eris",
+        "rēctus ere"
+       ],
+       "3sg": [
+        "rēctus erit"
+       ],
+       "1pl": [
+        "rēctus erimus"
+       ],
+       "2pl": [
+        "rēctus eritis"
+       ],
+       "3pl": [
+        "rēctus erunt"
+       ]
+      }
+     }
+    },
+    "subjunctive": {
+     "active": {
+      "present": {
+       "1sg": [
+        "regam"
+       ],
+       "2sg": [
+        "regās"
+       ],
+       "3sg": [
+        "regat"
+       ],
+       "1pl": [
+        "regāmus"
+       ],
+       "2pl": [
+        "regātis"
+       ],
+       "3pl": [
+        "regant"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "regerem"
+       ],
+       "2sg": [
+        "regerēs"
+       ],
+       "3sg": [
+        "regeret"
+       ],
+       "1pl": [
+        "regerēmus"
+       ],
+       "2pl": [
+        "regerētis"
+       ],
+       "3pl": [
+        "regerent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "rēxerim"
+       ],
+       "2sg": [
+        "rēxerīs"
+       ],
+       "3sg": [
+        "rēxerit"
+       ],
+       "1pl": [
+        "rēxerīmus"
+       ],
+       "2pl": [
+        "rēxerītis"
+       ],
+       "3pl": [
+        "rēxerint"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "rēxissem"
+       ],
+       "2sg": [
+        "rēxissēs"
+       ],
+       "3sg": [
+        "rēxisset"
+       ],
+       "1pl": [
+        "rēxissēmus"
+       ],
+       "2pl": [
+        "rēxissētis"
+       ],
+       "3pl": [
+        "rēxissent"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "1sg": [
+        "regar"
+       ],
+       "2sg": [
+        "regāris",
+        "regāre"
+       ],
+       "3sg": [
+        "regātur"
+       ],
+       "1pl": [
+        "regāmur"
+       ],
+       "2pl": [
+        "regāminī"
+       ],
+       "3pl": [
+        "regantur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "regerer"
+       ],
+       "2sg": [
+        "regerēris",
+        "regerēre"
+       ],
+       "3sg": [
+        "regerētur"
+       ],
+       "1pl": [
+        "regerēmur"
+       ],
+       "2pl": [
+        "regerēminī"
+       ],
+       "3pl": [
+        "regerentur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "rēctus sim",
+        "rēctus siem",
+        "rēctus fuam"
+       ],
+       "2sg": [
+        "rēctus sīs",
+        "rēctus siēs",
+        "rēctus fuās"
+       ],
+       "3sg": [
+        "rēctus sit",
+        "rēctus siet",
+        "rēctus fuat"
+       ],
+       "1pl": [
+        "rēctus sīmus",
+        "rēctus siēmus",
+        "rēctus fuāmus"
+       ],
+       "2pl": [
+        "rēctus sītis",
+        "rēctus siētis",
+        "rēctus fuātis"
+       ],
+       "3pl": [
+        "rēctus sint",
+        "rēctus sient",
+        "rēctus fuant"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "rēctus essem",
+        "rēctus forem"
+       ],
+       "2sg": [
+        "rēctus essēs",
+        "rēctus forēs"
+       ],
+       "3sg": [
+        "rēctus esset",
+        "rēctus foret"
+       ],
+       "1pl": [
+        "rēctus essēmus",
+        "rēctus forēmus"
+       ],
+       "2pl": [
+        "rēctus essētis",
+        "rēctus forētis"
+       ],
+       "3pl": [
+        "rēctus essent",
+        "rēctus forent"
+       ]
+      }
+     }
+    },
+    "imperative": {
+     "active": {
+      "present": {
+       "2sg": [
+        "rege"
+       ],
+       "2pl": [
+        "regite"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "regitō"
+       ],
+       "3sg": [
+        "regitō"
+       ],
+       "2pl": [
+        "regitōte"
+       ],
+       "3pl": [
+        "reguntō"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "2sg": [
+        "regere"
+       ],
+       "2pl": [
+        "regiminī"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "regitor"
+       ],
+       "3sg": [
+        "regitor"
+       ],
+       "3pl": [
+        "reguntor"
+       ]
+      }
+     }
+    }
+   },
+   "nonfinite": {
+    "infinitive": {
+     "active": {
+      "present": [
+       "regere"
+      ],
+      "future": [
+       "rēctūrum esse"
+      ],
+      "perfect": [
+       "rēxisse"
+      ],
+      "perfect potential": [
+       "rēctūrum fuisse"
+      ]
+     },
+     "passive": {
+      "present": [
+       "regī"
+      ],
+      "future": [
+       "rēctum īrī"
+      ],
+      "perfect": [
+       "rēctum esse"
+      ],
+      "future perfect": [
+       "rēctum fore"
+      ]
+     }
+    },
+    "participle": {
+     "active": {
+      "present": [
+       "regēns"
+      ],
+      "future": [
+       "rēctūrus"
+      ]
+     },
+     "passive": {
+      "future": [
+       "regendus",
+       "regundus"
+      ],
+      "perfect": [
+       "rēctus"
+      ]
+     }
+    },
+    "gerund": {
+     "genitive": [
+      "regendī"
+     ],
+     "dative": [
+      "regendō"
+     ],
+     "accusative": [
+      "regendum"
+     ],
+     "ablative": [
+      "regendō"
+     ]
+    },
+    "supine": {
+     "accusative": [
+      "rēctum"
+     ],
+     "ablative": [
+      "rēctū"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "capio": {
+   "page": "capio",
+   "category": "3rd conjugation -iō",
+   "title": "indicative",
+   "finite": {
+    "indicative": {
+     "active": {
+      "present": {
+       "1sg": [
+        "capiō"
+       ],
+       "2sg": [
+        "capis"
+       ],
+       "3sg": [
+        "capit"
+       ],
+       "1pl": [
+        "capimus"
+       ],
+       "2pl": [
+        "capitis"
+       ],
+       "3pl": [
+        "capiunt"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "capiēbam"
+       ],
+       "2sg": [
+        "capiēbās"
+       ],
+       "3sg": [
+        "capiēbat"
+       ],
+       "1pl": [
+        "capiēbāmus"
+       ],
+       "2pl": [
+        "capiēbātis"
+       ],
+       "3pl": [
+        "capiēbant"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "capiam"
+       ],
+       "2sg": [
+        "capiēs"
+       ],
+       "3sg": [
+        "capiet"
+       ],
+       "1pl": [
+        "capiēmus"
+       ],
+       "2pl": [
+        "capiētis"
+       ],
+       "3pl": [
+        "capient"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "cēpī"
+       ],
+       "2sg": [
+        "cēpistī"
+       ],
+       "3sg": [
+        "cēpit"
+       ],
+       "1pl": [
+        "cēpimus"
+       ],
+       "2pl": [
+        "cēpistis"
+       ],
+       "3pl": [
+        "cēpērunt",
+        "cēpēre"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "cēperam"
+       ],
+       "2sg": [
+        "cēperās"
+       ],
+       "3sg": [
+        "cēperat"
+       ],
+       "1pl": [
+        "cēperāmus"
+       ],
+       "2pl": [
+        "cēperātis"
+       ],
+       "3pl": [
+        "cēperant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "cēperō"
+       ],
+       "2sg": [
+        "cēperis"
+       ],
+       "3sg": [
+        "cēperit"
+       ],
+       "1pl": [
+        "cēperimus"
+       ],
+       "2pl": [
+        "cēperitis"
+       ],
+       "3pl": [
+        "cēperint"
+       ]
+      },
+      "sigmatic future": {
+       "1sg": [
+        "capsō"
+       ],
+       "2sg": [
+        "capsis"
+       ],
+       "3sg": [
+        "capsit"
+       ],
+       "1pl": [
+        "capsimus"
+       ],
+       "2pl": [
+        "capsitis"
+       ],
+       "3pl": [
+        "capsint"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "1sg": [
+        "capior"
+       ],
+       "2sg": [
+        "caperis",
+        "capere"
+       ],
+       "3sg": [
+        "capitur"
+       ],
+       "1pl": [
+        "capimur"
+       ],
+       "2pl": [
+        "capiminī"
+       ],
+       "3pl": [
+        "capiuntur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "capiēbar"
+       ],
+       "2sg": [
+        "capiēbāris",
+        "capiēbāre"
+       ],
+       "3sg": [
+        "capiēbātur"
+       ],
+       "1pl": [
+        "capiēbāmur"
+       ],
+       "2pl": [
+        "capiēbāminī"
+       ],
+       "3pl": [
+        "capiēbantur"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "capiar"
+       ],
+       "2sg": [
+        "capiēris",
+        "capiēre"
+       ],
+       "3sg": [
+        "capiētur"
+       ],
+       "1pl": [
+        "capiēmur"
+       ],
+       "2pl": [
+        "capiēminī"
+       ],
+       "3pl": [
+        "capientur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "captus sum"
+       ],
+       "2sg": [
+        "captus es"
+       ],
+       "3sg": [
+        "captus est"
+       ],
+       "1pl": [
+        "captus sumus"
+       ],
+       "2pl": [
+        "captus estis"
+       ],
+       "3pl": [
+        "captus sunt"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "captus eram"
+       ],
+       "2sg": [
+        "captus erās"
+       ],
+       "3sg": [
+        "captus erat"
+       ],
+       "1pl": [
+        "captus erāmus"
+       ],
+       "2pl": [
+        "captus erātis"
+       ],
+       "3pl": [
+        "captus erant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "captus erō"
+       ],
+       "2sg": [
+        "captus eris",
+        "captus ere"
+       ],
+       "3sg": [
+        "captus erit"
+       ],
+       "1pl": [
+        "captus erimus"
+       ],
+       "2pl": [
+        "captus eritis"
+       ],
+       "3pl": [
+        "captus erunt"
+       ]
+      }
+     }
+    },
+    "subjunctive": {
+     "active": {
+      "present": {
+       "1sg": [
+        "capiam"
+       ],
+       "2sg": [
+        "capiās"
+       ],
+       "3sg": [
+        "capiat"
+       ],
+       "1pl": [
+        "capiāmus"
+       ],
+       "2pl": [
+        "capiātis"
+       ],
+       "3pl": [
+        "capiant"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "caperem"
+       ],
+       "2sg": [
+        "caperēs"
+       ],
+       "3sg": [
+        "caperet"
+       ],
+       "1pl": [
+        "caperēmus"
+       ],
+       "2pl": [
+        "caperētis"
+       ],
+       "3pl": [
+        "caperent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "cēperim"
+       ],
+       "2sg": [
+        "cēperīs"
+       ],
+       "3sg": [
+        "cēperit"
+       ],
+       "1pl": [
+        "cēperīmus"
+       ],
+       "2pl": [
+        "cēperītis"
+       ],
+       "3pl": [
+        "cēperint"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "cēpissem"
+       ],
+       "2sg": [
+        "cēpissēs"
+       ],
+       "3sg": [
+        "cēpisset"
+       ],
+       "1pl": [
+        "cēpissēmus"
+       ],
+       "2pl": [
+        "cēpissētis"
+       ],
+       "3pl": [
+        "cēpissent"
+       ]
+      },
+      "sigmatic aorist": {
+       "1sg": [
+        "capsim"
+       ],
+       "2sg": [
+        "capsīs"
+       ],
+       "3sg": [
+        "capsīt"
+       ],
+       "1pl": [
+        "capsīmus"
+       ],
+       "2pl": [
+        "capsītis"
+       ],
+       "3pl": [
+        "capsint"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "1sg": [
+        "capiar"
+       ],
+       "2sg": [
+        "capiāris",
+        "capiāre"
+       ],
+       "3sg": [
+        "capiātur"
+       ],
+       "1pl": [
+        "capiāmur"
+       ],
+       "2pl": [
+        "capiāminī"
+       ],
+       "3pl": [
+        "capiantur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "caperer"
+       ],
+       "2sg": [
+        "caperēris",
+        "caperēre"
+       ],
+       "3sg": [
+        "caperētur"
+       ],
+       "1pl": [
+        "caperēmur"
+       ],
+       "2pl": [
+        "caperēminī"
+       ],
+       "3pl": [
+        "caperentur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "captus sim",
+        "captus siem",
+        "captus fuam"
+       ],
+       "2sg": [
+        "captus sīs",
+        "captus siēs",
+        "captus fuās"
+       ],
+       "3sg": [
+        "captus sit",
+        "captus siet",
+        "captus fuat"
+       ],
+       "1pl": [
+        "captus sīmus",
+        "captus siēmus",
+        "captus fuāmus"
+       ],
+       "2pl": [
+        "captus sītis",
+        "captus siētis",
+        "captus fuātis"
+       ],
+       "3pl": [
+        "captus sint",
+        "captus sient",
+        "captus fuant"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "captus essem",
+        "captus forem"
+       ],
+       "2sg": [
+        "captus essēs",
+        "captus forēs"
+       ],
+       "3sg": [
+        "captus esset",
+        "captus foret"
+       ],
+       "1pl": [
+        "captus essēmus",
+        "captus forēmus"
+       ],
+       "2pl": [
+        "captus essētis",
+        "captus forētis"
+       ],
+       "3pl": [
+        "captus essent",
+        "captus forent"
+       ]
+      }
+     }
+    },
+    "imperative": {
+     "active": {
+      "present": {
+       "2sg": [
+        "cape"
+       ],
+       "2pl": [
+        "capite"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "capitō"
+       ],
+       "3sg": [
+        "capitō"
+       ],
+       "2pl": [
+        "capitōte"
+       ],
+       "3pl": [
+        "capiuntō"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "2sg": [
+        "capere"
+       ],
+       "2pl": [
+        "capiminī"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "capitor"
+       ],
+       "3sg": [
+        "capitor"
+       ],
+       "3pl": [
+        "capiuntor"
+       ]
+      }
+     }
+    }
+   },
+   "nonfinite": {
+    "infinitive": {
+     "active": {
+      "present": [
+       "capere"
+      ],
+      "future": [
+       "captūrum esse"
+      ],
+      "perfect": [
+       "cēpisse"
+      ],
+      "perfect potential": [
+       "captūrum fuisse"
+      ]
+     },
+     "passive": {
+      "present": [
+       "capī"
+      ],
+      "future": [
+       "captum īrī"
+      ],
+      "perfect": [
+       "captum esse"
+      ],
+      "future perfect": [
+       "captum fore"
+      ]
+     }
+    },
+    "participle": {
+     "active": {
+      "present": [
+       "capiēns"
+      ],
+      "future": [
+       "captūrus"
+      ]
+     },
+     "passive": {
+      "future": [
+       "capiendus",
+       "capiundus"
+      ],
+      "perfect": [
+       "captus"
+      ]
+     }
+    },
+    "gerund": {
+     "genitive": [
+      "capiendī"
+     ],
+     "dative": [
+      "capiendō"
+     ],
+     "accusative": [
+      "capiendum"
+     ],
+     "ablative": [
+      "capiendō"
+     ]
+    },
+    "supine": {
+     "accusative": [
+      "captum"
+     ],
+     "ablative": [
+      "captū"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "audio": {
+   "page": "audio",
+   "category": "4th conjugation",
+   "title": "indicative",
+   "finite": {
+    "indicative": {
+     "active": {
+      "present": {
+       "1sg": [
+        "audiō"
+       ],
+       "2sg": [
+        "audīs"
+       ],
+       "3sg": [
+        "audit"
+       ],
+       "1pl": [
+        "audīmus"
+       ],
+       "2pl": [
+        "audītis"
+       ],
+       "3pl": [
+        "audiunt"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "audiēbam"
+       ],
+       "2sg": [
+        "audiēbās"
+       ],
+       "3sg": [
+        "audiēbat"
+       ],
+       "1pl": [
+        "audiēbāmus"
+       ],
+       "2pl": [
+        "audiēbātis"
+       ],
+       "3pl": [
+        "audiēbant"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "audiam"
+       ],
+       "2sg": [
+        "audiēs"
+       ],
+       "3sg": [
+        "audiet"
+       ],
+       "1pl": [
+        "audiēmus"
+       ],
+       "2pl": [
+        "audiētis"
+       ],
+       "3pl": [
+        "audient"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "audīvī",
+        "audiī"
+       ],
+       "2sg": [
+        "audīvistī",
+        "audīstī",
+        "audiistī"
+       ],
+       "3sg": [
+        "audīvit",
+        "audīt",
+        "audiit"
+       ],
+       "1pl": [
+        "audīvimus",
+        "audīmus",
+        "audiimus"
+       ],
+       "2pl": [
+        "audīvistis",
+        "audīstis",
+        "audiistis"
+       ],
+       "3pl": [
+        "audīvērunt",
+        "audīrunt",
+        "audīvēre",
+        "audiērunt",
+        "audiēre"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "audīveram",
+        "audīram",
+        "audieram"
+       ],
+       "2sg": [
+        "audīverās",
+        "audīrās",
+        "audierās"
+       ],
+       "3sg": [
+        "audīverat",
+        "audīrat",
+        "audierat"
+       ],
+       "1pl": [
+        "audīverāmus",
+        "audīrāmus",
+        "audierāmus"
+       ],
+       "2pl": [
+        "audīverātis",
+        "audīrātis",
+        "audierātis"
+       ],
+       "3pl": [
+        "audīverant",
+        "audīrant",
+        "audierant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "audīverō",
+        "audīrō",
+        "audierō"
+       ],
+       "2sg": [
+        "audīveris",
+        "audīris",
+        "audieris"
+       ],
+       "3sg": [
+        "audīverit",
+        "audīrit",
+        "audierit"
+       ],
+       "1pl": [
+        "audīverimus",
+        "audīrimus",
+        "audierimus"
+       ],
+       "2pl": [
+        "audīveritis",
+        "audīritis",
+        "audieritis"
+       ],
+       "3pl": [
+        "audīverint",
+        "audīrint",
+        "audierint"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "1sg": [
+        "audior"
+       ],
+       "2sg": [
+        "audīris",
+        "audīre"
+       ],
+       "3sg": [
+        "audītur"
+       ],
+       "1pl": [
+        "audīmur"
+       ],
+       "2pl": [
+        "audīminī"
+       ],
+       "3pl": [
+        "audiuntur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "audiēbar"
+       ],
+       "2sg": [
+        "audiēbāris",
+        "audiēbāre"
+       ],
+       "3sg": [
+        "audiēbātur"
+       ],
+       "1pl": [
+        "audiēbāmur"
+       ],
+       "2pl": [
+        "audiēbāminī"
+       ],
+       "3pl": [
+        "audiēbantur"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "audiar"
+       ],
+       "2sg": [
+        "audiēris",
+        "audiēre"
+       ],
+       "3sg": [
+        "audiētur"
+       ],
+       "1pl": [
+        "audiēmur"
+       ],
+       "2pl": [
+        "audiēminī"
+       ],
+       "3pl": [
+        "audientur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "audītus sum"
+       ],
+       "2sg": [
+        "audītus es"
+       ],
+       "3sg": [
+        "audītus est"
+       ],
+       "1pl": [
+        "audītus sumus"
+       ],
+       "2pl": [
+        "audītus estis"
+       ],
+       "3pl": [
+        "audītus sunt"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "audītus eram"
+       ],
+       "2sg": [
+        "audītus erās"
+       ],
+       "3sg": [
+        "audītus erat"
+       ],
+       "1pl": [
+        "audītus erāmus"
+       ],
+       "2pl": [
+        "audītus erātis"
+       ],
+       "3pl": [
+        "audītus erant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "audītus erō"
+       ],
+       "2sg": [
+        "audītus eris",
+        "audītus ere"
+       ],
+       "3sg": [
+        "audītus erit"
+       ],
+       "1pl": [
+        "audītus erimus"
+       ],
+       "2pl": [
+        "audītus eritis"
+       ],
+       "3pl": [
+        "audītus erunt"
+       ]
+      }
+     }
+    },
+    "subjunctive": {
+     "active": {
+      "present": {
+       "1sg": [
+        "audiam"
+       ],
+       "2sg": [
+        "audiās"
+       ],
+       "3sg": [
+        "audiat"
+       ],
+       "1pl": [
+        "audiāmus"
+       ],
+       "2pl": [
+        "audiātis"
+       ],
+       "3pl": [
+        "audiant"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "audīrem"
+       ],
+       "2sg": [
+        "audīrēs"
+       ],
+       "3sg": [
+        "audīret"
+       ],
+       "1pl": [
+        "audīrēmus"
+       ],
+       "2pl": [
+        "audīrētis"
+       ],
+       "3pl": [
+        "audīrent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "audīverim",
+        "audīrim",
+        "audierim"
+       ],
+       "2sg": [
+        "audīverīs",
+        "audīrīs",
+        "audierīs"
+       ],
+       "3sg": [
+        "audīverit",
+        "audīrit",
+        "audierit"
+       ],
+       "1pl": [
+        "audīverīmus",
+        "audīrīmus",
+        "audierīmus"
+       ],
+       "2pl": [
+        "audīverītis",
+        "audīrītis",
+        "audierītis"
+       ],
+       "3pl": [
+        "audīverint",
+        "audīrint",
+        "audierint"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "audīvissem",
+        "audīssem",
+        "audiissem"
+       ],
+       "2sg": [
+        "audīvissēs",
+        "audīssēs",
+        "audiissēs"
+       ],
+       "3sg": [
+        "audīvisset",
+        "audīsset",
+        "audiisset"
+       ],
+       "1pl": [
+        "audīvissēmus",
+        "audīssēmus",
+        "audiissēmus"
+       ],
+       "2pl": [
+        "audīvissētis",
+        "audīssētis",
+        "audiissētis"
+       ],
+       "3pl": [
+        "audīvissent",
+        "audīssent",
+        "audiissent"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "1sg": [
+        "audiar"
+       ],
+       "2sg": [
+        "audiāris",
+        "audiāre"
+       ],
+       "3sg": [
+        "audiātur"
+       ],
+       "1pl": [
+        "audiāmur"
+       ],
+       "2pl": [
+        "audiāminī"
+       ],
+       "3pl": [
+        "audiantur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "audīrer"
+       ],
+       "2sg": [
+        "audīrēris",
+        "audīrēre"
+       ],
+       "3sg": [
+        "audīrētur"
+       ],
+       "1pl": [
+        "audīrēmur"
+       ],
+       "2pl": [
+        "audīrēminī"
+       ],
+       "3pl": [
+        "audīrentur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "audītus sim",
+        "audītus siem",
+        "audītus fuam"
+       ],
+       "2sg": [
+        "audītus sīs",
+        "audītus siēs",
+        "audītus fuās"
+       ],
+       "3sg": [
+        "audītus sit",
+        "audītus siet",
+        "audītus fuat"
+       ],
+       "1pl": [
+        "audītus sīmus",
+        "audītus siēmus",
+        "audītus fuāmus"
+       ],
+       "2pl": [
+        "audītus sītis",
+        "audītus siētis",
+        "audītus fuātis"
+       ],
+       "3pl": [
+        "audītus sint",
+        "audītus sient",
+        "audītus fuant"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "audītus essem",
+        "audītus forem"
+       ],
+       "2sg": [
+        "audītus essēs",
+        "audītus forēs"
+       ],
+       "3sg": [
+        "audītus esset",
+        "audītus foret"
+       ],
+       "1pl": [
+        "audītus essēmus",
+        "audītus forēmus"
+       ],
+       "2pl": [
+        "audītus essētis",
+        "audītus forētis"
+       ],
+       "3pl": [
+        "audītus essent",
+        "audītus forent"
+       ]
+      }
+     }
+    },
+    "imperative": {
+     "active": {
+      "present": {
+       "2sg": [
+        "audī"
+       ],
+       "2pl": [
+        "audīte"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "audītō"
+       ],
+       "3sg": [
+        "audītō"
+       ],
+       "2pl": [
+        "audītōte"
+       ],
+       "3pl": [
+        "audiuntō"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "2sg": [
+        "audīre"
+       ],
+       "2pl": [
+        "audīminī"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "audītor"
+       ],
+       "3sg": [
+        "audītor"
+       ],
+       "3pl": [
+        "audiuntor"
+       ]
+      }
+     }
+    }
+   },
+   "nonfinite": {
+    "infinitive": {
+     "active": {
+      "present": [
+       "audīre"
+      ],
+      "future": [
+       "audītūrum esse"
+      ],
+      "perfect": [
+       "audīvisse",
+       "audīsse",
+       "audiisse"
+      ],
+      "perfect potential": [
+       "audītūrum fuisse"
+      ]
+     },
+     "passive": {
+      "present": [
+       "audīrī",
+       "audīrier"
+      ],
+      "future": [
+       "audītum īrī"
+      ],
+      "perfect": [
+       "audītum esse"
+      ],
+      "future perfect": [
+       "audītum fore"
+      ]
+     }
+    },
+    "participle": {
+     "active": {
+      "present": [
+       "audiēns"
+      ],
+      "future": [
+       "audītūrus"
+      ]
+     },
+     "passive": {
+      "future": [
+       "audiendus",
+       "audiundus"
+      ],
+      "perfect": [
+       "audītus"
+      ]
+     }
+    },
+    "gerund": {
+     "genitive": [
+      "audiendī"
+     ],
+     "dative": [
+      "audiendō"
+     ],
+     "accusative": [
+      "audiendum"
+     ],
+     "ablative": [
+      "audiendō"
+     ]
+    },
+    "supine": {
+     "accusative": [
+      "audītum"
+     ],
+     "ablative": [
+      "audītū"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "hortor": {
+   "page": "hortor",
+   "category": "deponent (1st)",
+   "title": "indicative",
+   "finite": {
+    "indicative": {
+     "active": {
+      "present": {
+       "1sg": [
+        "hortor"
+       ],
+       "2sg": [
+        "hortāris",
+        "hortāre"
+       ],
+       "3sg": [
+        "hortātur"
+       ],
+       "1pl": [
+        "hortāmur"
+       ],
+       "2pl": [
+        "hortāminī"
+       ],
+       "3pl": [
+        "hortantur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "hortābar"
+       ],
+       "2sg": [
+        "hortābāris",
+        "hortābāre"
+       ],
+       "3sg": [
+        "hortābātur"
+       ],
+       "1pl": [
+        "hortābāmur"
+       ],
+       "2pl": [
+        "hortābāminī"
+       ],
+       "3pl": [
+        "hortābantur"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "hortābor"
+       ],
+       "2sg": [
+        "hortāberis",
+        "hortābere"
+       ],
+       "3sg": [
+        "hortābitur"
+       ],
+       "1pl": [
+        "hortābimur"
+       ],
+       "2pl": [
+        "hortābiminī"
+       ],
+       "3pl": [
+        "hortābuntur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "hortātus sum"
+       ],
+       "2sg": [
+        "hortātus es"
+       ],
+       "3sg": [
+        "hortātus est"
+       ],
+       "1pl": [
+        "hortātus sumus"
+       ],
+       "2pl": [
+        "hortātus estis"
+       ],
+       "3pl": [
+        "hortātus sunt"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "hortātus eram"
+       ],
+       "2sg": [
+        "hortātus erās"
+       ],
+       "3sg": [
+        "hortātus erat"
+       ],
+       "1pl": [
+        "hortātus erāmus"
+       ],
+       "2pl": [
+        "hortātus erātis"
+       ],
+       "3pl": [
+        "hortātus erant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "hortātus erō"
+       ],
+       "2sg": [
+        "hortātus eris",
+        "hortātus ere"
+       ],
+       "3sg": [
+        "hortātus erit"
+       ],
+       "1pl": [
+        "hortātus erimus"
+       ],
+       "2pl": [
+        "hortātus eritis"
+       ],
+       "3pl": [
+        "hortātus erunt"
+       ]
+      }
+     }
+    },
+    "subjunctive": {
+     "active": {
+      "present": {
+       "1sg": [
+        "horter"
+       ],
+       "2sg": [
+        "hortēris",
+        "hortēre"
+       ],
+       "3sg": [
+        "hortētur"
+       ],
+       "1pl": [
+        "hortēmur"
+       ],
+       "2pl": [
+        "hortēminī"
+       ],
+       "3pl": [
+        "hortentur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "hortārer"
+       ],
+       "2sg": [
+        "hortārēris",
+        "hortārēre"
+       ],
+       "3sg": [
+        "hortārētur"
+       ],
+       "1pl": [
+        "hortārēmur"
+       ],
+       "2pl": [
+        "hortārēminī"
+       ],
+       "3pl": [
+        "hortārentur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "hortātus sim",
+        "hortātus siem",
+        "hortātus fuam"
+       ],
+       "2sg": [
+        "hortātus sīs",
+        "hortātus siēs",
+        "hortātus fuās"
+       ],
+       "3sg": [
+        "hortātus sit",
+        "hortātus siet",
+        "hortātus fuat"
+       ],
+       "1pl": [
+        "hortātus sīmus",
+        "hortātus siēmus",
+        "hortātus fuāmus"
+       ],
+       "2pl": [
+        "hortātus sītis",
+        "hortātus siētis",
+        "hortātus fuātis"
+       ],
+       "3pl": [
+        "hortātus sint",
+        "hortātus sient",
+        "hortātus fuant"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "hortātus essem",
+        "hortātus forem"
+       ],
+       "2sg": [
+        "hortātus essēs",
+        "hortātus forēs"
+       ],
+       "3sg": [
+        "hortātus esset",
+        "hortātus foret"
+       ],
+       "1pl": [
+        "hortātus essēmus",
+        "hortātus forēmus"
+       ],
+       "2pl": [
+        "hortātus essētis",
+        "hortātus forētis"
+       ],
+       "3pl": [
+        "hortātus essent",
+        "hortātus forent"
+       ]
+      }
+     }
+    },
+    "imperative": {
+     "active": {
+      "present": {
+       "2sg": [
+        "hortāre"
+       ],
+       "2pl": [
+        "hortāminī"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "hortātor"
+       ],
+       "3sg": [
+        "hortātor"
+       ],
+       "3pl": [
+        "hortantor"
+       ]
+      }
+     }
+    }
+   },
+   "nonfinite": {
+    "infinitive": {
+     "active": {
+      "present": [
+       "hortārī",
+       "hortārier"
+      ],
+      "future": [
+       "hortātūrum esse"
+      ],
+      "perfect": [
+       "hortātum esse"
+      ],
+      "future perfect": [
+       "hortātum fore"
+      ],
+      "perfect potential": [
+       "hortātūrum fuisse"
+      ]
+     }
+    },
+    "participle": {
+     "active": {
+      "present": [
+       "hortāns"
+      ],
+      "future": [
+       "hortātūrus"
+      ],
+      "perfect": [
+       "hortātus"
+      ]
+     },
+     "passive": {
+      "future": [
+       "hortandus"
+      ]
+     }
+    },
+    "gerund": {
+     "genitive": [
+      "hortandī"
+     ],
+     "dative": [
+      "hortandō"
+     ],
+     "accusative": [
+      "hortandum"
+     ],
+     "ablative": [
+      "hortandō"
+     ]
+    },
+    "supine": {
+     "accusative": [
+      "hortātum"
+     ],
+     "ablative": [
+      "hortātū"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "sequor": {
+   "page": "sequor",
+   "category": "deponent (3rd)",
+   "title": "indicative",
+   "finite": {
+    "indicative": {
+     "active": {
+      "present": {
+       "1sg": [
+        "sequor"
+       ],
+       "2sg": [
+        "sequeris",
+        "sequere"
+       ],
+       "3sg": [
+        "sequitur"
+       ],
+       "1pl": [
+        "sequimur"
+       ],
+       "2pl": [
+        "sequiminī"
+       ],
+       "3pl": [
+        "sequuntur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "sequēbar"
+       ],
+       "2sg": [
+        "sequēbāris",
+        "sequēbāre"
+       ],
+       "3sg": [
+        "sequēbātur"
+       ],
+       "1pl": [
+        "sequēbāmur"
+       ],
+       "2pl": [
+        "sequēbāminī"
+       ],
+       "3pl": [
+        "sequēbantur"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "sequar"
+       ],
+       "2sg": [
+        "sequēris",
+        "sequēre"
+       ],
+       "3sg": [
+        "sequētur"
+       ],
+       "1pl": [
+        "sequēmur"
+       ],
+       "2pl": [
+        "sequēminī"
+       ],
+       "3pl": [
+        "sequentur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "secūtus sum",
+        "sequūtus sum"
+       ],
+       "2sg": [
+        "secūtus es",
+        "sequūtus es"
+       ],
+       "3sg": [
+        "secūtus est",
+        "sequūtus est"
+       ],
+       "1pl": [
+        "secūtus sumus",
+        "sequūtus sumus"
+       ],
+       "2pl": [
+        "secūtus estis",
+        "sequūtus estis"
+       ],
+       "3pl": [
+        "secūtus sunt",
+        "sequūtus sunt"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "secūtus eram",
+        "sequūtus eram"
+       ],
+       "2sg": [
+        "secūtus erās",
+        "sequūtus erās"
+       ],
+       "3sg": [
+        "secūtus erat",
+        "sequūtus erat"
+       ],
+       "1pl": [
+        "secūtus erāmus",
+        "sequūtus erāmus"
+       ],
+       "2pl": [
+        "secūtus erātis",
+        "sequūtus erātis"
+       ],
+       "3pl": [
+        "secūtus erant",
+        "sequūtus erant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "secūtus erō",
+        "sequūtus erō"
+       ],
+       "2sg": [
+        "secūtus eris",
+        "secūtus ere",
+        "sequūtus eris",
+        "sequūtus ere"
+       ],
+       "3sg": [
+        "secūtus erit",
+        "sequūtus erit"
+       ],
+       "1pl": [
+        "secūtus erimus",
+        "sequūtus erimus"
+       ],
+       "2pl": [
+        "secūtus eritis",
+        "sequūtus eritis"
+       ],
+       "3pl": [
+        "secūtus erunt",
+        "sequūtus erunt"
+       ]
+      }
+     }
+    },
+    "subjunctive": {
+     "active": {
+      "present": {
+       "1sg": [
+        "sequar"
+       ],
+       "2sg": [
+        "sequāris",
+        "sequāre"
+       ],
+       "3sg": [
+        "sequātur"
+       ],
+       "1pl": [
+        "sequāmur"
+       ],
+       "2pl": [
+        "sequāminī"
+       ],
+       "3pl": [
+        "sequantur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "sequerer"
+       ],
+       "2sg": [
+        "sequerēris",
+        "sequerēre"
+       ],
+       "3sg": [
+        "sequerētur"
+       ],
+       "1pl": [
+        "sequerēmur"
+       ],
+       "2pl": [
+        "sequerēminī"
+       ],
+       "3pl": [
+        "sequerentur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "secūtus sim",
+        "secūtus siem",
+        "secūtus fuam",
+        "sequūtus sim",
+        "sequūtus siem",
+        "sequūtus fuam"
+       ],
+       "2sg": [
+        "secūtus sīs",
+        "secūtus siēs",
+        "secūtus fuās",
+        "sequūtus sīs",
+        "sequūtus siēs",
+        "sequūtus fuās"
+       ],
+       "3sg": [
+        "secūtus sit",
+        "secūtus siet",
+        "secūtus fuat",
+        "sequūtus sit",
+        "sequūtus siet",
+        "sequūtus fuat"
+       ],
+       "1pl": [
+        "secūtus sīmus",
+        "secūtus siēmus",
+        "secūtus fuāmus",
+        "sequūtus sīmus",
+        "sequūtus siēmus",
+        "sequūtus fuāmus"
+       ],
+       "2pl": [
+        "secūtus sītis",
+        "secūtus siētis",
+        "secūtus fuātis",
+        "sequūtus sītis",
+        "sequūtus siētis",
+        "sequūtus fuātis"
+       ],
+       "3pl": [
+        "secūtus sint",
+        "secūtus sient",
+        "secūtus fuant",
+        "sequūtus sint",
+        "sequūtus sient",
+        "sequūtus fuant"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "secūtus essem",
+        "secūtus forem",
+        "sequūtus essem",
+        "sequūtus forem"
+       ],
+       "2sg": [
+        "secūtus essēs",
+        "secūtus forēs",
+        "sequūtus essēs",
+        "sequūtus forēs"
+       ],
+       "3sg": [
+        "secūtus esset",
+        "secūtus foret",
+        "sequūtus esset",
+        "sequūtus foret"
+       ],
+       "1pl": [
+        "secūtus essēmus",
+        "secūtus forēmus",
+        "sequūtus essēmus",
+        "sequūtus forēmus"
+       ],
+       "2pl": [
+        "secūtus essētis",
+        "secūtus forētis",
+        "sequūtus essētis",
+        "sequūtus forētis"
+       ],
+       "3pl": [
+        "secūtus essent",
+        "secūtus forent",
+        "sequūtus essent",
+        "sequūtus forent"
+       ]
+      }
+     }
+    },
+    "imperative": {
+     "active": {
+      "present": {
+       "2sg": [
+        "sequere"
+       ],
+       "2pl": [
+        "sequiminī"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "sequitor"
+       ],
+       "3sg": [
+        "sequitor"
+       ],
+       "3pl": [
+        "sequuntor"
+       ]
+      }
+     }
+    }
+   },
+   "nonfinite": {
+    "infinitive": {
+     "active": {
+      "present": [
+       "sequī"
+      ],
+      "future": [
+       "secūtūrum esse",
+       "sequūtūrum esse"
+      ],
+      "perfect": [
+       "secūtum esse",
+       "sequūtum esse"
+      ],
+      "future perfect": [
+       "secūtum fore",
+       "sequūtum fore"
+      ],
+      "perfect potential": [
+       "secūtūrum fuisse",
+       "sequūtūrum fuisse"
+      ]
+     }
+    },
+    "participle": {
+     "active": {
+      "present": [
+       "sequēns"
+      ],
+      "future": [
+       "secūtūrus",
+       "sequūtūrus"
+      ],
+      "perfect": [
+       "secūtus",
+       "sequūtus"
+      ]
+     },
+     "passive": {
+      "future": [
+       "sequendus"
+      ]
+     }
+    },
+    "gerund": {
+     "genitive": [
+      "sequendī"
+     ],
+     "dative": [
+      "sequendō"
+     ],
+     "accusative": [
+      "sequendum"
+     ],
+     "ablative": [
+      "sequendō"
+     ]
+    },
+    "supine": {
+     "accusative": [
+      "secūtum",
+      "sequūtum"
+     ],
+     "ablative": [
+      "secūtū",
+      "sequūtū"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "sum": {
+   "page": "sum",
+   "category": "irregular",
+   "title": "indicative",
+   "finite": {
+    "indicative": {
+     "active": {
+      "present": {
+       "1sg": [
+        "sum"
+       ],
+       "2sg": [
+        "es"
+       ],
+       "3sg": [
+        "est"
+       ],
+       "1pl": [
+        "sumus"
+       ],
+       "2pl": [
+        "estis"
+       ],
+       "3pl": [
+        "sunt"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "eram"
+       ],
+       "2sg": [
+        "erās"
+       ],
+       "3sg": [
+        "erat"
+       ],
+       "1pl": [
+        "erāmus"
+       ],
+       "2pl": [
+        "erātis"
+       ],
+       "3pl": [
+        "erant"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "erō"
+       ],
+       "2sg": [
+        "eris",
+        "ere"
+       ],
+       "3sg": [
+        "erit"
+       ],
+       "1pl": [
+        "erimus"
+       ],
+       "2pl": [
+        "eritis"
+       ],
+       "3pl": [
+        "erunt"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "fuī"
+       ],
+       "2sg": [
+        "fuistī"
+       ],
+       "3sg": [
+        "fuit"
+       ],
+       "1pl": [
+        "fuimus"
+       ],
+       "2pl": [
+        "fuistis"
+       ],
+       "3pl": [
+        "fuērunt",
+        "fuēre"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "fueram"
+       ],
+       "2sg": [
+        "fuerās"
+       ],
+       "3sg": [
+        "fuerat"
+       ],
+       "1pl": [
+        "fuerāmus"
+       ],
+       "2pl": [
+        "fuerātis"
+       ],
+       "3pl": [
+        "fuerant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "fuerō"
+       ],
+       "2sg": [
+        "fueris"
+       ],
+       "3sg": [
+        "fuerit"
+       ],
+       "1pl": [
+        "fuerimus"
+       ],
+       "2pl": [
+        "fueritis"
+       ],
+       "3pl": [
+        "fuerint"
+       ]
+      }
+     }
+    },
+    "subjunctive": {
+     "active": {
+      "present": {
+       "1sg": [
+        "sim",
+        "siem",
+        "fuam"
+       ],
+       "2sg": [
+        "sīs",
+        "siēs",
+        "fuās"
+       ],
+       "3sg": [
+        "sit",
+        "siet",
+        "fuat"
+       ],
+       "1pl": [
+        "sīmus",
+        "siēmus",
+        "fuāmus"
+       ],
+       "2pl": [
+        "sītis",
+        "siētis",
+        "fuātis"
+       ],
+       "3pl": [
+        "sint",
+        "sient",
+        "fuant"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "essem",
+        "forem"
+       ],
+       "2sg": [
+        "essēs",
+        "forēs"
+       ],
+       "3sg": [
+        "esset",
+        "foret"
+       ],
+       "1pl": [
+        "essēmus",
+        "forēmus"
+       ],
+       "2pl": [
+        "essētis",
+        "forētis"
+       ],
+       "3pl": [
+        "essent",
+        "forent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "fuerim"
+       ],
+       "2sg": [
+        "fuerīs"
+       ],
+       "3sg": [
+        "fuerit"
+       ],
+       "1pl": [
+        "fuerīmus"
+       ],
+       "2pl": [
+        "fuerītis"
+       ],
+       "3pl": [
+        "fuerint"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "fuissem"
+       ],
+       "2sg": [
+        "fuissēs"
+       ],
+       "3sg": [
+        "fuisset"
+       ],
+       "1pl": [
+        "fuissēmus"
+       ],
+       "2pl": [
+        "fuissētis"
+       ],
+       "3pl": [
+        "fuissent"
+       ]
+      }
+     }
+    },
+    "imperative": {
+     "active": {
+      "present": {
+       "2sg": [
+        "es"
+       ],
+       "2pl": [
+        "este"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "estō"
+       ],
+       "3sg": [
+        "estō"
+       ],
+       "2pl": [
+        "estōte"
+       ],
+       "3pl": [
+        "suntō"
+       ]
+      }
+     }
+    }
+   },
+   "nonfinite": {
+    "infinitive": {
+     "active": {
+      "present": [
+       "esse"
+      ],
+      "future": [
+       "futūrum esse",
+       "fore"
+      ],
+      "perfect": [
+       "fuisse"
+      ],
+      "perfect potential": [
+       "futūrum fuisse"
+      ]
+     }
+    },
+    "participle": {
+     "active": {
+      "future": [
+       "futūrus"
+      ]
+     }
+    }
+   },
+   "unparsed": []
+  },
+  "possum": {
+   "page": "possum",
+   "category": "irregular",
+   "title": "indicative",
+   "finite": {
+    "indicative": {
+     "active": {
+      "present": {
+       "1sg": [
+        "possum"
+       ],
+       "2sg": [
+        "potes"
+       ],
+       "3sg": [
+        "potest"
+       ],
+       "1pl": [
+        "possumus"
+       ],
+       "2pl": [
+        "potestis"
+       ],
+       "3pl": [
+        "possunt"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "poteram"
+       ],
+       "2sg": [
+        "poterās"
+       ],
+       "3sg": [
+        "poterat"
+       ],
+       "1pl": [
+        "poterāmus"
+       ],
+       "2pl": [
+        "poterātis"
+       ],
+       "3pl": [
+        "poterant"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "poterō"
+       ],
+       "2sg": [
+        "poteris",
+        "potere"
+       ],
+       "3sg": [
+        "poterit"
+       ],
+       "1pl": [
+        "poterimus"
+       ],
+       "2pl": [
+        "poteritis"
+       ],
+       "3pl": [
+        "poterunt"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "potuī"
+       ],
+       "2sg": [
+        "potuistī"
+       ],
+       "3sg": [
+        "potuit"
+       ],
+       "1pl": [
+        "potuimus"
+       ],
+       "2pl": [
+        "potuistis"
+       ],
+       "3pl": [
+        "potuērunt",
+        "potuēre"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "potueram"
+       ],
+       "2sg": [
+        "potuerās"
+       ],
+       "3sg": [
+        "potuerat"
+       ],
+       "1pl": [
+        "potuerāmus"
+       ],
+       "2pl": [
+        "potuerātis"
+       ],
+       "3pl": [
+        "potuerant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "potuerō"
+       ],
+       "2sg": [
+        "potueris"
+       ],
+       "3sg": [
+        "potuerit"
+       ],
+       "1pl": [
+        "potuerimus"
+       ],
+       "2pl": [
+        "potueritis"
+       ],
+       "3pl": [
+        "potuerint"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "3sg": [
+        "potestur"
+       ]
+      },
+      "imperfect": {
+       "3sg": [
+        "poterātur"
+       ]
+      },
+      "future": {
+       "3sg": [
+        "poteritur"
+       ]
+      }
+     }
+    },
+    "subjunctive": {
+     "active": {
+      "present": {
+       "1sg": [
+        "possim"
+       ],
+       "2sg": [
+        "possīs"
+       ],
+       "3sg": [
+        "possit"
+       ],
+       "1pl": [
+        "possīmus"
+       ],
+       "2pl": [
+        "possītis"
+       ],
+       "3pl": [
+        "possint"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "possem"
+       ],
+       "2sg": [
+        "possēs"
+       ],
+       "3sg": [
+        "posset"
+       ],
+       "1pl": [
+        "possēmus"
+       ],
+       "2pl": [
+        "possētis"
+       ],
+       "3pl": [
+        "possent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "potuerim"
+       ],
+       "2sg": [
+        "potuerīs"
+       ],
+       "3sg": [
+        "potuerit"
+       ],
+       "1pl": [
+        "potuerīmus"
+       ],
+       "2pl": [
+        "potuerītis"
+       ],
+       "3pl": [
+        "potuerint"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "potuissem"
+       ],
+       "2sg": [
+        "potuissēs"
+       ],
+       "3sg": [
+        "potuisset"
+       ],
+       "1pl": [
+        "potuissēmus"
+       ],
+       "2pl": [
+        "potuissētis"
+       ],
+       "3pl": [
+        "potuissent"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "3sg": [
+        "possītur"
+       ]
+      },
+      "imperfect": {
+       "3sg": [
+        "possētur"
+       ]
+      }
+     }
+    }
+   },
+   "nonfinite": {
+    "infinitive": {
+     "active": {
+      "present": [
+       "posse",
+       "potesse"
+      ],
+      "perfect": [
+       "potuisse"
+      ]
+     }
+    },
+    "participle": {
+     "active": {
+      "present": [
+       "potēns"
+      ]
+     }
+    }
+   },
+   "unparsed": []
+  },
+  "eo": {
+   "page": "eo",
+   "category": "irregular",
+   "title": "indicative",
+   "finite": {
+    "indicative": {
+     "active": {
+      "present": {
+       "1sg": [
+        "eō"
+       ],
+       "2sg": [
+        "īs"
+       ],
+       "3sg": [
+        "it"
+       ],
+       "1pl": [
+        "īmus"
+       ],
+       "2pl": [
+        "ītis"
+       ],
+       "3pl": [
+        "eunt"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "ībam"
+       ],
+       "2sg": [
+        "ībās"
+       ],
+       "3sg": [
+        "ībat"
+       ],
+       "1pl": [
+        "ībāmus"
+       ],
+       "2pl": [
+        "ībātis"
+       ],
+       "3pl": [
+        "ībant"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "ībō"
+       ],
+       "2sg": [
+        "ībis"
+       ],
+       "3sg": [
+        "ībit"
+       ],
+       "1pl": [
+        "ībimus"
+       ],
+       "2pl": [
+        "ībitis"
+       ],
+       "3pl": [
+        "ībunt"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "iī",
+        "īvī"
+       ],
+       "2sg": [
+        "īstī",
+        "iistī",
+        "īvistī"
+       ],
+       "3sg": [
+        "iit",
+        "īvit"
+       ],
+       "1pl": [
+        "iimus",
+        "īvimus"
+       ],
+       "2pl": [
+        "īstis",
+        "iistis",
+        "īvistis"
+       ],
+       "3pl": [
+        "iērunt",
+        "iēre",
+        "īvērunt",
+        "īvēre"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "ieram",
+        "īveram"
+       ],
+       "2sg": [
+        "ierās",
+        "īverās"
+       ],
+       "3sg": [
+        "ierat",
+        "īverat"
+       ],
+       "1pl": [
+        "ierāmus",
+        "īverāmus"
+       ],
+       "2pl": [
+        "ierātis",
+        "īverātis"
+       ],
+       "3pl": [
+        "ierant",
+        "īverant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "ierō",
+        "īverō"
+       ],
+       "2sg": [
+        "ieris",
+        "īveris"
+       ],
+       "3sg": [
+        "ierit",
+        "īverit"
+       ],
+       "1pl": [
+        "ierimus",
+        "īverimus"
+       ],
+       "2pl": [
+        "ieritis",
+        "īveritis"
+       ],
+       "3pl": [
+        "ierint",
+        "īverint"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "3sg": [
+        "ītur"
+       ]
+      },
+      "imperfect": {
+       "3sg": [
+        "ībātur"
+       ]
+      },
+      "future": {
+       "3sg": [
+        "ībitur"
+       ]
+      },
+      "perfect": {
+       "3sg": [
+        "itum est"
+       ]
+      },
+      "pluperfect": {
+       "3sg": [
+        "itum erat"
+       ]
+      },
+      "future perfect": {
+       "3sg": [
+        "itum erit"
+       ]
+      }
+     }
+    },
+    "subjunctive": {
+     "active": {
+      "present": {
+       "1sg": [
+        "eam"
+       ],
+       "2sg": [
+        "eās"
+       ],
+       "3sg": [
+        "eat"
+       ],
+       "1pl": [
+        "eāmus"
+       ],
+       "2pl": [
+        "eātis"
+       ],
+       "3pl": [
+        "eant"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "īrem"
+       ],
+       "2sg": [
+        "īrēs"
+       ],
+       "3sg": [
+        "īret"
+       ],
+       "1pl": [
+        "īrēmus"
+       ],
+       "2pl": [
+        "īrētis"
+       ],
+       "3pl": [
+        "īrent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "ierim",
+        "īverim"
+       ],
+       "2sg": [
+        "ierīs",
+        "īverīs"
+       ],
+       "3sg": [
+        "ierit",
+        "īverit"
+       ],
+       "1pl": [
+        "ierīmus",
+        "īverīmus"
+       ],
+       "2pl": [
+        "ierītis",
+        "īverītis"
+       ],
+       "3pl": [
+        "ierint",
+        "īverint"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "īssem",
+        "iissem",
+        "īvissem"
+       ],
+       "2sg": [
+        "īssēs",
+        "iissēs",
+        "īvissēs"
+       ],
+       "3sg": [
+        "īsset",
+        "iisset",
+        "īvisset"
+       ],
+       "1pl": [
+        "īssēmus",
+        "iissēmus",
+        "īvissēmus"
+       ],
+       "2pl": [
+        "īssētis",
+        "iissētis",
+        "īvissētis"
+       ],
+       "3pl": [
+        "īssent",
+        "iissent",
+        "īvissent"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "3sg": [
+        "eātur"
+       ]
+      },
+      "imperfect": {
+       "3sg": [
+        "īrētur"
+       ]
+      },
+      "perfect": {
+       "3sg": [
+        "itum sit"
+       ]
+      },
+      "pluperfect": {
+       "3sg": [
+        "itum esset"
+       ]
+      }
+     }
+    },
+    "imperative": {
+     "active": {
+      "present": {
+       "2sg": [
+        "ī"
+       ],
+       "2pl": [
+        "īte"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "ītō"
+       ],
+       "3sg": [
+        "ītō"
+       ],
+       "2pl": [
+        "ītōte"
+       ],
+       "3pl": [
+        "euntō"
+       ]
+      }
+     },
+     "passive": {
+      "future": {
+       "3sg": [
+        "ītor"
+       ]
+      }
+     }
+    }
+   },
+   "nonfinite": {
+    "infinitive": {
+     "active": {
+      "present": [
+       "īre"
+      ],
+      "future": [
+       "itūrum esse"
+      ],
+      "perfect": [
+       "īsse",
+       "iisse",
+       "īvisse"
+      ],
+      "perfect potential": [
+       "itūrum fuisse"
+      ]
+     },
+     "passive": {
+      "present": [
+       "īrī",
+       "īrier"
+      ],
+      "future": [
+       "itum īrī"
+      ],
+      "perfect": [
+       "itum esse"
+      ],
+      "future perfect": [
+       "itum fore"
+      ]
+     }
+    },
+    "participle": {
+     "active": {
+      "present": [
+       "iēns"
+      ],
+      "future": [
+       "itūrus"
+      ]
+     },
+     "passive": {
+      "future": [
+       "eundum"
+      ],
+      "perfect": [
+       "itum"
+      ]
+     }
+    },
+    "gerund": {
+     "genitive": [
+      "eundī"
+     ],
+     "dative": [
+      "eundō"
+     ],
+     "accusative": [
+      "eundum"
+     ],
+     "ablative": [
+      "eundō"
+     ]
+    },
+    "supine": {
+     "accusative": [
+      "itum"
+     ],
+     "ablative": [
+      "itū"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "fero": {
+   "page": "fero",
+   "category": "irregular",
+   "title": "indicative",
+   "finite": {
+    "indicative": {
+     "active": {
+      "present": {
+       "1sg": [
+        "ferō"
+       ],
+       "2sg": [
+        "fers"
+       ],
+       "3sg": [
+        "fert"
+       ],
+       "1pl": [
+        "ferimus"
+       ],
+       "2pl": [
+        "fertis"
+       ],
+       "3pl": [
+        "ferunt"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "ferēbam"
+       ],
+       "2sg": [
+        "ferēbās"
+       ],
+       "3sg": [
+        "ferēbat"
+       ],
+       "1pl": [
+        "ferēbāmus"
+       ],
+       "2pl": [
+        "ferēbātis"
+       ],
+       "3pl": [
+        "ferēbant"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "feram"
+       ],
+       "2sg": [
+        "ferēs"
+       ],
+       "3sg": [
+        "feret"
+       ],
+       "1pl": [
+        "ferēmus"
+       ],
+       "2pl": [
+        "ferētis"
+       ],
+       "3pl": [
+        "ferent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "tulī",
+        "tetulī"
+       ],
+       "2sg": [
+        "tulistī",
+        "tetulistī"
+       ],
+       "3sg": [
+        "tulit",
+        "tetulit"
+       ],
+       "1pl": [
+        "tulimus",
+        "tetulimus"
+       ],
+       "2pl": [
+        "tulistis",
+        "tetulistis"
+       ],
+       "3pl": [
+        "tulērunt",
+        "tulēre",
+        "tetulērunt",
+        "tetulēre"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "tuleram",
+        "tetuleram"
+       ],
+       "2sg": [
+        "tulerās",
+        "tetulerās"
+       ],
+       "3sg": [
+        "tulerat",
+        "tetulerat"
+       ],
+       "1pl": [
+        "tulerāmus",
+        "tetulerāmus"
+       ],
+       "2pl": [
+        "tulerātis",
+        "tetulerātis"
+       ],
+       "3pl": [
+        "tulerant",
+        "tetulerant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "tulerō",
+        "tetulerō"
+       ],
+       "2sg": [
+        "tuleris",
+        "tetuleris"
+       ],
+       "3sg": [
+        "tulerit",
+        "tetulerit"
+       ],
+       "1pl": [
+        "tulerimus",
+        "tetulerimus"
+       ],
+       "2pl": [
+        "tuleritis",
+        "tetuleritis"
+       ],
+       "3pl": [
+        "tulerint",
+        "tetulerint"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "1sg": [
+        "feror"
+       ],
+       "2sg": [
+        "ferris",
+        "ferre"
+       ],
+       "3sg": [
+        "fertur"
+       ],
+       "1pl": [
+        "ferimur"
+       ],
+       "2pl": [
+        "feriminī"
+       ],
+       "3pl": [
+        "feruntur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "ferēbar"
+       ],
+       "2sg": [
+        "ferēbāris",
+        "ferēbāre"
+       ],
+       "3sg": [
+        "ferēbātur"
+       ],
+       "1pl": [
+        "ferēbāmur"
+       ],
+       "2pl": [
+        "ferēbāminī"
+       ],
+       "3pl": [
+        "ferēbantur"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "ferar"
+       ],
+       "2sg": [
+        "ferēris",
+        "ferēre"
+       ],
+       "3sg": [
+        "ferētur"
+       ],
+       "1pl": [
+        "ferēmur"
+       ],
+       "2pl": [
+        "ferēminī"
+       ],
+       "3pl": [
+        "ferentur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "lātus sum"
+       ],
+       "2sg": [
+        "lātus es"
+       ],
+       "3sg": [
+        "lātus est"
+       ],
+       "1pl": [
+        "lātus sumus"
+       ],
+       "2pl": [
+        "lātus estis"
+       ],
+       "3pl": [
+        "lātus sunt"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "lātus eram"
+       ],
+       "2sg": [
+        "lātus erās"
+       ],
+       "3sg": [
+        "lātus erat"
+       ],
+       "1pl": [
+        "lātus erāmus"
+       ],
+       "2pl": [
+        "lātus erātis"
+       ],
+       "3pl": [
+        "lātus erant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "lātus erō"
+       ],
+       "2sg": [
+        "lātus eris",
+        "lātus ere"
+       ],
+       "3sg": [
+        "lātus erit"
+       ],
+       "1pl": [
+        "lātus erimus"
+       ],
+       "2pl": [
+        "lātus eritis"
+       ],
+       "3pl": [
+        "lātus erunt"
+       ]
+      }
+     }
+    },
+    "subjunctive": {
+     "active": {
+      "present": {
+       "1sg": [
+        "feram"
+       ],
+       "2sg": [
+        "ferās"
+       ],
+       "3sg": [
+        "ferat"
+       ],
+       "1pl": [
+        "ferāmus"
+       ],
+       "2pl": [
+        "ferātis"
+       ],
+       "3pl": [
+        "ferant"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "ferrem"
+       ],
+       "2sg": [
+        "ferrēs"
+       ],
+       "3sg": [
+        "ferret"
+       ],
+       "1pl": [
+        "ferrēmus"
+       ],
+       "2pl": [
+        "ferrētis"
+       ],
+       "3pl": [
+        "ferrent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "tulerim",
+        "tetulerim"
+       ],
+       "2sg": [
+        "tulerīs",
+        "tetulerīs"
+       ],
+       "3sg": [
+        "tulerit",
+        "tetulerit"
+       ],
+       "1pl": [
+        "tulerīmus",
+        "tetulerīmus"
+       ],
+       "2pl": [
+        "tulerītis",
+        "tetulerītis"
+       ],
+       "3pl": [
+        "tulerint",
+        "tetulerint"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "tulissem",
+        "tetulissem"
+       ],
+       "2sg": [
+        "tulissēs",
+        "tetulissēs"
+       ],
+       "3sg": [
+        "tulisset",
+        "tetulisset"
+       ],
+       "1pl": [
+        "tulissēmus",
+        "tetulissēmus"
+       ],
+       "2pl": [
+        "tulissētis",
+        "tetulissētis"
+       ],
+       "3pl": [
+        "tulissent",
+        "tetulissent"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "1sg": [
+        "ferar"
+       ],
+       "2sg": [
+        "ferāris",
+        "ferāre"
+       ],
+       "3sg": [
+        "ferātur"
+       ],
+       "1pl": [
+        "ferāmur"
+       ],
+       "2pl": [
+        "ferāminī"
+       ],
+       "3pl": [
+        "ferantur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "ferrer"
+       ],
+       "2sg": [
+        "ferrēris",
+        "ferrēre"
+       ],
+       "3sg": [
+        "ferrētur"
+       ],
+       "1pl": [
+        "ferrēmur"
+       ],
+       "2pl": [
+        "ferrēminī"
+       ],
+       "3pl": [
+        "ferrentur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "lātus sim",
+        "lātus siem",
+        "lātus fuam"
+       ],
+       "2sg": [
+        "lātus sīs",
+        "lātus siēs",
+        "lātus fuās"
+       ],
+       "3sg": [
+        "lātus sit",
+        "lātus siet",
+        "lātus fuat"
+       ],
+       "1pl": [
+        "lātus sīmus",
+        "lātus siēmus",
+        "lātus fuāmus"
+       ],
+       "2pl": [
+        "lātus sītis",
+        "lātus siētis",
+        "lātus fuātis"
+       ],
+       "3pl": [
+        "lātus sint",
+        "lātus sient",
+        "lātus fuant"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "lātus essem",
+        "lātus forem"
+       ],
+       "2sg": [
+        "lātus essēs",
+        "lātus forēs"
+       ],
+       "3sg": [
+        "lātus esset",
+        "lātus foret"
+       ],
+       "1pl": [
+        "lātus essēmus",
+        "lātus forēmus"
+       ],
+       "2pl": [
+        "lātus essētis",
+        "lātus forētis"
+       ],
+       "3pl": [
+        "lātus essent",
+        "lātus forent"
+       ]
+      }
+     }
+    },
+    "imperative": {
+     "active": {
+      "present": {
+       "2sg": [
+        "fer"
+       ],
+       "2pl": [
+        "ferte"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "fertō"
+       ],
+       "3sg": [
+        "fertō"
+       ],
+       "2pl": [
+        "fertōte"
+       ],
+       "3pl": [
+        "feruntō"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "2sg": [
+        "ferre"
+       ],
+       "2pl": [
+        "feriminī"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "fertor"
+       ],
+       "3sg": [
+        "fertor"
+       ],
+       "3pl": [
+        "feruntor"
+       ]
+      }
+     }
+    }
+   },
+   "nonfinite": {
+    "infinitive": {
+     "active": {
+      "present": [
+       "ferre"
+      ],
+      "future": [
+       "lātūrum esse"
+      ],
+      "perfect": [
+       "tulisse",
+       "tetulisse"
+      ],
+      "perfect potential": [
+       "lātūrum fuisse"
+      ]
+     },
+     "passive": {
+      "present": [
+       "ferrī"
+      ],
+      "future": [
+       "lātum īrī"
+      ],
+      "perfect": [
+       "lātum esse"
+      ],
+      "future perfect": [
+       "lātum fore"
+      ]
+     }
+    },
+    "participle": {
+     "active": {
+      "present": [
+       "ferēns"
+      ],
+      "future": [
+       "lātūrus"
+      ]
+     },
+     "passive": {
+      "future": [
+       "ferendus",
+       "ferundus"
+      ],
+      "perfect": [
+       "lātus"
+      ]
+     }
+    },
+    "gerund": {
+     "genitive": [
+      "ferendī"
+     ],
+     "dative": [
+      "ferendō"
+     ],
+     "accusative": [
+      "ferendum"
+     ],
+     "ablative": [
+      "ferendō"
+     ]
+    },
+    "supine": {
+     "accusative": [
+      "lātum"
+     ],
+     "ablative": [
+      "lātū"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "volo": {
+   "page": "volo",
+   "category": "irregular",
+   "title": "indicative",
+   "finite": {
+    "indicative": {
+     "active": {
+      "present": {
+       "1sg": [
+        "volō"
+       ],
+       "2sg": [
+        "vīs"
+       ],
+       "3sg": [
+        "vult",
+        "volt"
+       ],
+       "1pl": [
+        "volumus"
+       ],
+       "2pl": [
+        "vultis",
+        "voltis"
+       ],
+       "3pl": [
+        "volunt"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "volēbam"
+       ],
+       "2sg": [
+        "volēbās"
+       ],
+       "3sg": [
+        "volēbat"
+       ],
+       "1pl": [
+        "volēbāmus"
+       ],
+       "2pl": [
+        "volēbātis"
+       ],
+       "3pl": [
+        "volēbant"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "volam"
+       ],
+       "2sg": [
+        "volēs"
+       ],
+       "3sg": [
+        "volet"
+       ],
+       "1pl": [
+        "volēmus"
+       ],
+       "2pl": [
+        "volētis"
+       ],
+       "3pl": [
+        "volent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "voluī"
+       ],
+       "2sg": [
+        "voluistī"
+       ],
+       "3sg": [
+        "voluit"
+       ],
+       "1pl": [
+        "voluimus"
+       ],
+       "2pl": [
+        "voluistis"
+       ],
+       "3pl": [
+        "voluērunt",
+        "voluēre"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "volueram"
+       ],
+       "2sg": [
+        "voluerās"
+       ],
+       "3sg": [
+        "voluerat"
+       ],
+       "1pl": [
+        "voluerāmus"
+       ],
+       "2pl": [
+        "voluerātis"
+       ],
+       "3pl": [
+        "voluerant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "voluerō"
+       ],
+       "2sg": [
+        "volueris"
+       ],
+       "3sg": [
+        "voluerit"
+       ],
+       "1pl": [
+        "voluerimus"
+       ],
+       "2pl": [
+        "volueritis"
+       ],
+       "3pl": [
+        "voluerint"
+       ]
+      }
+     }
+    },
+    "subjunctive": {
+     "active": {
+      "present": {
+       "1sg": [
+        "velim",
+        "volim"
+       ],
+       "2sg": [
+        "velīs",
+        "volīs"
+       ],
+       "3sg": [
+        "velit",
+        "volit"
+       ],
+       "1pl": [
+        "velīmus",
+        "volīmus"
+       ],
+       "2pl": [
+        "velītis",
+        "volītis"
+       ],
+       "3pl": [
+        "velint",
+        "volint"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "vellem"
+       ],
+       "2sg": [
+        "vellēs"
+       ],
+       "3sg": [
+        "vellet"
+       ],
+       "1pl": [
+        "vellēmus"
+       ],
+       "2pl": [
+        "vellētis"
+       ],
+       "3pl": [
+        "vellent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "voluerim"
+       ],
+       "2sg": [
+        "voluerīs"
+       ],
+       "3sg": [
+        "voluerit"
+       ],
+       "1pl": [
+        "voluerīmus"
+       ],
+       "2pl": [
+        "voluerītis"
+       ],
+       "3pl": [
+        "voluerint"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "voluissem"
+       ],
+       "2sg": [
+        "voluissēs"
+       ],
+       "3sg": [
+        "voluisset"
+       ],
+       "1pl": [
+        "voluissēmus"
+       ],
+       "2pl": [
+        "voluissētis"
+       ],
+       "3pl": [
+        "voluissent"
+       ]
+      }
+     }
+    }
+   },
+   "nonfinite": {
+    "infinitive": {
+     "active": {
+      "present": [
+       "velle"
+      ],
+      "future": [
+       "volitūrum esse"
+      ],
+      "perfect": [
+       "voluisse"
+      ],
+      "perfect potential": [
+       "volitūrum fuisse"
+      ]
+     }
+    },
+    "participle": {
+     "active": {
+      "present": [
+       "volēns"
+      ],
+      "future": [
+       "volitūrus"
+      ]
+     }
+    }
+   },
+   "unparsed": []
+  },
+  "nolo": {
+   "page": "nolo",
+   "category": "irregular",
+   "title": "indicative",
+   "finite": {
+    "indicative": {
+     "active": {
+      "present": {
+       "1sg": [
+        "nōlō"
+       ],
+       "2sg": [
+        "nōn vīs",
+        "nevīs"
+       ],
+       "3sg": [
+        "nōn vult",
+        "nōn volt",
+        "nevolt"
+       ],
+       "1pl": [
+        "nōlumus"
+       ],
+       "2pl": [
+        "nōn vultis",
+        "nōn voltis",
+        "nōltis"
+       ],
+       "3pl": [
+        "nōlunt"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "nōlēbam"
+       ],
+       "2sg": [
+        "nōlēbās"
+       ],
+       "3sg": [
+        "nōlēbat"
+       ],
+       "1pl": [
+        "nōlēbāmus"
+       ],
+       "2pl": [
+        "nōlēbātis"
+       ],
+       "3pl": [
+        "nōlēbant"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "nōlam"
+       ],
+       "2sg": [
+        "nōlēs"
+       ],
+       "3sg": [
+        "nōlet"
+       ],
+       "1pl": [
+        "nōlēmus"
+       ],
+       "2pl": [
+        "nōlētis"
+       ],
+       "3pl": [
+        "nōlent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "nōluī"
+       ],
+       "2sg": [
+        "nōluistī"
+       ],
+       "3sg": [
+        "nōluit"
+       ],
+       "1pl": [
+        "nōluimus"
+       ],
+       "2pl": [
+        "nōluistis"
+       ],
+       "3pl": [
+        "nōluērunt",
+        "nōluēre"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "nōlueram"
+       ],
+       "2sg": [
+        "nōluerās"
+       ],
+       "3sg": [
+        "nōluerat"
+       ],
+       "1pl": [
+        "nōluerāmus"
+       ],
+       "2pl": [
+        "nōluerātis"
+       ],
+       "3pl": [
+        "nōluerant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "nōluerō"
+       ],
+       "2sg": [
+        "nōlueris"
+       ],
+       "3sg": [
+        "nōluerit"
+       ],
+       "1pl": [
+        "nōluerimus"
+       ],
+       "2pl": [
+        "nōlueritis"
+       ],
+       "3pl": [
+        "nōluerint"
+       ]
+      }
+     }
+    },
+    "subjunctive": {
+     "active": {
+      "present": {
+       "1sg": [
+        "nōlim"
+       ],
+       "2sg": [
+        "nōlīs"
+       ],
+       "3sg": [
+        "nōlit"
+       ],
+       "1pl": [
+        "nōlīmus"
+       ],
+       "2pl": [
+        "nōlītis"
+       ],
+       "3pl": [
+        "nōlint"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "nōllem"
+       ],
+       "2sg": [
+        "nōllēs"
+       ],
+       "3sg": [
+        "nōllet"
+       ],
+       "1pl": [
+        "nōllēmus"
+       ],
+       "2pl": [
+        "nōllētis"
+       ],
+       "3pl": [
+        "nōllent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "nōluerim"
+       ],
+       "2sg": [
+        "nōluerīs"
+       ],
+       "3sg": [
+        "nōluerit"
+       ],
+       "1pl": [
+        "nōluerīmus"
+       ],
+       "2pl": [
+        "nōluerītis"
+       ],
+       "3pl": [
+        "nōluerint"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "nōluissem"
+       ],
+       "2sg": [
+        "nōluissēs"
+       ],
+       "3sg": [
+        "nōluisset"
+       ],
+       "1pl": [
+        "nōluissēmus"
+       ],
+       "2pl": [
+        "nōluissētis"
+       ],
+       "3pl": [
+        "nōluissent"
+       ]
+      }
+     }
+    },
+    "imperative": {
+     "active": {
+      "present": {
+       "2sg": [
+        "nōlī"
+       ],
+       "2pl": [
+        "nōlīte"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "nōlitō"
+       ],
+       "3sg": [
+        "nōlitō"
+       ],
+       "2pl": [
+        "nōlitōte"
+       ],
+       "3pl": [
+        "nōluntō"
+       ]
+      }
+     }
+    }
+   },
+   "nonfinite": {
+    "infinitive": {
+     "active": {
+      "present": [
+       "nōlle"
+      ],
+      "perfect": [
+       "nōluisse"
+      ]
+     }
+    },
+    "participle": {
+     "active": {
+      "present": [
+       "nōlēns"
+      ]
+     }
+    }
+   },
+   "unparsed": []
+  },
+  "malo": {
+   "page": "malo",
+   "category": "irregular",
+   "title": "indicative",
+   "finite": {
+    "indicative": {
+     "active": {
+      "present": {
+       "1sg": [
+        "mālō"
+       ],
+       "2sg": [
+        "māvīs"
+       ],
+       "3sg": [
+        "māvult"
+       ],
+       "1pl": [
+        "mālumus"
+       ],
+       "2pl": [
+        "māvultis"
+       ],
+       "3pl": [
+        "mālunt"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "mālēbam"
+       ],
+       "2sg": [
+        "mālēbās"
+       ],
+       "3sg": [
+        "mālēbat"
+       ],
+       "1pl": [
+        "mālēbāmus"
+       ],
+       "2pl": [
+        "mālēbātis"
+       ],
+       "3pl": [
+        "mālēbant"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "mālam"
+       ],
+       "2sg": [
+        "mālēs"
+       ],
+       "3sg": [
+        "mālet"
+       ],
+       "1pl": [
+        "mālēmus"
+       ],
+       "2pl": [
+        "mālētis"
+       ],
+       "3pl": [
+        "mālent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "māluī"
+       ],
+       "2sg": [
+        "māluistī"
+       ],
+       "3sg": [
+        "māluit"
+       ],
+       "1pl": [
+        "māluimus"
+       ],
+       "2pl": [
+        "māluistis"
+       ],
+       "3pl": [
+        "māluērunt",
+        "māluēre"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "mālueram"
+       ],
+       "2sg": [
+        "māluerās"
+       ],
+       "3sg": [
+        "māluerat"
+       ],
+       "1pl": [
+        "māluerāmus"
+       ],
+       "2pl": [
+        "māluerātis"
+       ],
+       "3pl": [
+        "māluerant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "māluerō"
+       ],
+       "2sg": [
+        "mālueris"
+       ],
+       "3sg": [
+        "māluerit"
+       ],
+       "1pl": [
+        "māluerimus"
+       ],
+       "2pl": [
+        "mālueritis"
+       ],
+       "3pl": [
+        "māluerint"
+       ]
+      }
+     }
+    },
+    "subjunctive": {
+     "active": {
+      "present": {
+       "1sg": [
+        "mālim"
+       ],
+       "2sg": [
+        "mālīs"
+       ],
+       "3sg": [
+        "mālit"
+       ],
+       "1pl": [
+        "mālīmus"
+       ],
+       "2pl": [
+        "mālītis"
+       ],
+       "3pl": [
+        "mālint"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "māllem"
+       ],
+       "2sg": [
+        "māllēs"
+       ],
+       "3sg": [
+        "māllet"
+       ],
+       "1pl": [
+        "māllēmus"
+       ],
+       "2pl": [
+        "māllētis"
+       ],
+       "3pl": [
+        "māllent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "māluerim"
+       ],
+       "2sg": [
+        "māluerīs"
+       ],
+       "3sg": [
+        "māluerit"
+       ],
+       "1pl": [
+        "māluerīmus"
+       ],
+       "2pl": [
+        "māluerītis"
+       ],
+       "3pl": [
+        "māluerint"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "māluissem"
+       ],
+       "2sg": [
+        "māluissēs"
+       ],
+       "3sg": [
+        "māluisset"
+       ],
+       "1pl": [
+        "māluissēmus"
+       ],
+       "2pl": [
+        "māluissētis"
+       ],
+       "3pl": [
+        "māluissent"
+       ]
+      }
+     }
+    }
+   },
+   "nonfinite": {
+    "infinitive": {
+     "active": {
+      "present": [
+       "mālle"
+      ],
+      "perfect": [
+       "māluisse"
+      ]
+     }
+    },
+    "participle": {
+     "active": {
+      "present": [
+       "mālēns"
+      ]
+     }
+    }
+   },
+   "unparsed": []
+  },
+  "fio": {
+   "page": "fio",
+   "category": "irregular",
+   "title": "indicative",
+   "finite": {
+    "indicative": {
+     "active": {
+      "present": {
+       "1sg": [
+        "fīō"
+       ],
+       "2sg": [
+        "fīs"
+       ],
+       "3sg": [
+        "fit"
+       ],
+       "1pl": [
+        "fīmus"
+       ],
+       "2pl": [
+        "fītis"
+       ],
+       "3pl": [
+        "fīunt"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "fīēbam"
+       ],
+       "2sg": [
+        "fīēbās"
+       ],
+       "3sg": [
+        "fīēbat"
+       ],
+       "1pl": [
+        "fīēbāmus"
+       ],
+       "2pl": [
+        "fīēbātis"
+       ],
+       "3pl": [
+        "fīēbant"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "fīam"
+       ],
+       "2sg": [
+        "fīēs"
+       ],
+       "3sg": [
+        "fīet"
+       ],
+       "1pl": [
+        "fīēmus"
+       ],
+       "2pl": [
+        "fīētis"
+       ],
+       "3pl": [
+        "fīent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "factus sum"
+       ],
+       "2sg": [
+        "factus es"
+       ],
+       "3sg": [
+        "factus est"
+       ],
+       "1pl": [
+        "factus sumus"
+       ],
+       "2pl": [
+        "factus estis"
+       ],
+       "3pl": [
+        "factus sunt"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "factus eram"
+       ],
+       "2sg": [
+        "factus erās"
+       ],
+       "3sg": [
+        "factus erat"
+       ],
+       "1pl": [
+        "factus erāmus"
+       ],
+       "2pl": [
+        "factus erātis"
+       ],
+       "3pl": [
+        "factus erant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "factus erō"
+       ],
+       "2sg": [
+        "factus eris",
+        "factus ere"
+       ],
+       "3sg": [
+        "factus erit"
+       ],
+       "1pl": [
+        "factus erimus"
+       ],
+       "2pl": [
+        "factus eritis"
+       ],
+       "3pl": [
+        "factus erunt"
+       ]
+      }
+     }
+    },
+    "subjunctive": {
+     "active": {
+      "present": {
+       "1sg": [
+        "fīam"
+       ],
+       "2sg": [
+        "fīās"
+       ],
+       "3sg": [
+        "fīat"
+       ],
+       "1pl": [
+        "fīāmus"
+       ],
+       "2pl": [
+        "fīātis"
+       ],
+       "3pl": [
+        "fīant"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "fierem"
+       ],
+       "2sg": [
+        "fierēs"
+       ],
+       "3sg": [
+        "fieret"
+       ],
+       "1pl": [
+        "fierēmus"
+       ],
+       "2pl": [
+        "fierētis"
+       ],
+       "3pl": [
+        "fierent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "factus sim",
+        "factus siem",
+        "factus fuam"
+       ],
+       "2sg": [
+        "factus sīs",
+        "factus siēs",
+        "factus fuās"
+       ],
+       "3sg": [
+        "factus sit",
+        "factus siet",
+        "factus fuat"
+       ],
+       "1pl": [
+        "factus sīmus",
+        "factus siēmus",
+        "factus fuāmus"
+       ],
+       "2pl": [
+        "factus sītis",
+        "factus siētis",
+        "factus fuātis"
+       ],
+       "3pl": [
+        "factus sint",
+        "factus sient",
+        "factus fuant"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "factus essem",
+        "factus forem"
+       ],
+       "2sg": [
+        "factus essēs",
+        "factus forēs"
+       ],
+       "3sg": [
+        "factus esset",
+        "factus foret"
+       ],
+       "1pl": [
+        "factus essēmus",
+        "factus forēmus"
+       ],
+       "2pl": [
+        "factus essētis",
+        "factus forētis"
+       ],
+       "3pl": [
+        "factus essent",
+        "factus forent"
+       ]
+      }
+     }
+    },
+    "imperative": {
+     "active": {
+      "present": {
+       "2sg": [
+        "fī"
+       ],
+       "2pl": [
+        "fīte"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "fītō"
+       ],
+       "3sg": [
+        "fītō"
+       ],
+       "2pl": [
+        "fītōte"
+       ],
+       "3pl": [
+        "fīuntō"
+       ]
+      }
+     }
+    }
+   },
+   "nonfinite": {
+    "infinitive": {
+     "active": {
+      "present": [
+       "fierī"
+      ],
+      "future": [
+       "factum īrī"
+      ],
+      "perfect": [
+       "factum esse"
+      ],
+      "future perfect": [
+       "factum fore"
+      ]
+     }
+    },
+    "participle": {
+     "active": {
+      "present": [
+       "fīēns"
+      ],
+      "perfect": [
+       "factus"
+      ]
+     },
+     "passive": {
+      "future": [
+       "fīendus"
+      ]
+     }
+    },
+    "gerund": {
+     "genitive": [
+      "fīendī"
+     ],
+     "dative": [
+      "fīendō"
+     ],
+     "accusative": [
+      "fīendum"
+     ],
+     "ablative": [
+      "fīendō"
+     ]
+    },
+    "supine": {
+     "accusative": [
+      "factum"
+     ],
+     "ablative": [
+      "factū"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "edo": {
+   "page": "edo",
+   "category": "irregular",
+   "title": "indicative",
+   "finite": {
+    "indicative": {
+     "active": {
+      "present": {
+       "1sg": [
+        "edō"
+       ],
+       "2sg": [
+        "edis",
+        "ēs"
+       ],
+       "3sg": [
+        "edit",
+        "ēst"
+       ],
+       "1pl": [
+        "edimus"
+       ],
+       "2pl": [
+        "editis",
+        "ēstis"
+       ],
+       "3pl": [
+        "edunt"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "edēbam"
+       ],
+       "2sg": [
+        "edēbās"
+       ],
+       "3sg": [
+        "edēbat"
+       ],
+       "1pl": [
+        "edēbāmus"
+       ],
+       "2pl": [
+        "edēbātis"
+       ],
+       "3pl": [
+        "edēbant"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "edam"
+       ],
+       "2sg": [
+        "edēs"
+       ],
+       "3sg": [
+        "edet"
+       ],
+       "1pl": [
+        "edēmus"
+       ],
+       "2pl": [
+        "edētis"
+       ],
+       "3pl": [
+        "edent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "ēdī"
+       ],
+       "2sg": [
+        "ēdistī"
+       ],
+       "3sg": [
+        "ēdit"
+       ],
+       "1pl": [
+        "ēdimus"
+       ],
+       "2pl": [
+        "ēdistis"
+       ],
+       "3pl": [
+        "ēdērunt",
+        "ēdēre"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "ēderam"
+       ],
+       "2sg": [
+        "ēderās"
+       ],
+       "3sg": [
+        "ēderat"
+       ],
+       "1pl": [
+        "ēderāmus"
+       ],
+       "2pl": [
+        "ēderātis"
+       ],
+       "3pl": [
+        "ēderant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "ēderō"
+       ],
+       "2sg": [
+        "ēderis"
+       ],
+       "3sg": [
+        "ēderit"
+       ],
+       "1pl": [
+        "ēderimus"
+       ],
+       "2pl": [
+        "ēderitis"
+       ],
+       "3pl": [
+        "ēderint"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "1sg": [
+        "edor"
+       ],
+       "2sg": [
+        "ederis",
+        "edere",
+        "ēssis",
+        "ēsse"
+       ],
+       "3sg": [
+        "editur",
+        "ēstur"
+       ],
+       "1pl": [
+        "edimur"
+       ],
+       "2pl": [
+        "ediminī"
+       ],
+       "3pl": [
+        "eduntur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "edēbar"
+       ],
+       "2sg": [
+        "edēbāris",
+        "edēbāre"
+       ],
+       "3sg": [
+        "edēbātur"
+       ],
+       "1pl": [
+        "edēbāmur"
+       ],
+       "2pl": [
+        "edēbāminī"
+       ],
+       "3pl": [
+        "edēbantur"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "edar"
+       ],
+       "2sg": [
+        "edēris",
+        "edēre"
+       ],
+       "3sg": [
+        "edētur"
+       ],
+       "1pl": [
+        "edēmur"
+       ],
+       "2pl": [
+        "edēminī"
+       ],
+       "3pl": [
+        "edentur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "ēsus sum",
+        "ēssus sum"
+       ],
+       "2sg": [
+        "ēsus es",
+        "ēssus es"
+       ],
+       "3sg": [
+        "ēsus est",
+        "ēssus est"
+       ],
+       "1pl": [
+        "ēsus sumus",
+        "ēssus sumus"
+       ],
+       "2pl": [
+        "ēsus estis",
+        "ēssus estis"
+       ],
+       "3pl": [
+        "ēsus sunt",
+        "ēssus sunt"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "ēsus eram",
+        "ēssus eram"
+       ],
+       "2sg": [
+        "ēsus erās",
+        "ēssus erās"
+       ],
+       "3sg": [
+        "ēsus erat",
+        "ēssus erat"
+       ],
+       "1pl": [
+        "ēsus erāmus",
+        "ēssus erāmus"
+       ],
+       "2pl": [
+        "ēsus erātis",
+        "ēssus erātis"
+       ],
+       "3pl": [
+        "ēsus erant",
+        "ēssus erant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "ēsus erō",
+        "ēssus erō"
+       ],
+       "2sg": [
+        "ēsus eris",
+        "ēsus ere",
+        "ēssus eris",
+        "ēssus ere"
+       ],
+       "3sg": [
+        "ēsus erit",
+        "ēssus erit"
+       ],
+       "1pl": [
+        "ēsus erimus",
+        "ēssus erimus"
+       ],
+       "2pl": [
+        "ēsus eritis",
+        "ēssus eritis"
+       ],
+       "3pl": [
+        "ēsus erunt",
+        "ēssus erunt"
+       ]
+      }
+     }
+    },
+    "subjunctive": {
+     "active": {
+      "present": {
+       "1sg": [
+        "edam",
+        "edim"
+       ],
+       "2sg": [
+        "edās",
+        "edīs"
+       ],
+       "3sg": [
+        "edat",
+        "edit",
+        "ēst"
+       ],
+       "1pl": [
+        "edāmus",
+        "edīmus"
+       ],
+       "2pl": [
+        "edātis",
+        "edītis"
+       ],
+       "3pl": [
+        "edant",
+        "edint"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "ederem",
+        "ēssem"
+       ],
+       "2sg": [
+        "ederēs",
+        "ēssēs"
+       ],
+       "3sg": [
+        "ederet",
+        "ēsset"
+       ],
+       "1pl": [
+        "ederēmus",
+        "ēssēmus"
+       ],
+       "2pl": [
+        "ederētis",
+        "ēssētis"
+       ],
+       "3pl": [
+        "ederent",
+        "ēssent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "ēderim"
+       ],
+       "2sg": [
+        "ēderīs"
+       ],
+       "3sg": [
+        "ēderit"
+       ],
+       "1pl": [
+        "ēderīmus"
+       ],
+       "2pl": [
+        "ēderītis"
+       ],
+       "3pl": [
+        "ēderint"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "ēdissem"
+       ],
+       "2sg": [
+        "ēdissēs"
+       ],
+       "3sg": [
+        "ēdisset"
+       ],
+       "1pl": [
+        "ēdissēmus"
+       ],
+       "2pl": [
+        "ēdissētis"
+       ],
+       "3pl": [
+        "ēdissent"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "1sg": [
+        "edar"
+       ],
+       "2sg": [
+        "edāris",
+        "edāre"
+       ],
+       "3sg": [
+        "edātur"
+       ],
+       "1pl": [
+        "edāmur"
+       ],
+       "2pl": [
+        "edāminī"
+       ],
+       "3pl": [
+        "edantur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "ederer",
+        "ēsser"
+       ],
+       "2sg": [
+        "ederēris",
+        "ederēre",
+        "ēssēris",
+        "ēssēre"
+       ],
+       "3sg": [
+        "ederētur",
+        "ēssētur"
+       ],
+       "1pl": [
+        "ederēmur",
+        "ēssēmur"
+       ],
+       "2pl": [
+        "ederēminī",
+        "ēssēminī"
+       ],
+       "3pl": [
+        "ederentur",
+        "ēssentur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "ēsus sim",
+        "ēsus siem",
+        "ēsus fuam",
+        "ēssus sim",
+        "ēssus siem",
+        "ēssus fuam"
+       ],
+       "2sg": [
+        "ēsus sīs",
+        "ēsus siēs",
+        "ēsus fuās",
+        "ēssus sīs",
+        "ēssus siēs",
+        "ēssus fuās"
+       ],
+       "3sg": [
+        "ēsus sit",
+        "ēsus siet",
+        "ēsus fuat",
+        "ēssus sit",
+        "ēssus siet",
+        "ēssus fuat"
+       ],
+       "1pl": [
+        "ēsus sīmus",
+        "ēsus siēmus",
+        "ēsus fuāmus",
+        "ēssus sīmus",
+        "ēssus siēmus",
+        "ēssus fuāmus"
+       ],
+       "2pl": [
+        "ēsus sītis",
+        "ēsus siētis",
+        "ēsus fuātis",
+        "ēssus sītis",
+        "ēssus siētis",
+        "ēssus fuātis"
+       ],
+       "3pl": [
+        "ēsus sint",
+        "ēsus sient",
+        "ēsus fuant",
+        "ēssus sint",
+        "ēssus sient",
+        "ēssus fuant"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "ēsus essem",
+        "ēsus forem",
+        "ēssus essem",
+        "ēssus forem"
+       ],
+       "2sg": [
+        "ēsus essēs",
+        "ēsus forēs",
+        "ēssus essēs",
+        "ēssus forēs"
+       ],
+       "3sg": [
+        "ēsus esset",
+        "ēsus foret",
+        "ēssus esset",
+        "ēssus foret"
+       ],
+       "1pl": [
+        "ēsus essēmus",
+        "ēsus forēmus",
+        "ēssus essēmus",
+        "ēssus forēmus"
+       ],
+       "2pl": [
+        "ēsus essētis",
+        "ēsus forētis",
+        "ēssus essētis",
+        "ēssus forētis"
+       ],
+       "3pl": [
+        "ēsus essent",
+        "ēsus forent",
+        "ēssus essent",
+        "ēssus forent"
+       ]
+      }
+     }
+    },
+    "imperative": {
+     "active": {
+      "present": {
+       "2sg": [
+        "ede",
+        "ēs"
+       ],
+       "2pl": [
+        "edite",
+        "ēste"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "editō",
+        "ēstō"
+       ],
+       "3sg": [
+        "editō",
+        "ēstō"
+       ],
+       "2pl": [
+        "editōte",
+        "ēstōte"
+       ],
+       "3pl": [
+        "eduntō"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "2sg": [
+        "edere",
+        "ēsse"
+       ],
+       "2pl": [
+        "ediminī"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "editor",
+        "ēstor"
+       ],
+       "3sg": [
+        "editor",
+        "ēstor"
+       ],
+       "3pl": [
+        "eduntor"
+       ]
+      }
+     }
+    }
+   },
+   "nonfinite": {
+    "infinitive": {
+     "active": {
+      "present": [
+       "edere",
+       "ēsse"
+      ],
+      "future": [
+       "ēsūrum esse",
+       "ēssūrum esse"
+      ],
+      "perfect": [
+       "ēdisse"
+      ],
+      "perfect potential": [
+       "ēsūrum fuisse",
+       "ēssūrum fuisse"
+      ]
+     },
+     "passive": {
+      "present": [
+       "edī"
+      ],
+      "future": [
+       "ēsum īrī",
+       "ēssum īrī"
+      ],
+      "perfect": [
+       "ēsum esse",
+       "ēssum esse"
+      ],
+      "future perfect": [
+       "ēsum fore",
+       "ēssum fore"
+      ]
+     }
+    },
+    "participle": {
+     "active": {
+      "present": [
+       "edēns"
+      ],
+      "future": [
+       "ēsūrus",
+       "ēssūrus"
+      ]
+     },
+     "passive": {
+      "future": [
+       "edendus",
+       "edundus"
+      ],
+      "perfect": [
+       "ēsus",
+       "ēssus"
+      ]
+     }
+    },
+    "gerund": {
+     "genitive": [
+      "edendī"
+     ],
+     "dative": [
+      "edendō"
+     ],
+     "accusative": [
+      "edendum"
+     ],
+     "ablative": [
+      "edendō"
+     ]
+    },
+    "supine": {
+     "accusative": [
+      "ēsum",
+      "ēssum"
+     ],
+     "ablative": [
+      "ēsū",
+      "ēssū"
+     ]
+    }
+   },
+   "unparsed": []
+  },
+  "do": {
+   "page": "do",
+   "category": "irregular",
+   "title": "indicative",
+   "finite": {
+    "indicative": {
+     "active": {
+      "present": {
+       "1sg": [
+        "dō"
+       ],
+       "2sg": [
+        "dās"
+       ],
+       "3sg": [
+        "dat"
+       ],
+       "1pl": [
+        "damus"
+       ],
+       "2pl": [
+        "datis"
+       ],
+       "3pl": [
+        "dant",
+        "danunt"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "dabam"
+       ],
+       "2sg": [
+        "dabās"
+       ],
+       "3sg": [
+        "dabat"
+       ],
+       "1pl": [
+        "dabāmus"
+       ],
+       "2pl": [
+        "dabātis"
+       ],
+       "3pl": [
+        "dabant"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "dabō"
+       ],
+       "2sg": [
+        "dabis"
+       ],
+       "3sg": [
+        "dabit"
+       ],
+       "1pl": [
+        "dabimus"
+       ],
+       "2pl": [
+        "dabitis"
+       ],
+       "3pl": [
+        "dabunt"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "dedī"
+       ],
+       "2sg": [
+        "dedistī"
+       ],
+       "3sg": [
+        "dedit"
+       ],
+       "1pl": [
+        "dedimus"
+       ],
+       "2pl": [
+        "dedistis"
+       ],
+       "3pl": [
+        "dedērunt",
+        "dedēre"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "dederam"
+       ],
+       "2sg": [
+        "dederās"
+       ],
+       "3sg": [
+        "dederat"
+       ],
+       "1pl": [
+        "dederāmus"
+       ],
+       "2pl": [
+        "dederātis"
+       ],
+       "3pl": [
+        "dederant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "dederō"
+       ],
+       "2sg": [
+        "dederis"
+       ],
+       "3sg": [
+        "dederit"
+       ],
+       "1pl": [
+        "dederimus"
+       ],
+       "2pl": [
+        "dederitis"
+       ],
+       "3pl": [
+        "dederint"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "1sg": [
+        "dor"
+       ],
+       "2sg": [
+        "daris",
+        "dare"
+       ],
+       "3sg": [
+        "datur"
+       ],
+       "1pl": [
+        "damur"
+       ],
+       "2pl": [
+        "daminī"
+       ],
+       "3pl": [
+        "dantur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "dabar"
+       ],
+       "2sg": [
+        "dabāris",
+        "dabāre"
+       ],
+       "3sg": [
+        "dabātur"
+       ],
+       "1pl": [
+        "dabāmur"
+       ],
+       "2pl": [
+        "dabāminī"
+       ],
+       "3pl": [
+        "dabantur"
+       ]
+      },
+      "future": {
+       "1sg": [
+        "dabor"
+       ],
+       "2sg": [
+        "daberis",
+        "dabere"
+       ],
+       "3sg": [
+        "dabitur"
+       ],
+       "1pl": [
+        "dabimur"
+       ],
+       "2pl": [
+        "dabiminī"
+       ],
+       "3pl": [
+        "dabuntur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "datus sum"
+       ],
+       "2sg": [
+        "datus es"
+       ],
+       "3sg": [
+        "datus est"
+       ],
+       "1pl": [
+        "datus sumus"
+       ],
+       "2pl": [
+        "datus estis"
+       ],
+       "3pl": [
+        "datus sunt"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "datus eram"
+       ],
+       "2sg": [
+        "datus erās"
+       ],
+       "3sg": [
+        "datus erat"
+       ],
+       "1pl": [
+        "datus erāmus"
+       ],
+       "2pl": [
+        "datus erātis"
+       ],
+       "3pl": [
+        "datus erant"
+       ]
+      },
+      "future perfect": {
+       "1sg": [
+        "datus erō"
+       ],
+       "2sg": [
+        "datus eris",
+        "datus ere"
+       ],
+       "3sg": [
+        "datus erit"
+       ],
+       "1pl": [
+        "datus erimus"
+       ],
+       "2pl": [
+        "datus eritis"
+       ],
+       "3pl": [
+        "datus erunt"
+       ]
+      }
+     }
+    },
+    "subjunctive": {
+     "active": {
+      "present": {
+       "1sg": [
+        "dem",
+        "duim"
+       ],
+       "2sg": [
+        "dēs",
+        "duās",
+        "duīs"
+       ],
+       "3sg": [
+        "det",
+        "duit"
+       ],
+       "1pl": [
+        "dēmus"
+       ],
+       "2pl": [
+        "dētis"
+       ],
+       "3pl": [
+        "dent",
+        "duint"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "darem"
+       ],
+       "2sg": [
+        "darēs"
+       ],
+       "3sg": [
+        "daret"
+       ],
+       "1pl": [
+        "darēmus"
+       ],
+       "2pl": [
+        "darētis"
+       ],
+       "3pl": [
+        "darent"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "dederim"
+       ],
+       "2sg": [
+        "dederīs"
+       ],
+       "3sg": [
+        "dederit"
+       ],
+       "1pl": [
+        "dederīmus"
+       ],
+       "2pl": [
+        "dederītis"
+       ],
+       "3pl": [
+        "dederint"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "dedissem"
+       ],
+       "2sg": [
+        "dedissēs"
+       ],
+       "3sg": [
+        "dedisset"
+       ],
+       "1pl": [
+        "dedissēmus"
+       ],
+       "2pl": [
+        "dedissētis"
+       ],
+       "3pl": [
+        "dedissent"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "1sg": [
+        "der"
+       ],
+       "2sg": [
+        "dēris",
+        "dēre"
+       ],
+       "3sg": [
+        "dētur"
+       ],
+       "1pl": [
+        "dēmur"
+       ],
+       "2pl": [
+        "dēminī"
+       ],
+       "3pl": [
+        "dentur"
+       ]
+      },
+      "imperfect": {
+       "1sg": [
+        "darer"
+       ],
+       "2sg": [
+        "darēris",
+        "darēre"
+       ],
+       "3sg": [
+        "darētur"
+       ],
+       "1pl": [
+        "darēmur"
+       ],
+       "2pl": [
+        "darēminī"
+       ],
+       "3pl": [
+        "darentur"
+       ]
+      },
+      "perfect": {
+       "1sg": [
+        "datus sim",
+        "datus siem",
+        "datus fuam"
+       ],
+       "2sg": [
+        "datus sīs",
+        "datus siēs",
+        "datus fuās"
+       ],
+       "3sg": [
+        "datus sit",
+        "datus siet",
+        "datus fuat"
+       ],
+       "1pl": [
+        "datus sīmus",
+        "datus siēmus",
+        "datus fuāmus"
+       ],
+       "2pl": [
+        "datus sītis",
+        "datus siētis",
+        "datus fuātis"
+       ],
+       "3pl": [
+        "datus sint",
+        "datus sient",
+        "datus fuant"
+       ]
+      },
+      "pluperfect": {
+       "1sg": [
+        "datus essem",
+        "datus forem"
+       ],
+       "2sg": [
+        "datus essēs",
+        "datus forēs"
+       ],
+       "3sg": [
+        "datus esset",
+        "datus foret"
+       ],
+       "1pl": [
+        "datus essēmus",
+        "datus forēmus"
+       ],
+       "2pl": [
+        "datus essētis",
+        "datus forētis"
+       ],
+       "3pl": [
+        "datus essent",
+        "datus forent"
+       ]
+      }
+     }
+    },
+    "imperative": {
+     "active": {
+      "present": {
+       "2sg": [
+        "dā"
+       ],
+       "2pl": [
+        "date"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "datō"
+       ],
+       "3sg": [
+        "datō"
+       ],
+       "2pl": [
+        "datōte"
+       ],
+       "3pl": [
+        "dantō"
+       ]
+      }
+     },
+     "passive": {
+      "present": {
+       "2sg": [
+        "dare"
+       ],
+       "2pl": [
+        "daminī"
+       ]
+      },
+      "future": {
+       "2sg": [
+        "dator"
+       ],
+       "3sg": [
+        "dator"
+       ],
+       "3pl": [
+        "dantor"
+       ]
+      }
+     }
+    }
+   },
+   "nonfinite": {
+    "infinitive": {
+     "active": {
+      "present": [
+       "dare"
+      ],
+      "future": [
+       "datūrum esse"
+      ],
+      "perfect": [
+       "dedisse"
+      ],
+      "perfect potential": [
+       "datūrum fuisse"
+      ]
+     },
+     "passive": {
+      "present": [
+       "darī"
+      ],
+      "future": [
+       "datum īrī"
+      ],
+      "perfect": [
+       "datum esse"
+      ],
+      "future perfect": [
+       "datum fore"
+      ]
+     }
+    },
+    "participle": {
+     "active": {
+      "present": [
+       "dāns"
+      ],
+      "future": [
+       "datūrus"
+      ]
+     },
+     "passive": {
+      "future": [
+       "dandus"
+      ],
+      "perfect": [
+       "datus"
+      ]
+     }
+    },
+    "gerund": {
+     "genitive": [
+      "dandī"
+     ],
+     "dative": [
+      "dandō"
+     ],
+     "accusative": [
+      "dandum"
+     ],
+     "ablative": [
+      "dandō"
+     ]
+    },
+    "supine": {
+     "accusative": [
+      "datum"
+     ],
+     "ablative": [
+      "datū"
+     ]
+    }
+   },
+   "unparsed": []
+  }
+ }
+}
