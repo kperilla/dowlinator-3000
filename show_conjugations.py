@@ -207,7 +207,7 @@ def write_html(data, verbs, sum_finite, path, template=TEMPLATE):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("-i", "--input", default="latin_conjugations.json")
-    ap.add_argument("-o", "--out", default="docs/latin_conjugations.html")
+    ap.add_argument("-o", "--out", default="docs/index.html")
     ap.add_argument("-t", "--template", default=TEMPLATE, help="HTML page template")
     ap.add_argument("--text", action="store_true", help="print to the terminal instead of writing HTML")
     ap.add_argument("--verb", help="show only this verb (macrons optional)")
