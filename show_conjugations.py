@@ -113,6 +113,9 @@ CSS = """
 @media (prefers-color-scheme:dark){:root{--bg:#1a1917;--fg:#ebe7df;--muted:#a19b90;--line:#36332e;--head:#24221f;--accent:#e08a6f;--chip:#2c2925;--ok:#1f3b24;--bad:#4a2420}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 Georgia,"Iowan Old Style",serif}
+header{text-align:center;padding:28px 16px 18px}
+h1{margin:0;font:600 clamp(36px,8vw,72px)/1.1 Cinzel,"Trajan Pro","Times New Roman",serif;
+   letter-spacing:.12em;color:var(--accent)}
 nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 16px;
     display:flex;flex-wrap:wrap;gap:6px;z-index:2}
 nav a{color:var(--fg);text-decoration:none;background:var(--chip);padding:2px 10px;border-radius:999px;font-size:14px}
@@ -156,6 +159,9 @@ body.quiz td.f.bad{background:var(--bad)}
          background:var(--head);border:1px solid var(--line);border-radius:10px;box-shadow:0 2px 10px #0003}
 body.quiz #macrons{display:flex}
 #macrons button{font:18px/1 Georgia,serif;width:2em;height:2em;padding:0}
+#macrons .hint{align-self:center;margin-left:6px;font:12px/1.35 system-ui,sans-serif;color:var(--muted)}
+#macrons kbd{font:12px ui-monospace,monospace;background:var(--chip);border:1px solid var(--line);
+             border-radius:3px;padding:0 4px;color:var(--fg)}
 """
 
 JS = """
@@ -317,7 +323,12 @@ def write_html(data, verbs, sum_finite, path):
     body = "".join(html_verb(l, verbs[l], sum_finite, anchors[l]) for l in verbs)
     page = (f"<!doctype html><html lang='en'><head><meta charset='utf-8'>"
             f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
-            f"<title>Latin Conjugations</title><style>{CSS}</style></head><body class='hide'>"
+            f"<title>Dovvlinator MMM</title>"
+            f"<link rel='preconnect' href='https://fonts.googleapis.com'>"
+            f"<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>"
+            f"<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap'>"
+            f"<style>{CSS}</style></head><body class='hide'>"
+            f"<header><h1>Dovvlinator MMM</h1></header>"
             f"<nav>{nav}<div class='controls'>"
             f"<label><input type='checkbox' id='hide' checked> Hide forms</label>"
             f"<label><input type='checkbox' id='quiz'> Quiz mode</label>"
@@ -328,6 +339,7 @@ def write_html(data, verbs, sum_finite, path):
             f"</div></nav>"
             f"<div id='macrons' title='Shift-click for capitals'>"
             + "".join(f"<button type='button'>{v}</button>" for v in "āēīōūȳ")
+            + f"<span class='hint'>or type a vowel + hyphen:<br><kbd>a-</kbd> → ā</span>"
             + f"</div><main>{body}"
             f"<p class='meta'>Source: {h(data.get('source', ''))}, retrieved {h(data.get('retrieved', ''))}</p>"
             f"</main><script>{JS}</script></body></html>")
