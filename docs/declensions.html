@@ -14,8 +14,8 @@
     SOURCE    where the data came from and when
 -->
 <style>
-:root{--bg:#fbfaf7;--fg:#22201c;--muted:#6f6a60;--line:#e2ded5;--head:#f1eee7;--accent:#8a3324;--chip:#efe7dc;--ok:#d6efd6;--bad:#f6d3cf}
-@media (prefers-color-scheme:dark){:root{--bg:#1a1917;--fg:#ebe7df;--muted:#a19b90;--line:#36332e;--head:#24221f;--accent:#e08a6f;--chip:#2c2925;--ok:#1f3b24;--bad:#4a2420}}
+:root{--bg:#fbfaf7;--fg:#22201c;--muted:#6f6a60;--line:#e2ded5;--head:#f1eee7;--accent:#8a3324;--chip:#efe7dc;--ok:#d6efd6;--bad:#f6d3cf;--fix:#1f5fa8}
+@media (prefers-color-scheme:dark){:root{--bg:#1a1917;--fg:#ebe7df;--muted:#a19b90;--line:#36332e;--head:#24221f;--accent:#e08a6f;--chip:#2c2925;--ok:#1f3b24;--bad:#4a2420;--fix:#8cb8ef}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 Georgia,"Iowan Old Style",serif}
 header{text-align:center;padding:28px 16px 18px}
@@ -66,6 +66,8 @@ body.quiz td.f input{display:block}
 body.quiz td.f .t{display:none}
 body.quiz td.f.ok{background:var(--ok)}
 body.quiz td.f.bad{background:var(--bad)}
+/* after grading, a wrong cell shows the correct form under the text box */
+body.quiz td.f.bad .t{display:block;margin-top:3px;color:var(--fix);font-weight:600}
 #macrons{position:fixed;right:16px;bottom:16px;z-index:3;display:none;gap:4px;padding:6px;
          background:var(--head);border:1px solid var(--line);border-radius:10px;box-shadow:0 2px 10px #0003}
 body.quiz #macrons{display:flex}
@@ -172,7 +174,6 @@ function grade(block) {
     const ok = answers.some(a => norm(a) === norm(c.querySelector('input').value));
     c.classList.toggle('ok', ok);
     c.classList.toggle('bad', !ok);
-    c.title = ok ? '' : answers.join(', ');  // hover a red cell to see the answer
     right += ok;
   });
   const pct = cells.length ? Math.round(100 * right / cells.length) : 0;
@@ -184,7 +185,7 @@ document.querySelectorAll('.block').forEach(b =>
 $('gradeall').addEventListener('click', () => document.querySelectorAll('.block').forEach(grade));
 $('reset').addEventListener('click', () => {
   document.querySelectorAll('td.f').forEach(c => {
-    c.querySelector('input').value = ''; c.classList.remove('ok', 'bad'); c.title = '';
+    c.querySelector('input').value = ''; c.classList.remove('ok', 'bad');
   });
   document.querySelectorAll('.score').forEach(s => s.textContent = '');
 });
