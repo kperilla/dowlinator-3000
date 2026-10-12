@@ -146,35 +146,28 @@ def html_verb(lemma, verb, sum_finite, anchor):
             continue
         sg = [s for s in used if s.endswith("sg")]
         pl = [s for s in used if s.endswith("pl")]
-        t = ["<thead><tr><th colspan=2 rowspan=2></th>"]
+        head = ["<thead><tr><th rowspan=2></th>"]
         if sg:
-            t.append(f"<th colspan={len(sg)}>singular</th>")
+            head.append(f"<th colspan={len(sg)}>singular</th>")
         if pl:
-            t.append(f"<th colspan={len(pl)}>plural</th>")
-        t.append("</tr><tr>" + "".join(f"<th>{SLOT_LABEL[s]}</th>" for s in used) + "</tr></thead><tbody>")
-        voices = {}
-        for voice, *_ in rows:
-            voices[voice] = voices.get(voice, 0) + 1
-        last = None
-        for voice, tense, slots in rows:
-            t.append("<tr>")
-            if voice != last:
-                t.append(f"<th rowspan={voices[voice]}>{h(voice)}</th>")
-                last = voice
-            t.append(f"<th>{h(tense)}</th>" + "".join(td(slots[s]) for s in used) + "</tr>")
-        t.append("</tbody>")
-        out.append(block(h(mood), "".join(t)))
+            head.append(f"<th colspan={len(pl)}>plural</th>")
+        head.append("</tr><tr>" + "".join(f"<th>{SLOT_LABEL[s]}</th>" for s in used) + "</tr></thead>")
+        # One table (and Grade button) per voice.
+        for voice in dict.fromkeys(v for v, *_ in rows):
+            body = "".join(f"<tr><th>{h(tense)}</th>" + "".join(td(slots[s]) for s in used) + "</tr>"
+                           for v, tense, slots in rows if v == voice)
+            out.append(block(f"{h(mood)} {h(voice)}", "".join(head) + f"<tbody>{body}</tbody>"))
 
     nf = verb.get("nonfinite", {})
     kinds = [k for k in ("infinitive", "participle") if k in nf]
-    if kinds:
-        t = ["<thead><tr><th rowspan=2></th><th colspan=3>active</th><th colspan=3>passive</th></tr><tr>"
-             + "".join(f"<th>{t}</th>" for t in NF_TENSES * 2) + "</tr></thead><tbody>"]
+    for v in ("active", "passive"):
+        if not any(nf[k].get(v) for k in kinds):
+            continue
+        t = ["<thead><tr><th></th>" + "".join(f"<th>{t}</th>" for t in NF_TENSES) + "</tr></thead><tbody>"]
         for k in kinds:
-            t.append(f"<tr><th>{k}s</th>" + "".join(
-                td(nf[k].get(v, {}).get(t, [])) for v in ("active", "passive") for t in NF_TENSES) + "</tr>")
+            t.append(f"<tr><th>{k}s</th>" + "".join(td(nf[k].get(v, {}).get(t, [])) for t in NF_TENSES) + "</tr>")
         t.append("</tbody>")
-        out.append(block("infinitives &amp; participles", "".join(t)))
+        out.append(block(f"{v} infinitives &amp; participles", "".join(t)))
     for k in ("gerund", "supine"):
         if k in nf:
             cases = [c for c in CASES if c in nf[k]]
