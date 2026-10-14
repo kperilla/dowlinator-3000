@@ -1,1 +1,2 @@
 section.verb{margin:32px 0 48px;scroll-margin-top:70px}
+body:not(.sigmatic) tr.sigmatic{display:none}

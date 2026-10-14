@@ -247,6 +247,11 @@ Every form is blanked out. Click a cell to reveal it, click again to hide it.
 Untick **Hide forms** to show everything; ticking it again hides all cells anew.
 Cells marked — (slots with no form, such as the 1st-person imperative) stay visible.
 
+### Include sigmatic (conjugation page, off by default)
+
+The archaic *sigmatic future* (*amāssō*) and *sigmatic aorist* (*amāssim*) rows
+are hidden, and left out of grading, until **Include sigmatic** is ticked.
+
 ### Quiz mode
 
 Tick **Quiz mode** to replace every form with a text box.
@@ -258,8 +263,8 @@ Tick **Quiz mode** to replace every form with a text box.
 - Each graded table shows a score, e.g. `14 / 18 (78%)`.
 - An answer is correct if it matches **any** accepted variant. Case and extra
   spaces are ignored.
-- **Ignore macrons** (on by default) accepts `amasti` for *amāstī*. Untick it to
-  require exact macrons.
+- Answers need exact macrons. Tick **Ignore macrons** (off by default) to accept
+  `amasti` for *amāstī*.
 - **Clear** empties every box and resets colours and scores.
 - Compound tenses need the whole form: `amātus sum`.
 

@@ -60,7 +60,9 @@ def html_verb(lemma, verb, sum_finite, anchor):
         head.append("</tr><tr>" + "".join(f"<th>{SLOT_LABEL[s]}</th>" for s in used) + "</tr></thead>")
         # One table (and Grade button) per voice.
         for voice in dict.fromkeys(v for v, *_ in rows):
-            body = "".join(f"<tr><th>{h(tense)}</th>" + "".join(td(slots[s]) for s in used) + "</tr>"
+            # Archaic sigmatic tenses (amāssō, amāssim) are hidden unless "Include sigmatic" is on.
+            body = "".join(f"<tr{' class=sigmatic' if tense.startswith('sigmatic') else ''}><th>{h(tense)}</th>"
+                           + "".join(td(slots[s]) for s in used) + "</tr>"
                            for v, tense, slots in rows if v == voice)
             out.append(block(f"{h(mood)} {h(voice)}", "".join(head) + f"<tbody>{body}</tbody>"))
 

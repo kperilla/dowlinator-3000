@@ -19,9 +19,13 @@ document.querySelectorAll('td.f').forEach(c => {
   c.appendChild(i);
 });
 $('quiz').addEventListener('change', e => body.classList.toggle('quiz', e.target.checked));
+// archaic sigmatic tenses (conjugation page only): shown, and graded, only when included
+const sigmatic = $('sigmatic');
+sigmatic?.addEventListener('change', e => body.classList.toggle('sigmatic', e.target.checked));
 // match the page to the checkboxes (browsers may restore their state on reload)
 body.classList.toggle('hide', $('hide').checked);
 body.classList.toggle('quiz', $('quiz').checked);
+body.classList.toggle('sigmatic', !!sigmatic?.checked);
 
 // typing a vowel then "-" turns it into the macron vowel: a- → ā
 const MACRON = {a:'ā', e:'ē', i:'ī', o:'ō', u:'ū', y:'ȳ', A:'Ā', E:'Ē', I:'Ī', O:'Ō', U:'Ū', Y:'Ȳ'};
@@ -53,7 +57,7 @@ const norm = s => {
 };
 
 function grade(block) {
-  const cells = block.querySelectorAll('td.f');
+  const cells = [...block.querySelectorAll('td.f')].filter(c => c.offsetParent);  // skip hidden rows
   let right = 0;
   cells.forEach(c => {
     const answers = JSON.parse(c.dataset.a);
