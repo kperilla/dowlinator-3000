@@ -198,10 +198,9 @@ both templates.
 
 ### Page templates
 
-Each page's layout, styles, controls and JavaScript live in its template:
-`conjugations_template.html` and `declensions_template.html`. Edit those to
-change how the pages look or behave. The script reads them and replaces these
-markers:
+Each page's layout and controls live in its template:
+`conjugations_template.html` and `declensions_template.html`. The script reads
+them and replaces these markers:
 
 | Template | Marker | Replaced with |
 |---|---|---|
@@ -211,13 +210,20 @@ markers:
 | declensions | `<!-- NOUNS -->` | one `<section class="group">` per group, a table per word |
 | both | `<!-- SOURCE -->` | the data source and retrieval date |
 
-The two templates share the same CSS and JavaScript (copied, so each page stays
-a single self-contained file): a fix to the quiz or hide logic in one should be
-made in the other too.
+Styles and scripts live in `docs/` next to the pages, and are edited there
+directly (no rerun needed):
+
+| File | Used by | Holds |
+|---|---|---|
+| `tables.css` | both table pages | shared layout, table, hide and quiz styles |
+| `conjugations.css` | conjugations | conjugation-only rules |
+| `declensions.css` | declensions | declension-only rules (side-by-side noun tables) |
+| `tables.js` | both table pages | the hide, quiz and macron-input logic |
+| `index.css` | `index.html` | landing page styles |
 
 Each form cell is generated as `<td class="f" data-a='["amāvistī","amāstī"]'>`,
 with its accepted answers in `data-a`, which is what the template's quiz
-script grades against. Rerun `show_conjugations.py` after editing the template.
+script grades against. Rerun `show_conjugations.py` after editing a template.
 
 On Windows, if `--text` fails with a `UnicodeEncodeError`, set
 `PYTHONIOENCODING=utf-8` (or run `chcp 65001`) so the console can print macrons.

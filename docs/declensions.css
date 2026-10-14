@@ -1,0 +1,7 @@
+section.group{margin:32px 0 48px;scroll-margin-top:70px}
+/* noun tables are narrow: lay them out side by side, gendered ones full width */
+.words{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0 28px}
+.words .block.wide{grid-column:1/-1}
+.bhead h3.word{font:600 20px/1.2 Georgia,"Iowan Old Style",serif;letter-spacing:0;text-transform:none;color:var(--fg)}
+.bhead .cat{font:12px system-ui,sans-serif;color:var(--muted)}
+td.f{min-width:6em}

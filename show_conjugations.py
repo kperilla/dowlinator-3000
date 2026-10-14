@@ -12,8 +12,9 @@ Periphrastic cells such as "amātus + present active indicative of sum"
 are expanded into real forms (amātus sum, amātus es, …) using the sum
 table from the same file, when it is there.
 
-The pages' layout, styles and scripts live in conjugations_template.html and
-declensions_template.html (next to this script, or pass -t / --nouns-template);
+The pages' layout lives in conjugations_template.html and declensions_template.html
+(next to this script, or pass -t / --nouns-template), which link the styles and
+scripts in docs/ (tables.css, tables.js, conjugations.css, declensions.css);
 this script only fills in the words.
 
 Standard library only.
