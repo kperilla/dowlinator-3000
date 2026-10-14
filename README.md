@@ -22,14 +22,14 @@ Or with pip:
 pip install requests beautifulsoup4
 ```
 
-`show_conjugations.py` uses only the standard library; `requests` and
+`show_conjugations.py` (and the modules it imports) uses only the standard library; `requests` and
 `beautifulsoup4` are needed only for scraping.
 
 ## Quick start
 
 ```sh
-uv run wikt_latin_verbs.py       # scrape Wiktionary → latin_conjugations.json
-uv run wikt_latin_nouns.py       # (optional) nouns & pronouns → latin_declensions.json
+uv run wikt_latin_verbs.py       # scrape Wiktionary → wikt_out/latin_conjugations.json
+uv run wikt_latin_nouns.py       # (optional) nouns & pronouns → wikt_out/latin_declensions.json
 uv run show_conjugations.py      # build the pages  → docs/conjugations.html, docs/declensions.html
 ```
 
@@ -42,7 +42,7 @@ file in `docs/`; only the two table pages are generated. (Without uv, use
 ## 1. Scraping: `wikt_latin_verbs.py`
 
 ```sh
-uv run wikt_latin_verbs.py                     # writes latin_conjugations.json
+uv run wikt_latin_verbs.py                     # writes wikt_out/latin_conjugations.json
 uv run wikt_latin_verbs.py -o verbs.json       # different output file
 uv run wikt_latin_verbs.py --refresh           # re-download every page
 uv run wikt_latin_verbs.py --cache my_cache    # different cache directory
@@ -50,7 +50,7 @@ uv run wikt_latin_verbs.py --cache my_cache    # different cache directory
 
 | Option | Default | Meaning |
 |---|---|---|
-| `-o`, `--out` | `latin_conjugations.json` | Output JSON file |
+| `-o`, `--out` | `wikt_out/latin_conjugations.json` | Output JSON file |
 | `--cache` | `wikt_cache` | Where raw page HTML is cached |
 | `--refresh` | off | Ignore the cache and download again |
 
@@ -123,7 +123,7 @@ Every slot holds a list of forms, because many slots have accepted variants
 ### Nouns and pronouns: `wikt_latin_nouns.py`
 
 ```sh
-uv run wikt_latin_nouns.py                     # writes latin_declensions.json
+uv run wikt_latin_nouns.py                     # writes wikt_out/latin_declensions.json
 uv run wikt_latin_nouns.py -o nouns.json --refresh
 ```
 
@@ -176,14 +176,23 @@ uv run show_conjugations.py --verb sum               # HTML page for one verb
 
 | Option | Default | Meaning |
 |---|---|---|
-| `-i`, `--input` | `latin_conjugations.json` | JSON file to read |
+| `-i`, `--input` | `wikt_out/latin_conjugations.json` | JSON file to read |
 | `-o`, `--out` | `docs/conjugations.html` | Conjugation page to write |
-| `-t`, `--template` | `conjugations_template.html` | Conjugation page template (looked up next to the script) |
-| `--nouns-input` | `latin_declensions.json` | Declensions JSON; the declension page is skipped if it's missing |
+| `-t`, `--template` | `templates/conjugations_template.html` | Conjugation page template (found relative to the script, not the working directory) |
+| `--nouns-input` | `wikt_out/latin_declensions.json` | Declensions JSON; the declension page is skipped if it's missing |
 | `--nouns-out` | `docs/declensions.html` | Declension page to write |
-| `--nouns-template` | `declensions_template.html` | Declension page template |
+| `--nouns-template` | `templates/declensions_template.html` | Declension page template |
 | `--text` | off | Print verbs to the terminal instead of writing HTML |
 | `--verb` | all | Only this verb (lemma or page name, macrons optional); skips the declension page |
+
+`show_conjugations.py` handles only the options above; the work is split across
+three modules next to it:
+
+| File | Does |
+|---|---|
+| `html_output.py` | builds the two web pages from the templates |
+| `text_output.py` | prints the tables in the terminal (`--text`) |
+| `table_data.py` | reads verb tables for both, expanding periphrastic forms such as *amātus sum* |
 
 The declension page groups words by declension (1st–5th, irregular nouns,
 pronouns), with one table per word: cases down the side, singular and plural
@@ -199,7 +208,7 @@ both templates.
 ### Page templates
 
 Each page's layout and controls live in its template:
-`conjugations_template.html` and `declensions_template.html`. The script reads
+`templates/conjugations_template.html` and `templates/declensions_template.html`. The script reads
 them and replaces these markers:
 
 | Template | Marker | Replaced with |

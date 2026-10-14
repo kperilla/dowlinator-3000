@@ -4,7 +4,7 @@ Scrape full conjugation tables for representative Latin verbs from
 English Wiktionary and write them to one JSON file.
 
     pip install requests beautifulsoup4
-    python wikt_latin_verbs.py                  # writes latin_conjugations.json
+    python wikt_latin_verbs.py                  # writes wikt_out/latin_conjugations.json
     python wikt_latin_verbs.py -o verbs.json --refresh
 
 Raw page HTML is cached in ./wikt_cache, so reruns don't hit Wiktionary
@@ -362,7 +362,7 @@ def find_table(section_html, infinitive):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("-o", "--out", default="latin_conjugations.json")
+    ap.add_argument("-o", "--out", default="wikt_out/latin_conjugations.json")
     ap.add_argument("--cache", default="wikt_cache")
     ap.add_argument("--refresh", action="store_true", help="re-download pages")
     args = ap.parse_args()
@@ -400,6 +400,7 @@ def main():
     else:
         print("sum not scraped; periphrastic forms left unexpanded", file=sys.stderr)
 
+    pathlib.Path(args.out).parent.mkdir(parents=True, exist_ok=True)
     pathlib.Path(args.out).write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Wrote {args.out}", file=sys.stderr)
 

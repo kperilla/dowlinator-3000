@@ -3,7 +3,7 @@
 Scrape declension tables for representative Latin nouns and pronouns from
 English Wiktionary and write them to one JSON file.
 
-    python wikt_latin_nouns.py                  # writes latin_declensions.json
+    python wikt_latin_nouns.py                  # writes wikt_out/latin_declensions.json
     python wikt_latin_nouns.py -o nouns.json --refresh
 
 Shares the page cache (./wikt_cache) and fetching code with wikt_latin_verbs.py.
@@ -211,7 +211,7 @@ def parse_table(table, forms_tree, unparsed):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("-o", "--out", default="latin_declensions.json")
+    ap.add_argument("-o", "--out", default="wikt_out/latin_declensions.json")
     ap.add_argument("--cache", default="wikt_cache")
     ap.add_argument("--refresh", action="store_true", help="re-download pages")
     args = ap.parse_args()
@@ -247,6 +247,7 @@ def main():
         n = sum(1 for _ in _slots(entry["forms"]))
         print(f"{key:9} {category:30} {n:3} slots, {len(unparsed)} unparsed", file=sys.stderr)
 
+    pathlib.Path(args.out).parent.mkdir(parents=True, exist_ok=True)
     pathlib.Path(args.out).write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Wrote {args.out}", file=sys.stderr)
 
