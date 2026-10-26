@@ -67,15 +67,15 @@ def html_verb(lemma, verb, sum_finite, anchor):
             out.append(block(f"{h(mood)} {h(voice)}", "".join(head) + f"<tbody>{body}</tbody>"))
 
     nf = verb.get("nonfinite", {})
-    kinds = [k for k in ("infinitive", "participle") if k in nf]
-    for v in ("active", "passive"):
-        if not any(nf[k].get(v) for k in kinds):
+    for k in ("infinitive", "participle"):
+        voices = [v for v in ("active", "passive") if nf.get(k, {}).get(v)]
+        if not voices:
             continue
         t = ["<thead><tr><th></th>" + "".join(f"<th>{t}</th>" for t in NF_TENSES) + "</tr></thead><tbody>"]
-        for k in kinds:
-            t.append(f"<tr><th>{k}s</th>" + "".join(td(nf[k].get(v, {}).get(t, [])) for t in NF_TENSES) + "</tr>")
+        for v in voices:
+            t.append(f"<tr><th>{v}</th>" + "".join(td(nf[k][v].get(t, [])) for t in NF_TENSES) + "</tr>")
         t.append("</tbody>")
-        out.append(block(f"{v} infinitives &amp; participles", "".join(t)))
+        out.append(block(f"{k}s", "".join(t)))
     for k in ("gerund", "supine"):
         if k in nf:
             cases = [c for c in CASES if c in nf[k]]
