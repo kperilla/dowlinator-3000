@@ -340,6 +340,9 @@ def expand_periphrastic(finite, sum_finite):
                                  .get(m["tense"].strip(), {}).get(slot))
                     # "ēsus or ēssus" → one full form per participle spelling.
                     parts = re.split(r"\s+or\s+", m["part"]) if aux else []
+                    # Participle agrees in number: amātus sum but amātī sumus.
+                    if slot.endswith("pl"):
+                        parts = [re.sub(r"us$", "ī", p) for p in parts]
                     for x in ([f"{p} {a}" for p in parts for a in aux] if aux else [f]):
                         if x not in out:
                             out.append(x)

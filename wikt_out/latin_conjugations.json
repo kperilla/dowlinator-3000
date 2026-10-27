@@ -1,6 +1,6 @@
 {
  "source": "en.wiktionary.org (CC BY-SA)",
- "retrieved": "2026-10-11",
+ "retrieved": "2026-10-27",
  "verbs": {
   "amo": {
    "page": "amo",
@@ -243,13 +243,13 @@
         "amātus est"
        ],
        "1pl": [
-        "amātus sumus"
+        "amātī sumus"
        ],
        "2pl": [
-        "amātus estis"
+        "amātī estis"
        ],
        "3pl": [
-        "amātus sunt"
+        "amātī sunt"
        ]
       },
       "pluperfect": {
@@ -263,13 +263,13 @@
         "amātus erat"
        ],
        "1pl": [
-        "amātus erāmus"
+        "amātī erāmus"
        ],
        "2pl": [
-        "amātus erātis"
+        "amātī erātis"
        ],
        "3pl": [
-        "amātus erant"
+        "amātī erant"
        ]
       },
       "future perfect": {
@@ -284,13 +284,13 @@
         "amātus erit"
        ],
        "1pl": [
-        "amātus erimus"
+        "amātī erimus"
        ],
        "2pl": [
-        "amātus eritis"
+        "amātī eritis"
        ],
        "3pl": [
-        "amātus erunt"
+        "amātī erunt"
        ]
       }
      }
@@ -470,19 +470,19 @@
         "amātus fuat"
        ],
        "1pl": [
-        "amātus sīmus",
-        "amātus siēmus",
-        "amātus fuāmus"
+        "amātī sīmus",
+        "amātī siēmus",
+        "amātī fuāmus"
        ],
        "2pl": [
-        "amātus sītis",
-        "amātus siētis",
-        "amātus fuātis"
+        "amātī sītis",
+        "amātī siētis",
+        "amātī fuātis"
        ],
        "3pl": [
-        "amātus sint",
-        "amātus sient",
-        "amātus fuant"
+        "amātī sint",
+        "amātī sient",
+        "amātī fuant"
        ]
       },
       "pluperfect": {
@@ -499,16 +499,16 @@
         "amātus foret"
        ],
        "1pl": [
-        "amātus essēmus",
-        "amātus forēmus"
+        "amātī essēmus",
+        "amātī forēmus"
        ],
        "2pl": [
-        "amātus essētis",
-        "amātus forētis"
+        "amātī essētis",
+        "amātī forētis"
        ],
        "3pl": [
-        "amātus essent",
-        "amātus forent"
+        "amātī essent",
+        "amātī forent"
        ]
       }
      }
@@ -860,13 +860,13 @@
         "monitus est"
        ],
        "1pl": [
-        "monitus sumus"
+        "monitī sumus"
        ],
        "2pl": [
-        "monitus estis"
+        "monitī estis"
        ],
        "3pl": [
-        "monitus sunt"
+        "monitī sunt"
        ]
       },
       "pluperfect": {
@@ -880,13 +880,13 @@
         "monitus erat"
        ],
        "1pl": [
-        "monitus erāmus"
+        "monitī erāmus"
        ],
        "2pl": [
-        "monitus erātis"
+        "monitī erātis"
        ],
        "3pl": [
-        "monitus erant"
+        "monitī erant"
        ]
       },
       "future perfect": {
@@ -901,13 +901,13 @@
         "monitus erit"
        ],
        "1pl": [
-        "monitus erimus"
+        "monitī erimus"
        ],
        "2pl": [
-        "monitus eritis"
+        "monitī eritis"
        ],
        "3pl": [
-        "monitus erunt"
+        "monitī erunt"
        ]
       }
      }
@@ -1075,19 +1075,19 @@
         "monitus fuat"
        ],
        "1pl": [
-        "monitus sīmus",
-        "monitus siēmus",
-        "monitus fuāmus"
+        "monitī sīmus",
+        "monitī siēmus",
+        "monitī fuāmus"
        ],
        "2pl": [
-        "monitus sītis",
-        "monitus siētis",
-        "monitus fuātis"
+        "monitī sītis",
+        "monitī siētis",
+        "monitī fuātis"
        ],
        "3pl": [
-        "monitus sint",
-        "monitus sient",
-        "monitus fuant"
+        "monitī sint",
+        "monitī sient",
+        "monitī fuant"
        ]
       },
       "pluperfect": {
@@ -1104,16 +1104,16 @@
         "monitus foret"
        ],
        "1pl": [
-        "monitus essēmus",
-        "monitus forēmus"
+        "monitī essēmus",
+        "monitī forēmus"
        ],
        "2pl": [
-        "monitus essētis",
-        "monitus forētis"
+        "monitī essētis",
+        "monitī forētis"
        ],
        "3pl": [
-        "monitus essent",
-        "monitus forent"
+        "monitī essent",
+        "monitī forent"
        ]
       }
      }
@@ -1445,13 +1445,13 @@
         "rēctus est"
        ],
        "1pl": [
-        "rēctus sumus"
+        "rēctī sumus"
        ],
        "2pl": [
-        "rēctus estis"
+        "rēctī estis"
        ],
        "3pl": [
-        "rēctus sunt"
+        "rēctī sunt"
        ]
       },
       "pluperfect": {
@@ -1465,13 +1465,13 @@
         "rēctus erat"
        ],
        "1pl": [
-        "rēctus erāmus"
+        "rēctī erāmus"
        ],
        "2pl": [
-        "rēctus erātis"
+        "rēctī erātis"
        ],
        "3pl": [
-        "rēctus erant"
+        "rēctī erant"
        ]
       },
       "future perfect": {
@@ -1486,13 +1486,13 @@
         "rēctus erit"
        ],
        "1pl": [
-        "rēctus erimus"
+        "rēctī erimus"
        ],
        "2pl": [
-        "rēctus eritis"
+        "rēctī eritis"
        ],
        "3pl": [
-        "rēctus erunt"
+        "rēctī erunt"
        ]
       }
      }
@@ -1640,19 +1640,19 @@
         "rēctus fuat"
        ],
        "1pl": [
-        "rēctus sīmus",
-        "rēctus siēmus",
-        "rēctus fuāmus"
+        "rēctī sīmus",
+        "rēctī siēmus",
+        "rēctī fuāmus"
        ],
        "2pl": [
-        "rēctus sītis",
-        "rēctus siētis",
-        "rēctus fuātis"
+        "rēctī sītis",
+        "rēctī siētis",
+        "rēctī fuātis"
        ],
        "3pl": [
-        "rēctus sint",
-        "rēctus sient",
-        "rēctus fuant"
+        "rēctī sint",
+        "rēctī sient",
+        "rēctī fuant"
        ]
       },
       "pluperfect": {
@@ -1669,16 +1669,16 @@
         "rēctus foret"
        ],
        "1pl": [
-        "rēctus essēmus",
-        "rēctus forēmus"
+        "rēctī essēmus",
+        "rēctī forēmus"
        ],
        "2pl": [
-        "rēctus essētis",
-        "rēctus forētis"
+        "rēctī essētis",
+        "rēctī forētis"
        ],
        "3pl": [
-        "rēctus essent",
-        "rēctus forent"
+        "rēctī essent",
+        "rēctī forent"
        ]
       }
      }
@@ -2030,13 +2030,13 @@
         "captus est"
        ],
        "1pl": [
-        "captus sumus"
+        "captī sumus"
        ],
        "2pl": [
-        "captus estis"
+        "captī estis"
        ],
        "3pl": [
-        "captus sunt"
+        "captī sunt"
        ]
       },
       "pluperfect": {
@@ -2050,13 +2050,13 @@
         "captus erat"
        ],
        "1pl": [
-        "captus erāmus"
+        "captī erāmus"
        ],
        "2pl": [
-        "captus erātis"
+        "captī erātis"
        ],
        "3pl": [
-        "captus erant"
+        "captī erant"
        ]
       },
       "future perfect": {
@@ -2071,13 +2071,13 @@
         "captus erit"
        ],
        "1pl": [
-        "captus erimus"
+        "captī erimus"
        ],
        "2pl": [
-        "captus eritis"
+        "captī eritis"
        ],
        "3pl": [
-        "captus erunt"
+        "captī erunt"
        ]
       }
      }
@@ -2245,19 +2245,19 @@
         "captus fuat"
        ],
        "1pl": [
-        "captus sīmus",
-        "captus siēmus",
-        "captus fuāmus"
+        "captī sīmus",
+        "captī siēmus",
+        "captī fuāmus"
        ],
        "2pl": [
-        "captus sītis",
-        "captus siētis",
-        "captus fuātis"
+        "captī sītis",
+        "captī siētis",
+        "captī fuātis"
        ],
        "3pl": [
-        "captus sint",
-        "captus sient",
-        "captus fuant"
+        "captī sint",
+        "captī sient",
+        "captī fuant"
        ]
       },
       "pluperfect": {
@@ -2274,16 +2274,16 @@
         "captus foret"
        ],
        "1pl": [
-        "captus essēmus",
-        "captus forēmus"
+        "captī essēmus",
+        "captī forēmus"
        ],
        "2pl": [
-        "captus essētis",
-        "captus forētis"
+        "captī essētis",
+        "captī forētis"
        ],
        "3pl": [
-        "captus essent",
-        "captus forent"
+        "captī essent",
+        "captī forent"
        ]
       }
      }
@@ -2651,13 +2651,13 @@
         "audītus est"
        ],
        "1pl": [
-        "audītus sumus"
+        "audītī sumus"
        ],
        "2pl": [
-        "audītus estis"
+        "audītī estis"
        ],
        "3pl": [
-        "audītus sunt"
+        "audītī sunt"
        ]
       },
       "pluperfect": {
@@ -2671,13 +2671,13 @@
         "audītus erat"
        ],
        "1pl": [
-        "audītus erāmus"
+        "audītī erāmus"
        ],
        "2pl": [
-        "audītus erātis"
+        "audītī erātis"
        ],
        "3pl": [
-        "audītus erant"
+        "audītī erant"
        ]
       },
       "future perfect": {
@@ -2692,13 +2692,13 @@
         "audītus erit"
        ],
        "1pl": [
-        "audītus erimus"
+        "audītī erimus"
        ],
        "2pl": [
-        "audītus eritis"
+        "audītī eritis"
        ],
        "3pl": [
-        "audītus erunt"
+        "audītī erunt"
        ]
       }
      }
@@ -2870,19 +2870,19 @@
         "audītus fuat"
        ],
        "1pl": [
-        "audītus sīmus",
-        "audītus siēmus",
-        "audītus fuāmus"
+        "audītī sīmus",
+        "audītī siēmus",
+        "audītī fuāmus"
        ],
        "2pl": [
-        "audītus sītis",
-        "audītus siētis",
-        "audītus fuātis"
+        "audītī sītis",
+        "audītī siētis",
+        "audītī fuātis"
        ],
        "3pl": [
-        "audītus sint",
-        "audītus sient",
-        "audītus fuant"
+        "audītī sint",
+        "audītī sient",
+        "audītī fuant"
        ]
       },
       "pluperfect": {
@@ -2899,16 +2899,16 @@
         "audītus foret"
        ],
        "1pl": [
-        "audītus essēmus",
-        "audītus forēmus"
+        "audītī essēmus",
+        "audītī forēmus"
        ],
        "2pl": [
-        "audītus essētis",
-        "audītus forētis"
+        "audītī essētis",
+        "audītī forētis"
        ],
        "3pl": [
-        "audītus essent",
-        "audītus forent"
+        "audītī essent",
+        "audītī forent"
        ]
       }
      }
@@ -3120,13 +3120,13 @@
         "hortātus est"
        ],
        "1pl": [
-        "hortātus sumus"
+        "hortātī sumus"
        ],
        "2pl": [
-        "hortātus estis"
+        "hortātī estis"
        ],
        "3pl": [
-        "hortātus sunt"
+        "hortātī sunt"
        ]
       },
       "pluperfect": {
@@ -3140,13 +3140,13 @@
         "hortātus erat"
        ],
        "1pl": [
-        "hortātus erāmus"
+        "hortātī erāmus"
        ],
        "2pl": [
-        "hortātus erātis"
+        "hortātī erātis"
        ],
        "3pl": [
-        "hortātus erant"
+        "hortātī erant"
        ]
       },
       "future perfect": {
@@ -3161,13 +3161,13 @@
         "hortātus erit"
        ],
        "1pl": [
-        "hortātus erimus"
+        "hortātī erimus"
        ],
        "2pl": [
-        "hortātus eritis"
+        "hortātī eritis"
        ],
        "3pl": [
-        "hortātus erunt"
+        "hortātī erunt"
        ]
       }
      }
@@ -3233,19 +3233,19 @@
         "hortātus fuat"
        ],
        "1pl": [
-        "hortātus sīmus",
-        "hortātus siēmus",
-        "hortātus fuāmus"
+        "hortātī sīmus",
+        "hortātī siēmus",
+        "hortātī fuāmus"
        ],
        "2pl": [
-        "hortātus sītis",
-        "hortātus siētis",
-        "hortātus fuātis"
+        "hortātī sītis",
+        "hortātī siētis",
+        "hortātī fuātis"
        ],
        "3pl": [
-        "hortātus sint",
-        "hortātus sient",
-        "hortātus fuant"
+        "hortātī sint",
+        "hortātī sient",
+        "hortātī fuant"
        ]
       },
       "pluperfect": {
@@ -3262,16 +3262,16 @@
         "hortātus foret"
        ],
        "1pl": [
-        "hortātus essēmus",
-        "hortātus forēmus"
+        "hortātī essēmus",
+        "hortātī forēmus"
        ],
        "2pl": [
-        "hortātus essētis",
-        "hortātus forētis"
+        "hortātī essētis",
+        "hortātī forētis"
        ],
        "3pl": [
-        "hortātus essent",
-        "hortātus forent"
+        "hortātī essent",
+        "hortātī forent"
        ]
       }
      }
@@ -3448,16 +3448,16 @@
         "sequūtus est"
        ],
        "1pl": [
-        "secūtus sumus",
-        "sequūtus sumus"
+        "secūtī sumus",
+        "sequūtī sumus"
        ],
        "2pl": [
-        "secūtus estis",
-        "sequūtus estis"
+        "secūtī estis",
+        "sequūtī estis"
        ],
        "3pl": [
-        "secūtus sunt",
-        "sequūtus sunt"
+        "secūtī sunt",
+        "sequūtī sunt"
        ]
       },
       "pluperfect": {
@@ -3474,16 +3474,16 @@
         "sequūtus erat"
        ],
        "1pl": [
-        "secūtus erāmus",
-        "sequūtus erāmus"
+        "secūtī erāmus",
+        "sequūtī erāmus"
        ],
        "2pl": [
-        "secūtus erātis",
-        "sequūtus erātis"
+        "secūtī erātis",
+        "sequūtī erātis"
        ],
        "3pl": [
-        "secūtus erant",
-        "sequūtus erant"
+        "secūtī erant",
+        "sequūtī erant"
        ]
       },
       "future perfect": {
@@ -3502,16 +3502,16 @@
         "sequūtus erit"
        ],
        "1pl": [
-        "secūtus erimus",
-        "sequūtus erimus"
+        "secūtī erimus",
+        "sequūtī erimus"
        ],
        "2pl": [
-        "secūtus eritis",
-        "sequūtus eritis"
+        "secūtī eritis",
+        "sequūtī eritis"
        ],
        "3pl": [
-        "secūtus erunt",
-        "sequūtus erunt"
+        "secūtī erunt",
+        "sequūtī erunt"
        ]
       }
      }
@@ -3586,28 +3586,28 @@
         "sequūtus fuat"
        ],
        "1pl": [
-        "secūtus sīmus",
-        "secūtus siēmus",
-        "secūtus fuāmus",
-        "sequūtus sīmus",
-        "sequūtus siēmus",
-        "sequūtus fuāmus"
+        "secūtī sīmus",
+        "secūtī siēmus",
+        "secūtī fuāmus",
+        "sequūtī sīmus",
+        "sequūtī siēmus",
+        "sequūtī fuāmus"
        ],
        "2pl": [
-        "secūtus sītis",
-        "secūtus siētis",
-        "secūtus fuātis",
-        "sequūtus sītis",
-        "sequūtus siētis",
-        "sequūtus fuātis"
+        "secūtī sītis",
+        "secūtī siētis",
+        "secūtī fuātis",
+        "sequūtī sītis",
+        "sequūtī siētis",
+        "sequūtī fuātis"
        ],
        "3pl": [
-        "secūtus sint",
-        "secūtus sient",
-        "secūtus fuant",
-        "sequūtus sint",
-        "sequūtus sient",
-        "sequūtus fuant"
+        "secūtī sint",
+        "secūtī sient",
+        "secūtī fuant",
+        "sequūtī sint",
+        "sequūtī sient",
+        "sequūtī fuant"
        ]
       },
       "pluperfect": {
@@ -3630,22 +3630,22 @@
         "sequūtus foret"
        ],
        "1pl": [
-        "secūtus essēmus",
-        "secūtus forēmus",
-        "sequūtus essēmus",
-        "sequūtus forēmus"
+        "secūtī essēmus",
+        "secūtī forēmus",
+        "sequūtī essēmus",
+        "sequūtī forēmus"
        ],
        "2pl": [
-        "secūtus essētis",
-        "secūtus forētis",
-        "sequūtus essētis",
-        "sequūtus forētis"
+        "secūtī essētis",
+        "secūtī forētis",
+        "sequūtī essētis",
+        "sequūtī forētis"
        ],
        "3pl": [
-        "secūtus essent",
-        "secūtus forent",
-        "sequūtus essent",
-        "sequūtus forent"
+        "secūtī essent",
+        "secūtī forent",
+        "sequūtī essent",
+        "sequūtī forent"
        ]
       }
      }
@@ -4941,13 +4941,13 @@
         "lātus est"
        ],
        "1pl": [
-        "lātus sumus"
+        "lātī sumus"
        ],
        "2pl": [
-        "lātus estis"
+        "lātī estis"
        ],
        "3pl": [
-        "lātus sunt"
+        "lātī sunt"
        ]
       },
       "pluperfect": {
@@ -4961,13 +4961,13 @@
         "lātus erat"
        ],
        "1pl": [
-        "lātus erāmus"
+        "lātī erāmus"
        ],
        "2pl": [
-        "lātus erātis"
+        "lātī erātis"
        ],
        "3pl": [
-        "lātus erant"
+        "lātī erant"
        ]
       },
       "future perfect": {
@@ -4982,13 +4982,13 @@
         "lātus erit"
        ],
        "1pl": [
-        "lātus erimus"
+        "lātī erimus"
        ],
        "2pl": [
-        "lātus eritis"
+        "lātī eritis"
        ],
        "3pl": [
-        "lātus erunt"
+        "lātī erunt"
        ]
       }
      }
@@ -5148,19 +5148,19 @@
         "lātus fuat"
        ],
        "1pl": [
-        "lātus sīmus",
-        "lātus siēmus",
-        "lātus fuāmus"
+        "lātī sīmus",
+        "lātī siēmus",
+        "lātī fuāmus"
        ],
        "2pl": [
-        "lātus sītis",
-        "lātus siētis",
-        "lātus fuātis"
+        "lātī sītis",
+        "lātī siētis",
+        "lātī fuātis"
        ],
        "3pl": [
-        "lātus sint",
-        "lātus sient",
-        "lātus fuant"
+        "lātī sint",
+        "lātī sient",
+        "lātī fuant"
        ]
       },
       "pluperfect": {
@@ -5177,16 +5177,16 @@
         "lātus foret"
        ],
        "1pl": [
-        "lātus essēmus",
-        "lātus forēmus"
+        "lātī essēmus",
+        "lātī forēmus"
        ],
        "2pl": [
-        "lātus essētis",
-        "lātus forētis"
+        "lātī essētis",
+        "lātī forētis"
        ],
        "3pl": [
-        "lātus essent",
-        "lātus forent"
+        "lātī essent",
+        "lātī forent"
        ]
       }
      }
@@ -6149,13 +6149,13 @@
         "factus est"
        ],
        "1pl": [
-        "factus sumus"
+        "factī sumus"
        ],
        "2pl": [
-        "factus estis"
+        "factī estis"
        ],
        "3pl": [
-        "factus sunt"
+        "factī sunt"
        ]
       },
       "pluperfect": {
@@ -6169,13 +6169,13 @@
         "factus erat"
        ],
        "1pl": [
-        "factus erāmus"
+        "factī erāmus"
        ],
        "2pl": [
-        "factus erātis"
+        "factī erātis"
        ],
        "3pl": [
-        "factus erant"
+        "factī erant"
        ]
       },
       "future perfect": {
@@ -6190,13 +6190,13 @@
         "factus erit"
        ],
        "1pl": [
-        "factus erimus"
+        "factī erimus"
        ],
        "2pl": [
-        "factus eritis"
+        "factī eritis"
        ],
        "3pl": [
-        "factus erunt"
+        "factī erunt"
        ]
       }
      }
@@ -6260,19 +6260,19 @@
         "factus fuat"
        ],
        "1pl": [
-        "factus sīmus",
-        "factus siēmus",
-        "factus fuāmus"
+        "factī sīmus",
+        "factī siēmus",
+        "factī fuāmus"
        ],
        "2pl": [
-        "factus sītis",
-        "factus siētis",
-        "factus fuātis"
+        "factī sītis",
+        "factī siētis",
+        "factī fuātis"
        ],
        "3pl": [
-        "factus sint",
-        "factus sient",
-        "factus fuant"
+        "factī sint",
+        "factī sient",
+        "factī fuant"
        ]
       },
       "pluperfect": {
@@ -6289,16 +6289,16 @@
         "factus foret"
        ],
        "1pl": [
-        "factus essēmus",
-        "factus forēmus"
+        "factī essēmus",
+        "factī forēmus"
        ],
        "2pl": [
-        "factus essētis",
-        "factus forētis"
+        "factī essētis",
+        "factī forētis"
        ],
        "3pl": [
-        "factus essent",
-        "factus forent"
+        "factī essent",
+        "factī forent"
        ]
       }
      }
@@ -6600,16 +6600,16 @@
         "ēssus est"
        ],
        "1pl": [
-        "ēsus sumus",
-        "ēssus sumus"
+        "ēsī sumus",
+        "ēssī sumus"
        ],
        "2pl": [
-        "ēsus estis",
-        "ēssus estis"
+        "ēsī estis",
+        "ēssī estis"
        ],
        "3pl": [
-        "ēsus sunt",
-        "ēssus sunt"
+        "ēsī sunt",
+        "ēssī sunt"
        ]
       },
       "pluperfect": {
@@ -6626,16 +6626,16 @@
         "ēssus erat"
        ],
        "1pl": [
-        "ēsus erāmus",
-        "ēssus erāmus"
+        "ēsī erāmus",
+        "ēssī erāmus"
        ],
        "2pl": [
-        "ēsus erātis",
-        "ēssus erātis"
+        "ēsī erātis",
+        "ēssī erātis"
        ],
        "3pl": [
-        "ēsus erant",
-        "ēssus erant"
+        "ēsī erant",
+        "ēssī erant"
        ]
       },
       "future perfect": {
@@ -6654,16 +6654,16 @@
         "ēssus erit"
        ],
        "1pl": [
-        "ēsus erimus",
-        "ēssus erimus"
+        "ēsī erimus",
+        "ēssī erimus"
        ],
        "2pl": [
-        "ēsus eritis",
-        "ēssus eritis"
+        "ēsī eritis",
+        "ēssī eritis"
        ],
        "3pl": [
-        "ēsus erunt",
-        "ēssus erunt"
+        "ēsī erunt",
+        "ēssī erunt"
        ]
       }
      }
@@ -6840,28 +6840,28 @@
         "ēssus fuat"
        ],
        "1pl": [
-        "ēsus sīmus",
-        "ēsus siēmus",
-        "ēsus fuāmus",
-        "ēssus sīmus",
-        "ēssus siēmus",
-        "ēssus fuāmus"
+        "ēsī sīmus",
+        "ēsī siēmus",
+        "ēsī fuāmus",
+        "ēssī sīmus",
+        "ēssī siēmus",
+        "ēssī fuāmus"
        ],
        "2pl": [
-        "ēsus sītis",
-        "ēsus siētis",
-        "ēsus fuātis",
-        "ēssus sītis",
-        "ēssus siētis",
-        "ēssus fuātis"
+        "ēsī sītis",
+        "ēsī siētis",
+        "ēsī fuātis",
+        "ēssī sītis",
+        "ēssī siētis",
+        "ēssī fuātis"
        ],
        "3pl": [
-        "ēsus sint",
-        "ēsus sient",
-        "ēsus fuant",
-        "ēssus sint",
-        "ēssus sient",
-        "ēssus fuant"
+        "ēsī sint",
+        "ēsī sient",
+        "ēsī fuant",
+        "ēssī sint",
+        "ēssī sient",
+        "ēssī fuant"
        ]
       },
       "pluperfect": {
@@ -6884,22 +6884,22 @@
         "ēssus foret"
        ],
        "1pl": [
-        "ēsus essēmus",
-        "ēsus forēmus",
-        "ēssus essēmus",
-        "ēssus forēmus"
+        "ēsī essēmus",
+        "ēsī forēmus",
+        "ēssī essēmus",
+        "ēssī forēmus"
        ],
        "2pl": [
-        "ēsus essētis",
-        "ēsus forētis",
-        "ēssus essētis",
-        "ēssus forētis"
+        "ēsī essētis",
+        "ēsī forētis",
+        "ēssī essētis",
+        "ēssī forētis"
        ],
        "3pl": [
-        "ēsus essent",
-        "ēsus forent",
-        "ēssus essent",
-        "ēssus forent"
+        "ēsī essent",
+        "ēsī forent",
+        "ēssī essent",
+        "ēssī forent"
        ]
       }
      }
@@ -7250,13 +7250,13 @@
         "datus est"
        ],
        "1pl": [
-        "datus sumus"
+        "datī sumus"
        ],
        "2pl": [
-        "datus estis"
+        "datī estis"
        ],
        "3pl": [
-        "datus sunt"
+        "datī sunt"
        ]
       },
       "pluperfect": {
@@ -7270,13 +7270,13 @@
         "datus erat"
        ],
        "1pl": [
-        "datus erāmus"
+        "datī erāmus"
        ],
        "2pl": [
-        "datus erātis"
+        "datī erātis"
        ],
        "3pl": [
-        "datus erant"
+        "datī erant"
        ]
       },
       "future perfect": {
@@ -7291,13 +7291,13 @@
         "datus erit"
        ],
        "1pl": [
-        "datus erimus"
+        "datī erimus"
        ],
        "2pl": [
-        "datus eritis"
+        "datī eritis"
        ],
        "3pl": [
-        "datus erunt"
+        "datī erunt"
        ]
       }
      }
@@ -7450,19 +7450,19 @@
         "datus fuat"
        ],
        "1pl": [
-        "datus sīmus",
-        "datus siēmus",
-        "datus fuāmus"
+        "datī sīmus",
+        "datī siēmus",
+        "datī fuāmus"
        ],
        "2pl": [
-        "datus sītis",
-        "datus siētis",
-        "datus fuātis"
+        "datī sītis",
+        "datī siētis",
+        "datī fuātis"
        ],
        "3pl": [
-        "datus sint",
-        "datus sient",
-        "datus fuant"
+        "datī sint",
+        "datī sient",
+        "datī fuant"
        ]
       },
       "pluperfect": {
@@ -7479,16 +7479,16 @@
         "datus foret"
        ],
        "1pl": [
-        "datus essēmus",
-        "datus forēmus"
+        "datī essēmus",
+        "datī forēmus"
        ],
        "2pl": [
-        "datus essētis",
-        "datus forētis"
+        "datī essētis",
+        "datī forētis"
        ],
        "3pl": [
-        "datus essent",
-        "datus forent"
+        "datī essent",
+        "datī forent"
        ]
       }
      }
