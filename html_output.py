@@ -26,21 +26,23 @@ def h(s):
     return html.escape(str(s))
 
 
-def td(forms):
+def td(forms, slot=None):
+    # data-s names the person slot (1sg …), so tables.js can regroup cells on narrow screens.
+    s = f" data-s='{slot}'" if slot else ""
     if not forms:
-        return f'<td class="empty">{DASH}</td>'
+        return f'<td class="empty"{s}>{DASH}</td>'
     # data-a holds the accepted answers for quiz mode.
-    return (f"<td class='f' data-a='{h(json.dumps(forms, ensure_ascii=False))}'>"
+    return (f"<td class='f'{s} data-a='{h(json.dumps(forms, ensure_ascii=False))}'>"
             f"<span class='t'>{'<br>'.join(h(f) for f in forms)}</span></td>")
 
 
-def block(title, table, h3_class="", note="", wide=False):
+def block(title, table, h3_class="", note="", wide=False, table_class=""):
     """A heading + table, with the quiz-mode Grade button and score beside the heading."""
     cls = f" class='{h3_class}'" if h3_class else ""
     return (f"<div class='block{' wide' if wide else ''}'><div class='bhead'><h3{cls}>{title}</h3>{note}"
             f"<span class='grader'><button type='button' class='grade'>Grade</button>"
             f"<span class='score'></span></span></div>"
-            f"<div class='scroll'><table>{table}</table></div></div>")
+            f"<div class='scroll'><table{f' class={table_class}' if table_class else ''}>{table}</table></div></div>")
 
 
 def html_verb(lemma, verb, sum_finite, anchor):
@@ -62,9 +64,11 @@ def html_verb(lemma, verb, sum_finite, anchor):
         for voice in dict.fromkeys(v for v, *_ in rows):
             # Archaic sigmatic tenses (amāssō, amāssim) are hidden unless "Include sigmatic" is on.
             body = "".join(f"<tr{' class=sigmatic' if tense.startswith('sigmatic') else ''}><th>{h(tense)}</th>"
-                           + "".join(td(slots[s]) for s in used) + "</tr>"
+                           + "".join(td(slots[s], s) for s in used) + "</tr>"
                            for v, tense, slots in rows if v == voice)
-            out.append(block(f"{h(mood)} {h(voice)}", "".join(head) + f"<tbody>{body}</tbody>"))
+            # Indicative and subjunctive tables fold to tense × person × number on narrow screens.
+            out.append(block(f"{h(mood)} {h(voice)}", "".join(head) + f"<tbody>{body}</tbody>",
+                             table_class="persons" if mood in ("indicative", "subjunctive") else ""))
 
     nf = verb.get("nonfinite", {})
     for k in ("infinitive", "participle"):

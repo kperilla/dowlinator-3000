@@ -79,3 +79,58 @@ $('reset').addEventListener('click', () => {
   });
   document.querySelectorAll('.score').forEach(s => s.textContent = '');
 });
+
+// narrow screens: indicative/subjunctive tables (table.persons) become
+// tense | person | singular | plural, with each tense spanning three rows.
+// The same cells move between the two layouts, so typed answers and grades survive.
+const NARROW = matchMedia('(max-width: 640px)');
+const PERSON = {1: '1st', 2: '2nd', 3: '3rd'};
+const layouts = [...document.querySelectorAll('table.persons')].map(table => {
+  const wideRows = [...table.tBodies[0].rows].map(tr => [tr, [...tr.children]]);
+  const cells = wideRows.flatMap(([, kids]) => kids.filter(k => k.dataset.s));
+  const has = s => cells.some(c => c.dataset.s === s);
+  const numbers = ['sg', 'pl'].filter(n => [1, 2, 3].some(p => has(p + n)));
+  const persons = [1, 2, 3].filter(p => numbers.some(n => has(p + n)));
+  const narrowRows = wideRows.flatMap(([tr, [tense, ...tds]]) => persons.map((p, i) => {
+    const row = document.createElement('tr');
+    row.className = tr.className;
+    const kids = [];
+    if (i === 0) {
+      row.classList.add('tense-start');
+      const th = tense.cloneNode(true);
+      th.rowSpan = persons.length;
+      kids.push(th);
+    }
+    const th = document.createElement('th');
+    th.className = 'person';
+    th.textContent = PERSON[p];
+    kids.push(th);
+    for (const n of numbers) {
+      let c = tds.find(c => c.dataset.s === p + n);
+      if (!c) {
+        c = document.createElement('td');
+        c.className = 'empty';
+        c.textContent = '—';
+      }
+      kids.push(c);
+    }
+    return [row, kids];
+  }));
+  const wideHead = table.tHead;
+  const narrowHead = document.createElement('thead');
+  narrowHead.innerHTML = '<tr><th colspan=2></th>' +
+    numbers.map(n => `<th>${n === 'sg' ? 'singular' : 'plural'}</th>`).join('') + '</tr>';
+  return {table, wideHead, narrowHead, wideRows, narrowRows};
+});
+function relayout() {
+  const narrow = NARROW.matches;
+  layouts.forEach(l => {
+    const rows = narrow ? l.narrowRows : l.wideRows;
+    rows.forEach(([tr, kids]) => tr.replaceChildren(...kids));
+    l.table.tHead.replaceWith(narrow ? l.narrowHead : l.wideHead);
+    l.table.tBodies[0].replaceChildren(...rows.map(([tr]) => tr));
+    l.table.classList.toggle('narrow', narrow);
+  });
+}
+relayout();
+NARROW.addEventListener('change', relayout);

@@ -1,2 +1,7 @@
 section.verb{margin:32px 0 48px;scroll-margin-top:70px}
 body:not(.sigmatic) tr.sigmatic{display:none}
+/* narrow screens: tense | person | singular | plural (see tables.js) */
+table.narrow tbody th[rowspan]{white-space:normal}
+table.narrow tbody th.person{font-weight:400}
+table.narrow tr.tense-start>*{border-top:2px solid var(--muted)}
+table.narrow td.f input{min-width:0}
