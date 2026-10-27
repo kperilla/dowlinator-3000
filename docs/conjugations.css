@@ -1,7 +1,9 @@
 section.verb{margin:32px 0 48px;scroll-margin-top:70px}
 body:not(.sigmatic) tr.sigmatic{display:none}
 /* narrow screens: tense | person | singular | plural (see tables.js) */
-table.narrow tbody th[rowspan]{white-space:normal}
+/* tense names read bottom to top, wrapping onto a second line if longer than the rows */
+table.narrow tbody th.tense{width:1px;padding:6px 3px;vertical-align:middle;text-align:center;white-space:normal}
+table.narrow th.tense span{display:inline-block;writing-mode:vertical-rl;transform:rotate(180deg);max-height:7.5em}
 table.narrow tbody th.person{font-weight:400}
 table.narrow tr.tense-start>*{border-top:2px solid var(--muted)}
 table.narrow td.f input{min-width:0}

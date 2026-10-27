@@ -97,8 +97,12 @@ const layouts = [...document.querySelectorAll('table.persons')].map(table => {
     const kids = [];
     if (i === 0) {
       row.classList.add('tense-start');
-      const th = tense.cloneNode(true);
+      const th = document.createElement('th');
+      th.className = 'tense';
       th.rowSpan = persons.length;
+      const label = document.createElement('span');  // turned sideways by CSS
+      label.textContent = tense.textContent;
+      th.appendChild(label);
       kids.push(th);
     }
     const th = document.createElement('th');
